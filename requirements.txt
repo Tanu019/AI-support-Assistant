@@ -1,0 +1,9 @@
+streamlit
+pandas==2.2.2
+duckdb
+llama-index-core
+llama-index-llms-openai-like
+httpx
+plotly
+matplotlib
+python-dotenv

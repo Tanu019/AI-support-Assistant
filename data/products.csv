@@ -1,0 +1,2001 @@
+product_id,category,subcategory,brand,package_size,mrp,selling_price,margin_percentage,organic_flag,premium_flag,rating,popularity_index,festival_relevance
+PROD00001,Personal Care,Face Wash,SpiceRoute,1kg,61,50.89,29.53,0,0,4.2,2.06,1.31
+PROD00002,Snacks,Chips,NutriMile,250g,378,288.3,19.12,0,0,4.6,4.54,5.84
+PROD00003,Dairy,Curd,QuickChef,250g,99,82.16,29.42,1,1,4.1,7.89,6.54
+PROD00004,Beverages,Juice,DailyDrop,250g,403,336.28,29.05,0,0,3.4,7.42,2.09
+PROD00005,Snacks,Protein Snacks,FreshNest,1kg,180,156.08,34.58,0,1,4.0,7.13,7.14
+PROD00006,Snacks,Protein Snacks,FreshNest,1kg,249,212.71,30.48,0,1,4.6,5.16,5.47
+PROD00007,Frozen Foods,Fries,FreshNest,500g,214,183.87,29.8,1,1,4.0,2.48,5.04
+PROD00008,Snacks,Protein Snacks,FitBite,1kg,605,471.58,21.75,0,0,3.4,3.24,4.33
+PROD00009,Snacks,Cookies,NutriMile,750ml,723,599.27,17.66,1,0,3.2,8.71,9.25
+PROD00010,Instant Meals,Ready Meals,ChillSip,1L,547,527.08,11.25,0,1,3.9,1.87,3.86
+PROD00011,Health & Wellness,Granola,FitBite,1L,398,346.99,15.0,0,1,3.7,2.09,5.31
+PROD00012,Snacks,Cookies,ChillSip,750ml,91,82.39,7.27,1,0,3.5,9.36,9.58
+PROD00013,Beverages,Soft Drink,PureHarvest,1kg,86,75.74,10.52,1,1,3.2,8.14,4.03
+PROD00014,Snacks,Namkeen,UrbanCrunch,750ml,201,186.14,32.08,0,1,4.9,8.52,5.07
+PROD00015,Dairy,Butter,HomeEase,750ml,594,492.76,23.28,0,1,3.6,1.56,7.12
+PROD00016,Instant Meals,Noodles,PureHarvest,500g,639,587.88,25.9,1,0,4.4,8.15,1.69
+PROD00017,Personal Care,Soap,ChillSip,500g,545,412.16,25.21,0,0,3.9,4.32,8.63
+PROD00018,Instant Meals,Pasta,NutriMile,750ml,591,483.65,34.41,0,1,4.4,2.6,3.04
+PROD00019,Beverages,Juice,PureHarvest,250g,384,327.5,25.76,0,0,3.6,6.94,7.68
+PROD00020,Instant Meals,Pasta,NutriMile,1L,219,179.73,29.44,0,0,4.3,1.29,6.99
+PROD00021,Frozen Foods,Fries,SpiceRoute,1kg,244,214.26,21.78,1,1,4.0,1.7,5.96
+PROD00022,Health & Wellness,Oats,ChillSip,250g,712,663.75,31.63,0,1,4.6,7.18,6.1
+PROD00023,Personal Care,Shampoo,FitBite,250g,246,209.32,22.14,1,1,3.7,5.54,8.57
+PROD00024,Instant Meals,Ready Meals,ChillSip,1L,630,530.37,10.37,0,1,4.3,6.34,5.16
+PROD00025,Personal Care,Soap,HomeEase,250g,468,396.77,12.01,0,1,4.1,8.79,2.82
+PROD00026,Health & Wellness,Oats,SpiceRoute,1L,748,625.98,29.39,0,1,4.7,6.72,3.33
+PROD00027,Beverages,Soft Drink,DailyDrop,250g,211,183.12,14.69,0,0,4.5,5.49,7.72
+PROD00028,Personal Care,Face Wash,ChillSip,750ml,583,527.72,13.56,1,1,4.7,3.94,9.89
+PROD00029,Beverages,Juice,ChillSip,1kg,90,67.81,10.55,1,0,5.0,9.25,2.56
+PROD00030,Personal Care,Soap,DailyDrop,500g,455,398.0,31.15,0,0,3.1,3.84,6.44
+PROD00031,Personal Care,Shampoo,UrbanCrunch,1L,717,554.04,6.8,0,1,3.7,6.71,9.02
+PROD00032,Frozen Foods,Fries,FreshNest,250g,82,67.54,27.38,1,1,3.7,6.81,5.86
+PROD00033,Health & Wellness,Granola,PureHarvest,500g,189,154.55,14.74,0,1,4.5,1.85,6.84
+PROD00034,Beverages,Cold Coffee,HomeEase,500g,458,389.84,28.85,0,1,3.6,7.41,8.24
+PROD00035,Personal Care,Soap,FitBite,500g,480,447.27,31.96,0,1,3.1,8.2,6.24
+PROD00036,Dairy,Milk,HomeEase,750ml,696,600.66,10.33,1,1,3.5,7.37,9.84
+PROD00037,Health & Wellness,Protein Powder,FitBite,500g,628,520.57,34.53,1,1,4.2,6.23,8.46
+PROD00038,Beverages,Juice,FitBite,1L,668,555.3,12.74,1,0,4.7,1.17,9.39
+PROD00039,Beverages,Soft Drink,NutriMile,1L,342,322.26,19.19,1,0,4.7,5.02,9.23
+PROD00040,Dairy,Butter,FreshNest,1kg,263,246.58,32.55,1,0,3.8,9.05,8.01
+PROD00041,Beverages,Soft Drink,DailyDrop,750ml,629,499.7,5.49,1,0,4.1,5.57,4.68
+PROD00042,Instant Meals,Pasta,SpiceRoute,1L,384,327.27,7.9,1,1,5.0,9.18,8.46
+PROD00043,Instant Meals,Ready Meals,SpiceRoute,500g,546,515.21,13.21,1,1,5.0,4.53,1.63
+PROD00044,Snacks,Cookies,HomeEase,500g,367,344.77,29.51,1,0,4.8,3.75,3.63
+PROD00045,Health & Wellness,Oats,FreshNest,1kg,424,410.82,16.39,1,0,4.8,4.5,7.72
+PROD00046,Instant Meals,Ready Meals,DailyDrop,1kg,557,516.68,34.22,0,1,4.0,9.84,2.68
+PROD00047,Dairy,Milk,PureHarvest,750ml,755,739.78,26.53,0,0,3.6,3.9,5.68
+PROD00048,Beverages,Juice,PureHarvest,250g,230,189.9,16.14,1,1,3.2,3.81,7.66
+PROD00049,Personal Care,Shampoo,UrbanCrunch,500g,777,723.03,26.13,1,0,4.1,5.85,7.91
+PROD00050,Health & Wellness,Oats,DailyDrop,250g,509,441.84,34.61,1,1,3.5,4.01,9.73
+PROD00051,Beverages,Cold Coffee,ChillSip,750ml,517,428.8,30.95,0,1,5.0,9.42,8.28
+PROD00052,Personal Care,Soap,DailyDrop,1L,548,535.33,23.25,1,1,4.5,9.0,1.31
+PROD00053,Personal Care,Shampoo,DailyDrop,750ml,751,645.63,33.99,0,0,4.7,4.99,6.51
+PROD00054,Instant Meals,Ready Meals,NutriMile,1L,184,145.96,22.84,1,1,4.0,4.24,9.27
+PROD00055,Dairy,Butter,FitBite,250g,678,634.79,5.89,0,1,3.8,7.37,4.29
+PROD00056,Instant Meals,Ready Meals,HomeEase,1kg,224,187.18,5.47,0,0,3.6,2.86,8.16
+PROD00057,Health & Wellness,Oats,HomeEase,500g,259,201.35,29.34,0,1,3.2,2.71,1.97
+PROD00058,Beverages,Energy Drink,ChillSip,1L,345,276.85,5.82,0,0,4.2,5.87,2.78
+PROD00059,Personal Care,Face Wash,SpiceRoute,500g,306,253.9,19.06,1,0,4.4,2.73,5.74
+PROD00060,Snacks,Namkeen,QuickChef,1L,317,289.76,20.18,0,1,3.1,8.65,7.71
+PROD00061,Health & Wellness,Protein Powder,QuickChef,750ml,79,70.3,6.34,0,1,4.9,3.69,4.24
+PROD00062,Frozen Foods,Frozen Pizza,HomeEase,1L,722,605.64,32.25,1,1,3.0,7.62,2.14
+PROD00063,Instant Meals,Pasta,NutriMile,500g,199,185.51,21.21,0,1,4.8,3.35,7.61
+PROD00064,Personal Care,Shampoo,QuickChef,1kg,351,297.89,5.5,1,0,4.6,1.69,1.6
+PROD00065,Instant Meals,Pasta,FitBite,500g,672,571.5,11.97,0,0,4.0,6.03,5.08
+PROD00066,Personal Care,Face Wash,FitBite,1kg,765,717.73,8.59,1,1,3.2,9.27,3.54
+PROD00067,Snacks,Namkeen,QuickChef,1L,683,531.02,21.76,0,0,3.3,7.8,2.05
+PROD00068,Snacks,Cookies,SpiceRoute,750ml,371,309.57,25.62,1,0,3.1,5.68,5.28
+PROD00069,Health & Wellness,Protein Powder,SpiceRoute,1kg,70,61.97,25.19,1,0,4.3,6.43,6.55
+PROD00070,Personal Care,Soap,SpiceRoute,1kg,492,473.54,27.56,0,0,4.2,3.87,1.26
+PROD00071,Frozen Foods,Fries,QuickChef,500g,503,425.18,23.26,0,1,4.4,8.7,7.6
+PROD00072,Personal Care,Face Wash,NutriMile,1kg,179,144.48,28.23,0,0,3.5,8.44,9.98
+PROD00073,Beverages,Juice,HomeEase,250g,289,271.5,13.99,0,1,3.4,9.97,9.02
+PROD00074,Dairy,Curd,SpiceRoute,1L,473,372.85,20.06,1,0,3.1,1.27,6.41
+PROD00075,Personal Care,Shampoo,HomeEase,1L,86,83.63,24.44,1,1,4.0,7.11,8.26
+PROD00076,Health & Wellness,Granola,ChillSip,250g,778,609.45,10.82,0,1,3.5,5.87,2.48
+PROD00077,Beverages,Cold Coffee,QuickChef,1L,66,58.6,9.16,1,0,3.1,7.17,7.41
+PROD00078,Snacks,Namkeen,PureHarvest,500g,176,162.05,14.91,1,1,3.4,9.54,5.3
+PROD00079,Snacks,Chips,PureHarvest,1kg,467,429.56,20.81,1,1,4.2,7.47,9.14
+PROD00080,Frozen Foods,Frozen Pizza,PureHarvest,250g,639,521.79,7.99,1,0,5.0,6.55,8.51
+PROD00081,Health & Wellness,Granola,HomeEase,250g,451,426.03,22.78,1,0,3.9,5.08,3.94
+PROD00082,Instant Meals,Noodles,NutriMile,500g,382,296.12,29.51,1,1,4.8,9.34,2.53
+PROD00083,Personal Care,Face Wash,HomeEase,500g,294,263.79,13.93,1,0,3.2,1.84,8.5
+PROD00084,Frozen Foods,Fries,QuickChef,500g,680,560.3,21.69,1,1,3.3,8.34,2.21
+PROD00085,Personal Care,Face Wash,ChillSip,500g,304,247.11,26.83,0,1,3.6,3.39,5.86
+PROD00086,Snacks,Cookies,FreshNest,250g,282,245.07,14.86,0,1,4.6,7.79,1.91
+PROD00087,Snacks,Protein Snacks,NutriMile,500g,220,166.19,19.2,0,1,4.1,8.9,1.4
+PROD00088,Health & Wellness,Granola,FreshNest,1L,748,606.42,6.6,0,0,4.4,6.42,9.35
+PROD00089,Health & Wellness,Granola,PureHarvest,750ml,466,435.97,33.46,0,1,4.4,7.84,5.43
+PROD00090,Snacks,Cookies,DailyDrop,500g,761,625.65,7.2,0,1,4.4,2.2,8.55
+PROD00091,Frozen Foods,Frozen Pizza,UrbanCrunch,1kg,787,609.37,13.27,1,1,4.5,3.9,9.89
+PROD00092,Dairy,Paneer,UrbanCrunch,1L,700,648.05,9.56,0,0,3.1,8.25,4.53
+PROD00093,Instant Meals,Noodles,QuickChef,500g,517,443.54,10.28,0,1,3.1,4.02,9.87
+PROD00094,Snacks,Chips,QuickChef,1kg,467,416.08,29.27,0,1,3.7,6.35,8.88
+PROD00095,Beverages,Energy Drink,FreshNest,250g,146,137.07,15.88,1,0,4.9,2.92,4.92
+PROD00096,Personal Care,Face Wash,NutriMile,250g,178,139.04,29.78,1,0,4.7,4.2,2.8
+PROD00097,Snacks,Chips,DailyDrop,1kg,704,661.12,34.02,0,0,3.3,5.3,6.02
+PROD00098,Personal Care,Soap,HomeEase,750ml,451,359.26,25.1,0,1,3.1,7.08,6.51
+PROD00099,Health & Wellness,Oats,DailyDrop,750ml,657,575.41,7.37,0,0,3.9,7.73,1.49
+PROD00100,Snacks,Chips,SpiceRoute,1kg,313,244.59,6.06,0,0,3.5,6.54,4.97
+PROD00101,Personal Care,Soap,QuickChef,500g,257,213.83,6.01,1,1,4.0,3.64,4.17
+PROD00102,Frozen Foods,Fries,ChillSip,1kg,178,145.98,27.55,1,0,4.2,5.27,8.4
+PROD00103,Health & Wellness,Protein Powder,DailyDrop,1L,769,676.45,15.9,1,1,5.0,9.22,7.1
+PROD00104,Snacks,Namkeen,NutriMile,1L,743,706.26,26.63,1,1,4.4,7.36,8.73
+PROD00105,Frozen Foods,Ice Cream,UrbanCrunch,250g,339,304.49,14.29,1,1,4.7,3.78,4.63
+PROD00106,Instant Meals,Pasta,UrbanCrunch,1kg,226,220.95,24.25,1,0,4.5,8.75,5.62
+PROD00107,Snacks,Protein Snacks,HomeEase,250g,666,637.3,20.81,0,1,4.2,4.61,5.59
+PROD00108,Health & Wellness,Protein Powder,QuickChef,250g,774,723.47,15.25,1,1,3.9,3.84,4.59
+PROD00109,Personal Care,Shampoo,NutriMile,250g,716,690.89,18.24,0,0,3.2,4.97,6.99
+PROD00110,Dairy,Curd,FreshNest,250g,789,647.23,17.25,0,0,3.4,8.14,2.66
+PROD00111,Beverages,Soft Drink,FitBite,250g,754,676.23,21.8,1,0,3.1,7.36,5.08
+PROD00112,Personal Care,Soap,ChillSip,750ml,526,468.6,24.79,0,0,3.5,3.32,7.61
+PROD00113,Personal Care,Shampoo,UrbanCrunch,1kg,230,218.4,19.77,0,0,4.4,5.32,2.86
+PROD00114,Instant Meals,Pasta,SpiceRoute,250g,183,156.41,7.1,1,0,3.5,5.84,6.53
+PROD00115,Dairy,Butter,PureHarvest,1L,40,34.75,21.49,0,0,3.1,6.11,3.52
+PROD00116,Snacks,Protein Snacks,FitBite,500g,510,469.93,11.03,0,0,4.6,8.6,8.25
+PROD00117,Dairy,Curd,NutriMile,750ml,135,114.81,10.57,1,0,5.0,8.46,6.48
+PROD00118,Personal Care,Soap,ChillSip,250g,799,715.48,17.9,1,1,3.0,5.11,8.94
+PROD00119,Snacks,Chips,NutriMile,500g,180,146.12,16.02,1,0,4.3,3.66,7.34
+PROD00120,Personal Care,Face Wash,UrbanCrunch,1L,650,601.79,33.53,1,1,3.6,4.16,6.81
+PROD00121,Dairy,Curd,FitBite,500g,697,541.98,10.71,1,0,4.5,2.54,7.66
+PROD00122,Health & Wellness,Granola,PureHarvest,1L,737,697.33,33.41,1,0,3.6,1.51,4.35
+PROD00123,Snacks,Cookies,FreshNest,1L,123,101.62,12.54,1,0,4.9,7.96,8.66
+PROD00124,Instant Meals,Noodles,DailyDrop,1L,132,113.46,12.89,0,0,4.1,8.57,1.73
+PROD00125,Frozen Foods,Ice Cream,ChillSip,1L,575,488.79,17.53,0,1,4.7,3.96,7.42
+PROD00126,Frozen Foods,Frozen Pizza,UrbanCrunch,1kg,62,47.5,9.82,1,1,4.0,6.61,4.59
+PROD00127,Frozen Foods,Ice Cream,PureHarvest,250g,73,68.94,19.41,0,1,4.3,1.77,1.23
+PROD00128,Dairy,Butter,QuickChef,500g,702,601.2,34.48,0,0,3.6,6.02,3.84
+PROD00129,Beverages,Soft Drink,ChillSip,500g,570,448.19,8.34,1,0,4.5,1.8,4.33
+PROD00130,Snacks,Cookies,NutriMile,500g,717,542.49,18.45,0,1,4.8,5.67,7.49
+PROD00131,Beverages,Juice,UrbanCrunch,1L,684,523.83,25.69,0,1,3.0,6.88,2.07
+PROD00132,Frozen Foods,Fries,SpiceRoute,1L,467,367.4,34.93,0,0,4.1,5.22,6.89
+PROD00133,Instant Meals,Ready Meals,SpiceRoute,1L,107,100.86,22.5,0,1,4.0,2.45,7.48
+PROD00134,Dairy,Paneer,UrbanCrunch,250g,357,302.48,30.22,1,0,3.6,4.5,1.92
+PROD00135,Dairy,Paneer,HomeEase,1L,548,436.15,22.77,1,1,3.7,3.25,6.52
+PROD00136,Personal Care,Soap,HomeEase,750ml,280,265.22,5.49,0,1,3.7,2.43,4.92
+PROD00137,Frozen Foods,Fries,DailyDrop,250g,44,38.52,13.54,0,1,4.1,1.01,3.6
+PROD00138,Personal Care,Soap,FreshNest,1kg,423,408.0,22.02,1,0,4.5,5.23,5.51
+PROD00139,Personal Care,Soap,NutriMile,1L,726,650.69,31.74,1,1,4.4,8.3,2.17
+PROD00140,Snacks,Namkeen,FreshNest,750ml,119,92.15,14.36,0,0,3.8,1.44,4.3
+PROD00141,Snacks,Protein Snacks,PureHarvest,750ml,199,170.47,15.29,1,1,4.1,6.11,1.99
+PROD00142,Snacks,Chips,HomeEase,1kg,212,163.91,27.95,1,0,3.4,4.53,2.83
+PROD00143,Instant Meals,Pasta,NutriMile,1L,366,340.99,9.03,1,0,3.6,9.07,4.98
+PROD00144,Personal Care,Soap,FitBite,750ml,119,106.99,25.19,0,1,5.0,5.25,9.04
+PROD00145,Dairy,Milk,DailyDrop,750ml,104,96.28,28.27,1,0,4.1,4.5,4.5
+PROD00146,Frozen Foods,Ice Cream,ChillSip,250g,362,337.76,30.78,1,0,3.4,2.76,3.52
+PROD00147,Frozen Foods,Frozen Pizza,UrbanCrunch,1L,572,450.5,11.92,0,0,4.0,3.72,8.09
+PROD00148,Personal Care,Face Wash,NutriMile,1L,735,712.17,26.99,0,1,4.0,8.98,3.12
+PROD00149,Dairy,Paneer,DailyDrop,1L,106,80.4,26.97,0,0,4.4,3.08,5.72
+PROD00150,Health & Wellness,Granola,QuickChef,1L,275,234.71,24.46,0,1,5.0,7.88,3.49
+PROD00151,Frozen Foods,Ice Cream,NutriMile,750ml,500,473.39,6.43,0,1,4.7,7.94,2.09
+PROD00152,Instant Meals,Noodles,FitBite,250g,69,61.91,26.55,1,1,3.3,7.8,6.76
+PROD00153,Health & Wellness,Protein Powder,DailyDrop,1kg,485,382.14,6.93,0,0,4.2,3.78,5.59
+PROD00154,Frozen Foods,Ice Cream,NutriMile,500g,262,248.58,19.47,1,0,4.8,9.21,9.54
+PROD00155,Dairy,Milk,NutriMile,1kg,49,47.36,18.53,0,0,4.5,7.01,5.27
+PROD00156,Snacks,Chips,DailyDrop,500g,665,556.8,11.59,1,1,4.9,6.12,8.03
+PROD00157,Frozen Foods,Frozen Pizza,PureHarvest,250g,453,364.15,26.5,1,0,4.3,8.79,1.87
+PROD00158,Snacks,Protein Snacks,FreshNest,750ml,534,521.18,26.67,1,1,3.2,5.39,7.54
+PROD00159,Health & Wellness,Oats,FitBite,500g,523,410.95,21.36,0,0,4.5,9.43,6.88
+PROD00160,Frozen Foods,Fries,QuickChef,1kg,112,109.09,18.64,1,0,4.4,3.31,4.74
+PROD00161,Personal Care,Soap,SpiceRoute,500g,558,541.71,27.42,1,0,4.9,9.94,6.3
+PROD00162,Dairy,Curd,UrbanCrunch,750ml,725,597.73,22.64,0,0,3.9,1.74,9.22
+PROD00163,Frozen Foods,Fries,UrbanCrunch,250g,408,315.87,23.16,1,1,3.6,8.89,1.67
+PROD00164,Frozen Foods,Ice Cream,SpiceRoute,1kg,276,220.88,19.8,1,1,4.5,3.59,8.59
+PROD00165,Dairy,Paneer,DailyDrop,1kg,462,363.67,20.9,1,0,4.8,4.2,5.84
+PROD00166,Instant Meals,Pasta,DailyDrop,250g,401,301.77,27.81,0,1,4.8,6.38,8.83
+PROD00167,Health & Wellness,Granola,QuickChef,250g,540,526.44,33.31,1,0,3.7,1.22,4.31
+PROD00168,Snacks,Chips,QuickChef,750ml,300,246.13,6.54,1,0,4.6,9.12,5.19
+PROD00169,Dairy,Curd,PureHarvest,1L,679,655.94,10.76,0,0,4.0,7.04,7.77
+PROD00170,Snacks,Protein Snacks,UrbanCrunch,500g,775,698.59,22.32,0,1,4.8,9.49,2.15
+PROD00171,Health & Wellness,Granola,ChillSip,1kg,351,309.67,10.34,0,0,5.0,9.35,9.83
+PROD00172,Instant Meals,Ready Meals,PureHarvest,500g,76,62.51,32.45,1,0,3.2,9.74,9.2
+PROD00173,Health & Wellness,Oats,NutriMile,500g,270,235.17,23.26,1,0,4.8,8.48,5.54
+PROD00174,Beverages,Cold Coffee,HomeEase,500g,192,156.43,27.04,0,0,3.6,8.3,6.68
+PROD00175,Snacks,Cookies,SpiceRoute,250g,217,183.28,16.45,1,1,3.6,7.46,7.68
+PROD00176,Beverages,Cold Coffee,DailyDrop,1L,653,510.26,7.93,1,0,3.9,3.02,9.38
+PROD00177,Personal Care,Soap,PureHarvest,1kg,583,494.8,32.71,0,1,3.6,4.01,8.71
+PROD00178,Personal Care,Soap,HomeEase,250g,166,152.35,11.12,1,1,3.8,3.13,9.52
+PROD00179,Instant Meals,Pasta,HomeEase,1L,673,590.31,16.36,0,1,3.9,8.79,2.23
+PROD00180,Dairy,Paneer,SpiceRoute,250g,601,475.62,19.39,0,0,4.3,2.05,9.95
+PROD00181,Beverages,Juice,ChillSip,1L,619,584.98,27.72,0,0,4.7,9.6,6.97
+PROD00182,Snacks,Protein Snacks,HomeEase,500g,200,173.48,11.32,1,0,4.1,5.28,9.51
+PROD00183,Snacks,Protein Snacks,DailyDrop,1L,757,591.92,14.32,1,0,5.0,3.13,3.98
+PROD00184,Personal Care,Shampoo,HomeEase,750ml,72,55.24,34.25,0,1,4.4,9.74,8.66
+PROD00185,Frozen Foods,Frozen Pizza,HomeEase,250g,678,534.71,13.36,0,0,4.0,5.24,1.04
+PROD00186,Frozen Foods,Frozen Pizza,DailyDrop,500g,140,115.07,13.22,0,1,5.0,2.36,4.19
+PROD00187,Snacks,Namkeen,PureHarvest,250g,224,201.74,24.57,1,0,4.1,1.73,8.22
+PROD00188,Personal Care,Soap,SpiceRoute,500g,715,560.89,8.33,1,0,3.4,4.99,5.38
+PROD00189,Snacks,Cookies,FitBite,250g,201,170.02,20.88,0,0,4.5,6.98,8.37
+PROD00190,Frozen Foods,Fries,NutriMile,750ml,179,156.21,24.17,1,0,4.6,7.06,6.88
+PROD00191,Snacks,Protein Snacks,ChillSip,750ml,632,616.38,34.38,1,0,3.7,6.04,6.09
+PROD00192,Frozen Foods,Fries,HomeEase,750ml,728,644.52,11.73,1,0,4.9,4.35,6.07
+PROD00193,Instant Meals,Noodles,PureHarvest,1L,459,395.66,29.73,1,0,3.2,5.6,8.98
+PROD00194,Health & Wellness,Protein Powder,QuickChef,750ml,688,633.49,34.15,0,1,4.3,7.38,4.34
+PROD00195,Health & Wellness,Granola,QuickChef,500g,92,82.47,22.6,1,0,3.8,3.93,6.75
+PROD00196,Instant Meals,Pasta,SpiceRoute,1kg,270,207.4,19.26,1,1,4.4,5.65,5.73
+PROD00197,Snacks,Namkeen,ChillSip,1kg,559,450.49,11.15,0,1,4.9,5.57,5.91
+PROD00198,Personal Care,Shampoo,HomeEase,750ml,392,366.08,18.18,0,0,4.0,1.56,6.15
+PROD00199,Snacks,Cookies,QuickChef,500g,237,226.53,5.33,0,0,4.9,5.52,8.36
+PROD00200,Frozen Foods,Fries,FitBite,250g,762,573.73,11.13,1,0,3.5,1.12,2.61
+PROD00201,Frozen Foods,Ice Cream,UrbanCrunch,750ml,708,649.34,13.4,1,0,4.1,1.17,8.08
+PROD00202,Frozen Foods,Frozen Pizza,PureHarvest,750ml,412,349.94,29.38,1,1,3.4,3.81,8.67
+PROD00203,Instant Meals,Pasta,NutriMile,750ml,494,483.96,33.03,0,0,4.9,6.86,7.47
+PROD00204,Instant Meals,Ready Meals,DailyDrop,1kg,787,628.28,31.77,0,0,3.5,2.78,7.15
+PROD00205,Personal Care,Soap,NutriMile,250g,676,597.83,18.64,1,0,4.3,6.77,9.49
+PROD00206,Frozen Foods,Ice Cream,QuickChef,500g,602,558.65,28.28,1,0,4.7,7.68,7.39
+PROD00207,Instant Meals,Ready Meals,SpiceRoute,1kg,130,103.25,31.73,1,1,3.7,5.97,6.54
+PROD00208,Instant Meals,Ready Meals,FitBite,500g,84,79.46,12.01,0,0,3.6,8.01,8.6
+PROD00209,Health & Wellness,Granola,FitBite,250g,723,582.66,31.85,1,0,4.4,5.48,5.79
+PROD00210,Personal Care,Face Wash,QuickChef,1kg,114,87.08,22.86,1,1,3.1,5.93,8.36
+PROD00211,Health & Wellness,Protein Powder,NutriMile,1kg,293,266.61,23.73,1,0,3.4,5.27,1.69
+PROD00212,Beverages,Juice,NutriMile,1kg,473,444.51,30.76,1,1,3.2,1.51,4.47
+PROD00213,Frozen Foods,Fries,SpiceRoute,1kg,489,473.74,18.82,1,0,3.2,2.59,5.57
+PROD00214,Health & Wellness,Protein Powder,ChillSip,250g,256,217.68,34.36,0,1,4.1,7.66,8.57
+PROD00215,Snacks,Protein Snacks,FreshNest,1kg,619,501.92,13.3,1,0,4.7,5.19,7.88
+PROD00216,Frozen Foods,Fries,ChillSip,250g,731,665.1,27.96,1,0,4.6,1.44,6.0
+PROD00217,Beverages,Energy Drink,ChillSip,1L,184,145.99,26.87,1,0,4.0,7.72,3.16
+PROD00218,Instant Meals,Pasta,ChillSip,750ml,662,518.0,29.28,0,0,3.8,7.96,5.12
+PROD00219,Dairy,Milk,FreshNest,250g,102,96.18,27.03,1,1,3.5,8.82,7.22
+PROD00220,Health & Wellness,Oats,UrbanCrunch,500g,547,435.46,34.0,1,0,3.3,7.24,8.5
+PROD00221,Personal Care,Shampoo,HomeEase,250g,63,49.38,18.82,1,1,4.2,2.26,2.49
+PROD00222,Instant Meals,Noodles,FreshNest,250g,266,252.24,31.25,0,0,3.2,5.61,4.53
+PROD00223,Snacks,Namkeen,ChillSip,250g,772,751.49,34.06,0,1,4.8,5.09,4.05
+PROD00224,Instant Meals,Noodles,HomeEase,250g,400,339.73,33.99,0,0,4.9,8.55,5.02
+PROD00225,Snacks,Namkeen,ChillSip,1kg,64,55.09,19.63,0,0,3.0,2.52,1.53
+PROD00226,Beverages,Energy Drink,FreshNest,1L,485,398.56,12.78,0,0,3.9,6.2,7.95
+PROD00227,Personal Care,Shampoo,UrbanCrunch,500g,582,467.46,19.0,0,0,3.3,7.09,7.32
+PROD00228,Snacks,Chips,QuickChef,1kg,227,221.82,28.62,0,0,3.9,1.28,8.69
+PROD00229,Personal Care,Shampoo,FreshNest,750ml,97,92.67,21.01,0,0,4.7,7.65,5.08
+PROD00230,Instant Meals,Noodles,DailyDrop,750ml,292,225.45,15.83,1,1,4.7,5.38,3.31
+PROD00231,Frozen Foods,Ice Cream,QuickChef,750ml,679,531.53,19.71,0,0,4.9,6.49,4.27
+PROD00232,Snacks,Namkeen,QuickChef,750ml,631,595.68,16.84,0,1,4.5,1.45,9.58
+PROD00233,Snacks,Protein Snacks,SpiceRoute,250g,146,110.03,27.58,1,0,3.7,3.8,3.32
+PROD00234,Instant Meals,Ready Meals,HomeEase,500g,515,471.16,31.79,0,1,3.5,4.28,6.94
+PROD00235,Beverages,Juice,QuickChef,500g,82,74.05,24.26,0,1,4.6,5.71,6.77
+PROD00236,Snacks,Namkeen,PureHarvest,750ml,341,316.82,16.68,1,0,3.6,1.34,2.06
+PROD00237,Snacks,Chips,DailyDrop,250g,585,521.58,15.21,1,1,3.8,5.62,4.92
+PROD00238,Snacks,Cookies,NutriMile,1L,646,484.93,21.44,1,0,3.4,5.37,3.54
+PROD00239,Dairy,Butter,UrbanCrunch,1L,197,180.77,10.11,0,0,3.9,7.75,4.09
+PROD00240,Personal Care,Face Wash,NutriMile,1L,694,590.29,25.36,1,0,3.5,6.64,4.68
+PROD00241,Personal Care,Face Wash,PureHarvest,500g,261,215.24,26.51,0,0,3.6,5.65,2.29
+PROD00242,Beverages,Soft Drink,NutriMile,750ml,249,233.35,34.56,1,1,3.3,2.98,7.09
+PROD00243,Dairy,Milk,FitBite,750ml,583,455.04,11.87,0,1,4.4,2.88,3.43
+PROD00244,Health & Wellness,Oats,QuickChef,1L,176,148.41,27.78,1,1,3.9,7.92,8.17
+PROD00245,Frozen Foods,Ice Cream,HomeEase,1L,179,155.56,18.06,0,0,4.9,3.7,8.24
+PROD00246,Health & Wellness,Oats,SpiceRoute,750ml,721,582.75,27.38,1,1,4.4,4.49,1.75
+PROD00247,Beverages,Juice,ChillSip,1L,733,582.02,7.19,1,0,5.0,2.95,3.69
+PROD00248,Health & Wellness,Oats,SpiceRoute,500g,760,663.5,13.03,0,1,3.3,6.96,1.16
+PROD00249,Instant Meals,Noodles,PureHarvest,500g,509,421.92,18.31,0,0,4.7,5.26,1.78
+PROD00250,Dairy,Butter,UrbanCrunch,1L,667,591.01,19.97,0,0,4.0,4.38,7.85
+PROD00251,Personal Care,Shampoo,FreshNest,750ml,165,138.37,6.62,0,1,3.8,9.1,3.67
+PROD00252,Dairy,Paneer,PureHarvest,1kg,156,150.7,5.12,0,0,3.1,4.84,1.96
+PROD00253,Frozen Foods,Frozen Pizza,PureHarvest,1kg,109,94.3,14.54,1,0,4.2,4.33,3.07
+PROD00254,Frozen Foods,Fries,UrbanCrunch,750ml,268,222.9,7.02,0,1,3.2,4.94,7.5
+PROD00255,Snacks,Protein Snacks,PureHarvest,500g,72,65.02,13.74,1,0,4.6,3.69,3.94
+PROD00256,Instant Meals,Ready Meals,FreshNest,1L,309,275.57,7.83,1,1,4.4,1.58,8.01
+PROD00257,Dairy,Curd,QuickChef,1kg,77,71.66,24.14,1,0,4.3,9.54,7.38
+PROD00258,Personal Care,Face Wash,HomeEase,750ml,449,409.18,13.56,0,1,4.7,1.68,5.5
+PROD00259,Instant Meals,Ready Meals,SpiceRoute,1kg,522,491.8,27.89,0,1,3.8,8.68,8.98
+PROD00260,Beverages,Soft Drink,SpiceRoute,750ml,284,227.43,10.07,1,1,4.5,9.91,3.02
+PROD00261,Snacks,Namkeen,FitBite,500g,784,767.02,34.06,0,0,4.5,1.7,1.49
+PROD00262,Personal Care,Face Wash,DailyDrop,750ml,440,400.77,18.27,1,1,4.0,3.09,4.93
+PROD00263,Health & Wellness,Granola,QuickChef,1kg,214,166.58,19.51,1,1,3.7,2.62,2.56
+PROD00264,Personal Care,Shampoo,NutriMile,1L,730,561.98,30.52,1,0,3.1,5.49,8.99
+PROD00265,Beverages,Soft Drink,NutriMile,500g,771,593.93,26.77,0,1,4.3,2.79,5.54
+PROD00266,Frozen Foods,Frozen Pizza,PureHarvest,500g,731,619.48,28.32,0,0,4.9,4.05,7.16
+PROD00267,Snacks,Cookies,FitBite,500g,50,48.89,13.03,0,0,4.3,4.69,9.06
+PROD00268,Snacks,Cookies,FitBite,1L,118,95.54,12.23,1,1,3.1,8.74,6.34
+PROD00269,Personal Care,Soap,PureHarvest,1L,766,627.46,13.55,0,0,4.2,1.86,6.43
+PROD00270,Snacks,Cookies,UrbanCrunch,750ml,170,158.79,18.17,1,1,4.4,7.72,2.22
+PROD00271,Frozen Foods,Fries,FitBite,1kg,95,92.37,28.32,0,0,3.4,2.36,5.04
+PROD00272,Personal Care,Soap,SpiceRoute,1L,487,457.78,19.96,1,0,3.0,5.45,2.47
+PROD00273,Personal Care,Face Wash,UrbanCrunch,750ml,325,299.81,24.65,0,0,4.0,1.21,2.25
+PROD00274,Frozen Foods,Frozen Pizza,DailyDrop,1L,440,332.47,23.72,1,1,4.4,8.52,2.05
+PROD00275,Beverages,Juice,FitBite,250g,538,423.06,6.31,1,0,3.4,2.68,1.39
+PROD00276,Beverages,Juice,ChillSip,1kg,339,285.36,19.05,0,0,4.0,6.48,8.8
+PROD00277,Instant Meals,Pasta,HomeEase,750ml,597,483.42,24.24,1,1,3.4,6.46,6.34
+PROD00278,Personal Care,Soap,FreshNest,500g,106,92.6,14.51,1,1,3.1,2.46,9.47
+PROD00279,Frozen Foods,Frozen Pizza,UrbanCrunch,1L,137,124.58,25.84,1,1,3.9,8.57,2.19
+PROD00280,Personal Care,Face Wash,FitBite,250g,349,289.91,22.0,1,1,3.0,8.27,7.24
+PROD00281,Beverages,Soft Drink,FitBite,1kg,781,652.32,17.04,1,1,3.7,9.2,5.57
+PROD00282,Health & Wellness,Protein Powder,PureHarvest,250g,484,409.17,18.73,0,1,4.2,6.97,2.55
+PROD00283,Instant Meals,Noodles,ChillSip,250g,376,293.28,18.08,1,1,4.5,1.1,8.65
+PROD00284,Instant Meals,Pasta,SpiceRoute,1L,779,602.06,26.6,1,0,4.4,7.12,5.05
+PROD00285,Personal Care,Soap,QuickChef,1L,125,99.29,25.58,1,1,4.8,9.58,5.8
+PROD00286,Dairy,Butter,NutriMile,500g,334,303.5,19.5,1,0,3.9,3.74,6.77
+PROD00287,Snacks,Namkeen,FreshNest,500g,250,243.65,23.8,0,0,3.6,5.71,8.32
+PROD00288,Instant Meals,Pasta,FreshNest,750ml,236,196.98,29.9,0,1,4.8,5.04,2.73
+PROD00289,Beverages,Soft Drink,ChillSip,1L,114,93.84,33.76,0,1,4.2,3.78,1.7
+PROD00290,Frozen Foods,Ice Cream,NutriMile,250g,345,282.3,6.6,1,1,4.4,2.62,7.52
+PROD00291,Dairy,Paneer,FreshNest,1kg,247,214.71,26.97,0,1,4.6,8.56,9.35
+PROD00292,Health & Wellness,Protein Powder,QuickChef,500g,480,466.26,31.67,1,0,3.7,2.27,7.7
+PROD00293,Personal Care,Soap,DailyDrop,750ml,523,492.53,11.8,1,0,3.3,7.4,3.37
+PROD00294,Snacks,Namkeen,FreshNest,1L,531,442.04,6.75,0,1,3.8,6.21,8.58
+PROD00295,Personal Care,Face Wash,DailyDrop,1L,619,603.06,10.67,1,0,4.4,8.33,5.41
+PROD00296,Snacks,Protein Snacks,HomeEase,1L,203,158.09,6.57,1,1,3.1,6.59,3.92
+PROD00297,Health & Wellness,Granola,DailyDrop,750ml,634,589.88,19.01,1,1,3.1,6.75,9.11
+PROD00298,Dairy,Butter,SpiceRoute,1kg,340,296.45,27.43,1,0,3.2,7.83,1.35
+PROD00299,Dairy,Milk,SpiceRoute,750ml,532,444.39,27.87,1,1,3.0,4.44,4.98
+PROD00300,Dairy,Milk,HomeEase,750ml,599,474.65,31.75,0,0,4.4,4.4,9.52
+PROD00301,Personal Care,Soap,FreshNest,250g,289,240.61,11.06,1,1,4.0,4.13,9.57
+PROD00302,Snacks,Chips,QuickChef,250g,342,259.05,15.99,1,0,4.6,5.36,5.67
+PROD00303,Instant Meals,Pasta,NutriMile,250g,405,372.86,11.64,0,1,4.4,4.9,8.66
+PROD00304,Dairy,Paneer,PureHarvest,1L,240,187.27,22.09,1,0,3.8,3.85,3.8
+PROD00305,Beverages,Soft Drink,FitBite,1L,361,341.08,10.82,0,1,4.2,4.65,6.34
+PROD00306,Frozen Foods,Fries,FitBite,500g,310,238.65,15.99,1,0,4.6,4.25,4.24
+PROD00307,Personal Care,Face Wash,FreshNest,1kg,98,78.41,23.53,1,1,3.9,5.66,2.86
+PROD00308,Personal Care,Face Wash,QuickChef,250g,562,516.96,7.2,1,1,4.6,8.18,8.5
+PROD00309,Health & Wellness,Oats,HomeEase,250g,526,451.72,9.76,0,1,3.3,4.53,2.3
+PROD00310,Dairy,Curd,FreshNest,250g,613,521.13,30.57,0,1,4.6,1.04,5.28
+PROD00311,Personal Care,Shampoo,NutriMile,750ml,511,433.83,6.2,1,1,4.4,2.62,5.23
+PROD00312,Instant Meals,Ready Meals,QuickChef,250g,388,352.58,8.84,1,0,3.2,5.01,2.99
+PROD00313,Instant Meals,Pasta,ChillSip,1L,575,469.69,10.66,0,1,4.1,4.78,2.57
+PROD00314,Health & Wellness,Oats,ChillSip,500g,656,630.07,31.62,1,0,3.8,8.1,9.92
+PROD00315,Health & Wellness,Protein Powder,SpiceRoute,750ml,86,82.23,18.1,0,0,5.0,6.72,9.31
+PROD00316,Health & Wellness,Oats,FitBite,1kg,251,211.66,34.02,0,1,4.2,7.01,6.14
+PROD00317,Beverages,Energy Drink,FreshNest,750ml,604,554.0,28.14,1,0,3.3,4.99,9.34
+PROD00318,Dairy,Milk,ChillSip,1kg,523,402.68,19.65,1,0,4.9,7.11,9.64
+PROD00319,Personal Care,Face Wash,ChillSip,500g,67,60.29,8.77,1,0,4.0,7.4,4.91
+PROD00320,Beverages,Cold Coffee,UrbanCrunch,500g,369,342.7,34.59,1,1,3.3,6.61,6.17
+PROD00321,Beverages,Juice,NutriMile,1kg,339,292.0,13.99,0,1,4.5,6.4,7.89
+PROD00322,Dairy,Butter,HomeEase,500g,163,139.7,7.59,0,1,4.7,4.95,5.49
+PROD00323,Frozen Foods,Fries,UrbanCrunch,1kg,620,481.89,13.2,0,1,3.7,9.32,8.37
+PROD00324,Frozen Foods,Fries,QuickChef,750ml,164,132.77,15.09,0,1,4.4,3.42,5.14
+PROD00325,Instant Meals,Noodles,PureHarvest,500g,206,195.54,20.74,0,0,4.3,8.53,5.52
+PROD00326,Frozen Foods,Frozen Pizza,UrbanCrunch,1L,627,607.49,12.25,1,1,4.9,3.53,6.46
+PROD00327,Health & Wellness,Oats,DailyDrop,750ml,736,561.97,32.36,0,1,4.3,1.29,8.92
+PROD00328,Instant Meals,Noodles,FitBite,500g,45,36.85,32.64,0,1,3.4,5.28,2.56
+PROD00329,Instant Meals,Ready Meals,UrbanCrunch,1kg,680,586.59,15.91,0,1,4.8,7.97,8.24
+PROD00330,Instant Meals,Noodles,FreshNest,1L,757,646.64,30.11,1,0,4.6,7.54,2.81
+PROD00331,Health & Wellness,Oats,ChillSip,1kg,733,632.57,13.82,0,0,3.3,3.96,4.09
+PROD00332,Personal Care,Shampoo,UrbanCrunch,500g,491,424.79,24.4,0,1,3.6,1.03,1.6
+PROD00333,Snacks,Cookies,PureHarvest,750ml,140,120.56,33.93,1,0,3.9,7.56,8.24
+PROD00334,Beverages,Cold Coffee,UrbanCrunch,1kg,316,237.9,28.74,1,1,4.3,8.7,9.84
+PROD00335,Instant Meals,Pasta,ChillSip,500g,552,469.39,7.44,1,0,4.3,7.15,1.02
+PROD00336,Dairy,Paneer,SpiceRoute,250g,253,240.01,9.83,1,0,4.7,1.09,2.1
+PROD00337,Snacks,Chips,DailyDrop,500g,135,119.36,7.34,0,1,4.4,3.7,6.1
+PROD00338,Health & Wellness,Granola,FitBite,1kg,783,656.63,25.67,1,0,4.2,9.91,4.69
+PROD00339,Frozen Foods,Frozen Pizza,HomeEase,1L,155,122.72,31.11,1,1,3.4,1.96,2.21
+PROD00340,Snacks,Chips,NutriMile,250g,747,601.97,9.78,0,1,4.7,2.47,8.47
+PROD00341,Frozen Foods,Frozen Pizza,FreshNest,500g,331,262.5,19.12,1,0,4.2,5.72,6.48
+PROD00342,Dairy,Curd,HomeEase,1L,292,285.91,16.42,1,0,3.6,5.24,7.26
+PROD00343,Beverages,Soft Drink,HomeEase,500g,42,40.63,26.72,0,1,4.3,3.74,4.87
+PROD00344,Dairy,Curd,DailyDrop,250g,312,269.02,25.91,1,1,3.3,9.27,9.69
+PROD00345,Dairy,Butter,ChillSip,1L,724,703.17,20.53,0,1,4.2,9.42,6.24
+PROD00346,Frozen Foods,Frozen Pizza,NutriMile,1L,354,300.87,33.6,0,1,4.2,1.26,8.36
+PROD00347,Instant Meals,Ready Meals,QuickChef,250g,576,497.7,20.29,0,0,4.9,6.01,3.44
+PROD00348,Personal Care,Shampoo,NutriMile,1L,224,199.51,22.76,0,1,3.4,1.03,2.03
+PROD00349,Instant Meals,Ready Meals,SpiceRoute,1L,325,246.89,10.93,0,0,4.3,7.86,3.06
+PROD00350,Health & Wellness,Protein Powder,HomeEase,250g,427,404.51,28.42,0,1,3.1,6.26,6.8
+PROD00351,Frozen Foods,Fries,NutriMile,1L,470,441.27,28.57,0,1,5.0,4.15,2.79
+PROD00352,Frozen Foods,Ice Cream,PureHarvest,750ml,140,121.45,27.41,1,1,3.4,7.08,4.47
+PROD00353,Beverages,Cold Coffee,NutriMile,500g,45,43.82,13.07,0,1,4.9,8.9,1.3
+PROD00354,Snacks,Namkeen,QuickChef,1kg,346,291.39,15.66,1,1,4.2,5.26,5.32
+PROD00355,Dairy,Butter,ChillSip,1kg,453,408.43,27.26,0,0,3.8,8.06,5.5
+PROD00356,Dairy,Milk,FitBite,1kg,149,137.5,30.76,1,1,3.4,1.43,2.95
+PROD00357,Dairy,Paneer,SpiceRoute,500g,87,65.59,18.67,0,0,4.3,7.56,4.71
+PROD00358,Instant Meals,Ready Meals,FitBite,1L,588,468.35,13.99,0,0,4.4,4.22,2.53
+PROD00359,Dairy,Curd,QuickChef,1L,363,310.04,26.4,0,0,3.4,3.15,7.91
+PROD00360,Personal Care,Face Wash,FitBite,500g,591,513.72,33.86,0,0,4.9,3.97,6.79
+PROD00361,Personal Care,Shampoo,ChillSip,750ml,203,163.72,20.29,0,1,4.9,7.08,7.94
+PROD00362,Snacks,Chips,ChillSip,750ml,673,657.47,18.04,1,1,5.0,2.35,7.71
+PROD00363,Personal Care,Soap,PureHarvest,750ml,524,504.47,27.47,1,0,4.7,8.97,2.54
+PROD00364,Dairy,Paneer,UrbanCrunch,1kg,369,338.37,14.83,1,0,4.9,6.53,3.26
+PROD00365,Health & Wellness,Oats,DailyDrop,1L,688,602.99,23.24,0,1,3.4,8.49,9.51
+PROD00366,Dairy,Curd,FreshNest,750ml,256,238.69,6.57,0,0,4.0,9.9,4.84
+PROD00367,Snacks,Protein Snacks,PureHarvest,1kg,603,536.23,14.61,1,1,4.0,7.54,3.24
+PROD00368,Beverages,Energy Drink,FreshNest,1L,70,53.8,29.66,0,0,3.9,6.97,9.79
+PROD00369,Instant Meals,Pasta,DailyDrop,500g,235,221.32,20.88,1,1,4.5,8.18,6.56
+PROD00370,Health & Wellness,Protein Powder,SpiceRoute,1kg,672,614.48,29.4,0,1,3.9,9.82,6.12
+PROD00371,Frozen Foods,Frozen Pizza,DailyDrop,250g,473,436.11,33.73,1,1,3.3,7.4,9.15
+PROD00372,Dairy,Paneer,HomeEase,250g,459,410.99,30.3,1,0,3.3,4.89,7.96
+PROD00373,Instant Meals,Ready Meals,QuickChef,750ml,335,304.64,25.04,1,1,4.1,4.09,2.71
+PROD00374,Beverages,Cold Coffee,FitBite,500g,246,217.33,7.52,1,0,3.9,6.91,1.68
+PROD00375,Instant Meals,Pasta,ChillSip,750ml,419,331.49,12.8,1,1,4.9,8.58,5.16
+PROD00376,Instant Meals,Ready Meals,ChillSip,1kg,337,327.0,34.98,0,1,4.9,7.01,7.52
+PROD00377,Instant Meals,Pasta,FitBite,250g,361,331.46,6.46,1,0,3.9,7.22,5.6
+PROD00378,Beverages,Soft Drink,ChillSip,250g,116,101.75,24.61,1,1,4.9,3.46,3.96
+PROD00379,Frozen Foods,Frozen Pizza,FitBite,250g,319,309.84,21.11,0,1,4.8,5.12,9.63
+PROD00380,Snacks,Protein Snacks,PureHarvest,1kg,56,44.04,11.5,0,0,4.3,1.74,2.82
+PROD00381,Dairy,Butter,NutriMile,1L,379,311.21,30.8,0,1,3.6,2.46,3.71
+PROD00382,Personal Care,Shampoo,DailyDrop,1L,773,606.72,21.52,1,0,4.1,9.25,8.24
+PROD00383,Dairy,Paneer,DailyDrop,750ml,699,674.94,24.24,0,0,3.2,5.95,8.47
+PROD00384,Personal Care,Face Wash,PureHarvest,750ml,455,380.37,7.73,0,0,3.3,6.91,6.13
+PROD00385,Personal Care,Soap,ChillSip,1L,57,44.14,32.29,1,1,3.9,1.51,6.09
+PROD00386,Personal Care,Face Wash,NutriMile,1kg,330,259.98,23.71,0,1,4.6,1.31,3.83
+PROD00387,Beverages,Energy Drink,SpiceRoute,1kg,736,642.89,8.65,1,0,3.2,1.05,1.53
+PROD00388,Instant Meals,Noodles,DailyDrop,500g,389,360.57,20.7,1,0,4.8,9.77,1.97
+PROD00389,Instant Meals,Pasta,ChillSip,500g,150,114.72,24.03,0,0,3.9,2.67,9.52
+PROD00390,Dairy,Milk,ChillSip,250g,425,386.66,5.08,1,1,4.8,4.21,4.8
+PROD00391,Health & Wellness,Oats,PureHarvest,1L,751,598.89,10.89,1,1,3.0,2.23,4.45
+PROD00392,Snacks,Cookies,HomeEase,1kg,528,432.93,16.78,1,1,3.2,1.22,9.31
+PROD00393,Beverages,Energy Drink,NutriMile,750ml,351,292.24,11.8,1,1,4.6,6.74,1.59
+PROD00394,Personal Care,Soap,NutriMile,250g,276,212.91,12.18,0,1,4.2,9.28,2.2
+PROD00395,Instant Meals,Pasta,ChillSip,1L,525,432.97,34.58,1,0,3.2,7.95,5.27
+PROD00396,Personal Care,Face Wash,FitBite,1L,112,105.38,7.33,1,1,4.3,3.73,1.53
+PROD00397,Beverages,Juice,FreshNest,250g,744,606.97,9.99,0,1,3.3,2.09,6.45
+PROD00398,Health & Wellness,Protein Powder,QuickChef,750ml,426,338.64,32.15,0,1,3.3,5.07,5.46
+PROD00399,Instant Meals,Ready Meals,HomeEase,1L,256,219.05,6.51,0,1,4.1,9.97,2.44
+PROD00400,Instant Meals,Pasta,SpiceRoute,250g,753,602.92,33.48,0,1,4.3,5.68,2.95
+PROD00401,Health & Wellness,Granola,UrbanCrunch,250g,693,649.98,10.64,0,0,3.6,4.88,5.31
+PROD00402,Health & Wellness,Oats,UrbanCrunch,1L,517,489.45,27.02,0,0,3.2,3.44,9.86
+PROD00403,Instant Meals,Noodles,DailyDrop,750ml,456,345.48,12.48,0,0,3.9,5.74,4.0
+PROD00404,Health & Wellness,Oats,HomeEase,250g,579,454.86,18.08,1,1,5.0,4.83,6.08
+PROD00405,Personal Care,Shampoo,SpiceRoute,250g,405,324.87,30.69,1,0,4.2,1.05,5.35
+PROD00406,Frozen Foods,Frozen Pizza,HomeEase,1kg,378,323.59,18.02,0,1,4.3,9.44,4.77
+PROD00407,Personal Care,Face Wash,QuickChef,250g,674,562.99,32.8,1,1,4.7,6.75,3.14
+PROD00408,Instant Meals,Pasta,FreshNest,1L,151,117.37,10.47,1,0,3.3,9.37,9.37
+PROD00409,Frozen Foods,Fries,UrbanCrunch,750ml,422,397.0,5.22,0,0,3.1,2.07,9.39
+PROD00410,Beverages,Energy Drink,UrbanCrunch,1kg,340,296.94,11.22,1,0,4.2,9.34,1.53
+PROD00411,Snacks,Cookies,DailyDrop,1kg,52,46.69,9.56,1,1,4.4,3.69,5.91
+PROD00412,Beverages,Energy Drink,FitBite,1kg,227,202.57,22.37,0,0,3.7,6.7,1.54
+PROD00413,Snacks,Protein Snacks,UrbanCrunch,1kg,477,386.4,30.51,1,0,4.3,9.9,1.52
+PROD00414,Personal Care,Soap,SpiceRoute,1kg,107,93.63,14.81,1,0,4.1,4.67,6.53
+PROD00415,Instant Meals,Noodles,DailyDrop,250g,66,53.17,20.11,1,0,4.8,9.8,3.59
+PROD00416,Dairy,Milk,QuickChef,1L,99,90.84,28.46,1,0,4.0,5.17,6.18
+PROD00417,Instant Meals,Pasta,ChillSip,500g,348,277.29,31.92,0,1,3.5,4.86,8.22
+PROD00418,Beverages,Juice,FitBite,250g,372,286.79,18.27,0,0,3.8,7.42,1.63
+PROD00419,Instant Meals,Noodles,UrbanCrunch,1kg,497,431.42,5.24,1,0,4.3,3.21,5.21
+PROD00420,Frozen Foods,Frozen Pizza,PureHarvest,500g,573,550.98,24.68,0,1,4.1,3.1,5.29
+PROD00421,Health & Wellness,Oats,QuickChef,500g,516,412.88,11.26,1,1,4.4,9.13,6.61
+PROD00422,Frozen Foods,Fries,QuickChef,250g,566,443.68,26.65,0,1,4.3,4.38,7.62
+PROD00423,Health & Wellness,Granola,QuickChef,750ml,533,450.56,34.83,1,0,3.5,1.13,6.17
+PROD00424,Instant Meals,Noodles,QuickChef,500g,333,321.73,22.69,0,1,4.0,4.23,5.88
+PROD00425,Beverages,Soft Drink,FreshNest,1kg,185,145.31,7.57,1,1,4.9,3.45,5.96
+PROD00426,Personal Care,Soap,FreshNest,500g,141,116.38,22.71,1,0,4.5,6.18,6.72
+PROD00427,Dairy,Milk,ChillSip,250g,780,756.44,28.43,1,0,4.1,8.39,2.89
+PROD00428,Snacks,Protein Snacks,ChillSip,750ml,541,507.14,31.64,1,0,3.9,1.63,9.55
+PROD00429,Frozen Foods,Frozen Pizza,HomeEase,750ml,202,153.73,15.79,1,1,3.7,2.82,2.64
+PROD00430,Snacks,Protein Snacks,SpiceRoute,500g,730,681.95,34.68,1,0,4.2,5.25,9.51
+PROD00431,Beverages,Soft Drink,SpiceRoute,1L,563,516.05,30.17,0,0,4.8,2.92,5.96
+PROD00432,Dairy,Milk,DailyDrop,1L,299,235.02,14.89,0,1,4.4,7.5,8.03
+PROD00433,Dairy,Butter,PureHarvest,1L,515,467.92,17.39,1,0,3.4,1.47,7.35
+PROD00434,Beverages,Juice,DailyDrop,750ml,598,537.61,32.89,0,0,4.3,5.0,3.63
+PROD00435,Personal Care,Shampoo,FitBite,1L,791,648.63,16.13,0,1,4.9,8.51,4.33
+PROD00436,Frozen Foods,Ice Cream,QuickChef,1L,447,380.27,32.22,1,0,4.4,9.13,1.61
+PROD00437,Snacks,Namkeen,PureHarvest,250g,387,366.42,19.36,0,0,3.2,6.72,8.67
+PROD00438,Instant Meals,Noodles,QuickChef,1L,394,354.59,16.47,1,1,3.5,6.07,6.48
+PROD00439,Instant Meals,Noodles,FitBite,1L,99,92.52,11.33,0,1,4.6,2.42,4.0
+PROD00440,Instant Meals,Pasta,ChillSip,1L,507,474.99,16.21,1,0,3.2,4.52,3.84
+PROD00441,Personal Care,Face Wash,SpiceRoute,1kg,503,384.48,21.79,0,1,3.4,5.54,8.45
+PROD00442,Dairy,Butter,PureHarvest,1kg,312,243.22,34.3,0,1,4.6,5.06,9.26
+PROD00443,Frozen Foods,Fries,HomeEase,1L,143,137.81,21.73,0,1,5.0,1.92,7.29
+PROD00444,Health & Wellness,Granola,PureHarvest,250g,491,425.03,29.26,0,1,3.1,6.38,8.22
+PROD00445,Snacks,Namkeen,SpiceRoute,1L,264,249.19,21.86,0,1,3.3,8.84,7.71
+PROD00446,Personal Care,Shampoo,HomeEase,250g,58,46.32,20.47,0,1,4.1,8.56,9.1
+PROD00447,Health & Wellness,Oats,DailyDrop,250g,525,404.16,14.56,0,0,3.2,8.33,4.69
+PROD00448,Personal Care,Soap,DailyDrop,500g,443,370.82,30.4,1,0,4.5,9.47,4.72
+PROD00449,Personal Care,Shampoo,NutriMile,1kg,138,115.96,11.42,1,1,3.2,9.01,7.22
+PROD00450,Snacks,Namkeen,HomeEase,500g,271,217.4,11.8,0,0,3.8,1.29,6.4
+PROD00451,Snacks,Namkeen,PureHarvest,250g,713,580.85,15.69,1,1,4.3,2.85,6.22
+PROD00452,Instant Meals,Noodles,DailyDrop,500g,500,473.01,31.95,0,1,3.1,6.75,4.0
+PROD00453,Snacks,Cookies,FitBite,250g,74,65.88,29.78,0,1,4.8,9.65,2.76
+PROD00454,Snacks,Cookies,QuickChef,750ml,354,346.67,5.1,0,1,3.5,4.34,7.36
+PROD00455,Beverages,Soft Drink,FitBite,750ml,364,278.84,9.62,1,1,5.0,4.89,3.94
+PROD00456,Frozen Foods,Frozen Pizza,UrbanCrunch,1kg,84,66.36,33.35,0,1,4.9,9.46,7.34
+PROD00457,Beverages,Cold Coffee,DailyDrop,250g,182,168.61,5.16,1,0,3.6,4.84,3.68
+PROD00458,Beverages,Soft Drink,FitBite,250g,226,174.14,32.43,1,1,3.2,2.44,8.65
+PROD00459,Beverages,Soft Drink,PureHarvest,1L,200,169.79,7.51,1,0,4.3,3.53,8.65
+PROD00460,Frozen Foods,Fries,QuickChef,750ml,782,652.02,23.12,0,0,3.7,1.13,3.14
+PROD00461,Instant Meals,Ready Meals,NutriMile,1kg,584,473.88,32.48,1,0,3.2,4.25,7.83
+PROD00462,Frozen Foods,Fries,QuickChef,250g,293,229.83,10.1,0,1,4.2,2.65,7.02
+PROD00463,Snacks,Protein Snacks,HomeEase,250g,768,578.61,11.88,0,0,4.8,6.12,8.66
+PROD00464,Dairy,Curd,NutriMile,1kg,383,313.34,21.83,0,0,3.6,6.36,7.43
+PROD00465,Snacks,Namkeen,NutriMile,1L,331,249.02,8.69,1,1,4.9,9.68,9.71
+PROD00466,Frozen Foods,Fries,PureHarvest,250g,307,259.14,15.89,1,1,4.2,2.65,6.19
+PROD00467,Beverages,Juice,HomeEase,500g,63,57.59,19.52,1,1,4.9,9.76,2.41
+PROD00468,Instant Meals,Pasta,QuickChef,250g,658,563.79,12.18,0,0,3.6,8.05,1.59
+PROD00469,Personal Care,Face Wash,HomeEase,750ml,393,382.71,21.93,0,0,4.0,4.97,4.69
+PROD00470,Instant Meals,Pasta,HomeEase,500g,216,167.39,33.04,1,0,4.4,6.07,4.28
+PROD00471,Health & Wellness,Granola,UrbanCrunch,1kg,201,182.46,17.34,0,0,4.1,2.49,9.8
+PROD00472,Health & Wellness,Granola,ChillSip,1L,112,90.86,22.56,1,0,4.5,5.54,6.52
+PROD00473,Dairy,Butter,FitBite,1kg,603,463.22,22.29,1,1,4.0,2.51,1.81
+PROD00474,Beverages,Soft Drink,QuickChef,500g,540,432.11,12.57,1,1,4.1,8.46,1.26
+PROD00475,Beverages,Cold Coffee,DailyDrop,500g,265,222.47,21.91,1,0,5.0,2.95,9.58
+PROD00476,Health & Wellness,Protein Powder,HomeEase,500g,790,757.28,30.38,1,1,4.9,4.61,3.53
+PROD00477,Health & Wellness,Oats,QuickChef,1L,420,390.07,13.47,1,1,4.2,6.22,1.7
+PROD00478,Instant Meals,Ready Meals,FreshNest,1kg,296,274.71,28.12,0,0,3.8,4.38,1.01
+PROD00479,Health & Wellness,Oats,HomeEase,250g,536,439.51,30.57,0,0,4.5,2.24,3.1
+PROD00480,Frozen Foods,Frozen Pizza,QuickChef,250g,742,693.39,21.74,0,1,3.6,2.74,2.69
+PROD00481,Personal Care,Face Wash,ChillSip,1kg,755,581.17,8.17,1,0,3.6,5.37,9.39
+PROD00482,Frozen Foods,Ice Cream,FreshNest,250g,486,383.98,6.42,0,0,4.7,1.19,5.65
+PROD00483,Personal Care,Face Wash,DailyDrop,500g,317,310.28,17.67,0,1,3.5,8.77,7.53
+PROD00484,Frozen Foods,Frozen Pizza,QuickChef,750ml,317,304.01,24.27,1,0,4.4,3.14,2.7
+PROD00485,Dairy,Milk,DailyDrop,500g,217,169.05,7.2,1,0,3.3,3.66,3.2
+PROD00486,Personal Care,Face Wash,PureHarvest,500g,122,105.06,18.74,0,1,4.4,7.75,8.16
+PROD00487,Snacks,Chips,SpiceRoute,500g,584,493.99,10.73,0,0,4.9,5.21,8.45
+PROD00488,Personal Care,Soap,FreshNest,250g,284,215.75,7.2,1,1,3.8,4.07,9.78
+PROD00489,Dairy,Milk,ChillSip,250g,362,274.35,21.61,0,1,4.0,1.22,1.13
+PROD00490,Frozen Foods,Frozen Pizza,NutriMile,750ml,482,363.9,23.64,1,1,3.3,6.94,9.99
+PROD00491,Snacks,Chips,UrbanCrunch,500g,238,231.48,27.39,0,1,4.4,7.85,8.0
+PROD00492,Beverages,Energy Drink,HomeEase,1L,553,427.51,11.65,1,1,4.7,1.07,6.08
+PROD00493,Beverages,Juice,FreshNest,250g,458,426.08,33.92,0,1,3.8,1.54,7.11
+PROD00494,Beverages,Soft Drink,HomeEase,250g,579,441.69,34.09,1,0,3.5,3.02,1.8
+PROD00495,Health & Wellness,Protein Powder,NutriMile,1kg,348,324.59,32.31,0,1,3.8,2.78,1.13
+PROD00496,Frozen Foods,Ice Cream,ChillSip,1kg,286,270.55,24.24,1,0,3.4,1.04,2.6
+PROD00497,Snacks,Namkeen,ChillSip,750ml,223,205.88,30.31,1,0,4.7,1.39,1.33
+PROD00498,Snacks,Namkeen,FitBite,250g,538,490.25,31.32,1,0,3.8,3.9,5.49
+PROD00499,Instant Meals,Pasta,FreshNest,1L,189,142.86,8.96,0,1,3.7,7.07,9.89
+PROD00500,Personal Care,Soap,QuickChef,500g,73,57.83,31.61,1,1,3.1,1.37,6.78
+PROD00501,Snacks,Namkeen,UrbanCrunch,1kg,654,547.6,28.03,1,0,4.2,9.8,2.06
+PROD00502,Dairy,Butter,QuickChef,1L,231,191.75,13.84,0,0,4.2,8.64,8.04
+PROD00503,Health & Wellness,Granola,ChillSip,1kg,133,110.8,19.28,1,1,3.3,5.81,2.98
+PROD00504,Instant Meals,Ready Meals,DailyDrop,500g,642,589.04,25.1,1,1,4.8,5.73,3.91
+PROD00505,Snacks,Cookies,PureHarvest,500g,561,434.22,28.26,0,1,3.2,8.52,9.91
+PROD00506,Beverages,Juice,SpiceRoute,1kg,320,272.2,6.04,1,1,4.7,3.16,4.97
+PROD00507,Snacks,Chips,HomeEase,250g,269,230.31,9.21,0,0,3.8,2.1,4.38
+PROD00508,Beverages,Juice,NutriMile,250g,396,326.25,13.14,0,0,3.8,2.26,4.52
+PROD00509,Dairy,Paneer,QuickChef,500g,237,205.35,32.54,0,1,3.3,9.28,9.52
+PROD00510,Beverages,Juice,FreshNest,250g,588,514.69,25.42,1,1,3.4,9.22,3.51
+PROD00511,Instant Meals,Ready Meals,QuickChef,500g,419,322.72,9.13,1,1,4.7,4.13,4.77
+PROD00512,Health & Wellness,Protein Powder,DailyDrop,750ml,740,692.42,27.72,0,0,4.7,2.71,7.24
+PROD00513,Beverages,Energy Drink,FreshNest,500g,574,529.01,29.12,0,0,4.5,6.02,4.17
+PROD00514,Beverages,Soft Drink,NutriMile,750ml,195,154.98,9.68,0,1,4.9,1.52,2.33
+PROD00515,Personal Care,Face Wash,PureHarvest,500g,655,499.76,33.81,0,0,3.6,1.09,8.41
+PROD00516,Health & Wellness,Granola,PureHarvest,1kg,206,191.3,30.51,0,0,5.0,5.05,9.38
+PROD00517,Personal Care,Face Wash,PureHarvest,500g,47,39.43,17.56,1,0,3.8,8.35,8.96
+PROD00518,Snacks,Protein Snacks,PureHarvest,500g,782,620.78,15.72,1,0,4.2,6.53,1.34
+PROD00519,Frozen Foods,Fries,QuickChef,750ml,789,765.31,7.62,1,0,4.7,7.4,6.95
+PROD00520,Beverages,Soft Drink,FitBite,1L,87,70.16,10.31,1,1,4.0,8.98,1.44
+PROD00521,Health & Wellness,Granola,HomeEase,1L,536,445.68,9.13,0,1,4.7,6.28,3.99
+PROD00522,Beverages,Energy Drink,QuickChef,750ml,605,547.99,9.19,0,0,4.4,1.94,3.05
+PROD00523,Personal Care,Shampoo,HomeEase,250g,708,677.31,16.78,0,1,4.8,3.49,4.09
+PROD00524,Beverages,Soft Drink,SpiceRoute,1kg,122,99.88,30.3,1,1,4.2,9.43,8.98
+PROD00525,Dairy,Paneer,DailyDrop,1L,787,753.4,20.92,0,1,4.3,7.76,9.86
+PROD00526,Instant Meals,Noodles,UrbanCrunch,250g,529,494.16,11.04,1,0,3.1,4.42,2.38
+PROD00527,Personal Care,Soap,NutriMile,1L,603,471.09,13.49,0,0,4.9,6.6,7.09
+PROD00528,Snacks,Cookies,UrbanCrunch,1kg,61,48.13,23.7,1,0,3.1,4.86,9.27
+PROD00529,Health & Wellness,Protein Powder,QuickChef,1kg,520,418.73,10.63,1,1,3.8,3.3,5.88
+PROD00530,Frozen Foods,Fries,DailyDrop,250g,365,337.85,22.38,1,0,4.9,7.37,4.66
+PROD00531,Beverages,Energy Drink,SpiceRoute,750ml,581,463.86,22.16,1,1,3.8,3.48,4.98
+PROD00532,Beverages,Cold Coffee,HomeEase,250g,575,497.94,32.43,0,1,4.7,8.4,4.06
+PROD00533,Snacks,Chips,HomeEase,1kg,290,257.05,7.51,0,1,3.4,4.13,6.86
+PROD00534,Frozen Foods,Ice Cream,UrbanCrunch,1kg,342,306.79,31.86,1,0,3.4,5.08,5.4
+PROD00535,Frozen Foods,Fries,HomeEase,1kg,600,495.27,9.11,0,0,3.6,4.44,9.68
+PROD00536,Frozen Foods,Frozen Pizza,FitBite,250g,745,710.58,33.89,1,0,4.1,3.69,3.69
+PROD00537,Dairy,Paneer,ChillSip,250g,728,679.29,21.56,1,1,4.9,3.77,9.89
+PROD00538,Health & Wellness,Oats,HomeEase,1kg,468,372.21,17.19,1,1,3.1,9.61,7.37
+PROD00539,Beverages,Soft Drink,SpiceRoute,500g,378,356.03,27.32,0,0,4.6,3.65,3.48
+PROD00540,Frozen Foods,Ice Cream,UrbanCrunch,1kg,774,741.24,34.6,1,0,4.8,8.67,8.13
+PROD00541,Health & Wellness,Granola,NutriMile,1L,57,52.1,29.65,1,0,4.7,4.62,6.62
+PROD00542,Personal Care,Shampoo,UrbanCrunch,1L,115,97.58,33.46,1,0,3.3,1.95,8.08
+PROD00543,Personal Care,Face Wash,NutriMile,750ml,420,387.93,15.46,0,1,3.9,1.0,3.75
+PROD00544,Beverages,Energy Drink,HomeEase,750ml,123,110.92,9.23,0,0,3.9,3.28,8.79
+PROD00545,Frozen Foods,Frozen Pizza,FreshNest,1kg,480,463.42,6.24,0,1,4.0,4.47,2.4
+PROD00546,Health & Wellness,Protein Powder,FitBite,250g,680,530.56,20.75,0,1,4.3,5.16,6.86
+PROD00547,Personal Care,Face Wash,HomeEase,1kg,194,154.18,19.2,1,1,5.0,1.69,7.33
+PROD00548,Snacks,Namkeen,NutriMile,750ml,702,565.49,11.51,1,1,3.1,6.27,9.74
+PROD00549,Instant Meals,Noodles,DailyDrop,250g,406,349.01,16.93,0,1,3.3,6.38,4.77
+PROD00550,Dairy,Paneer,SpiceRoute,1kg,496,389.31,13.86,1,1,4.5,6.21,7.52
+PROD00551,Instant Meals,Pasta,HomeEase,1kg,355,313.51,12.35,1,1,4.9,3.31,6.58
+PROD00552,Dairy,Milk,FreshNest,750ml,494,445.54,11.04,1,0,4.7,2.27,3.04
+PROD00553,Beverages,Juice,PureHarvest,750ml,731,652.83,27.5,1,0,3.7,9.37,2.59
+PROD00554,Dairy,Curd,FitBite,750ml,325,313.06,30.91,0,0,3.7,2.41,3.49
+PROD00555,Beverages,Cold Coffee,DailyDrop,1L,190,155.32,16.56,0,1,4.9,1.61,1.34
+PROD00556,Snacks,Chips,FitBite,1L,88,68.52,17.19,0,0,4.2,1.79,1.84
+PROD00557,Health & Wellness,Granola,ChillSip,500g,553,451.35,8.76,1,1,3.5,6.82,3.26
+PROD00558,Frozen Foods,Ice Cream,UrbanCrunch,250g,174,135.33,15.91,1,1,4.0,5.35,1.53
+PROD00559,Personal Care,Soap,FitBite,750ml,714,547.05,28.35,1,1,4.3,9.02,8.08
+PROD00560,Instant Meals,Pasta,NutriMile,1L,129,124.16,20.16,0,0,3.6,5.63,6.04
+PROD00561,Beverages,Energy Drink,FitBite,500g,88,83.84,10.59,1,0,4.7,5.62,8.84
+PROD00562,Instant Meals,Pasta,UrbanCrunch,750ml,542,459.6,11.64,0,1,5.0,6.31,6.83
+PROD00563,Personal Care,Shampoo,ChillSip,500g,800,670.58,10.01,1,0,4.1,9.56,1.4
+PROD00564,Personal Care,Soap,ChillSip,1L,149,127.69,11.82,1,1,3.7,7.08,8.67
+PROD00565,Beverages,Soft Drink,FitBite,750ml,322,256.1,21.26,0,1,4.0,5.08,8.95
+PROD00566,Snacks,Chips,HomeEase,750ml,378,322.88,33.72,0,1,3.0,1.88,8.14
+PROD00567,Instant Meals,Noodles,SpiceRoute,1kg,573,436.41,13.74,0,1,3.2,9.92,4.41
+PROD00568,Personal Care,Soap,SpiceRoute,250g,406,309.22,16.38,0,1,3.6,5.95,6.05
+PROD00569,Personal Care,Soap,HomeEase,1L,91,69.98,28.57,1,1,4.0,9.94,4.52
+PROD00570,Snacks,Namkeen,SpiceRoute,250g,667,622.68,28.05,1,0,3.4,4.65,1.21
+PROD00571,Instant Meals,Noodles,FitBite,250g,128,98.68,33.58,1,0,3.4,7.08,3.71
+PROD00572,Personal Care,Soap,PureHarvest,1L,227,191.33,5.8,1,1,4.5,6.97,8.32
+PROD00573,Health & Wellness,Granola,HomeEase,500g,726,618.5,31.56,0,1,4.1,8.46,8.87
+PROD00574,Dairy,Milk,SpiceRoute,750ml,387,327.66,5.37,1,0,4.7,4.53,8.62
+PROD00575,Beverages,Cold Coffee,DailyDrop,500g,53,48.83,28.89,1,0,5.0,3.47,7.49
+PROD00576,Snacks,Cookies,DailyDrop,1L,388,372.85,5.45,1,0,3.6,3.21,7.93
+PROD00577,Dairy,Milk,ChillSip,250g,727,697.4,22.12,0,0,4.2,1.73,9.84
+PROD00578,Beverages,Cold Coffee,NutriMile,250g,568,544.88,26.22,1,0,3.3,5.68,8.71
+PROD00579,Frozen Foods,Ice Cream,FitBite,500g,646,572.63,13.78,0,1,4.6,6.53,5.39
+PROD00580,Health & Wellness,Oats,QuickChef,750ml,165,135.48,21.38,0,0,3.5,7.4,2.99
+PROD00581,Dairy,Butter,DailyDrop,250g,759,665.41,20.76,1,0,4.3,7.86,6.19
+PROD00582,Snacks,Namkeen,ChillSip,1L,674,526.73,29.61,1,0,4.8,4.87,5.05
+PROD00583,Instant Meals,Pasta,UrbanCrunch,250g,418,393.76,29.31,0,0,3.1,7.45,4.37
+PROD00584,Snacks,Chips,HomeEase,500g,390,377.31,13.64,0,0,4.1,6.54,2.34
+PROD00585,Health & Wellness,Protein Powder,QuickChef,750ml,472,380.62,18.68,0,0,3.3,6.38,2.0
+PROD00586,Frozen Foods,Frozen Pizza,SpiceRoute,250g,326,311.69,11.21,1,0,4.0,7.39,9.67
+PROD00587,Instant Meals,Ready Meals,QuickChef,750ml,572,486.97,22.35,0,1,3.6,5.22,1.67
+PROD00588,Snacks,Chips,PureHarvest,750ml,636,608.45,34.09,1,0,3.2,8.82,9.13
+PROD00589,Dairy,Butter,QuickChef,500g,699,550.91,30.84,1,1,4.3,4.42,5.52
+PROD00590,Health & Wellness,Protein Powder,UrbanCrunch,750ml,106,89.59,25.27,0,1,4.7,4.46,4.54
+PROD00591,Instant Meals,Pasta,UrbanCrunch,250g,282,236.01,34.1,0,1,3.1,2.28,3.68
+PROD00592,Snacks,Namkeen,HomeEase,1L,486,452.78,23.51,0,1,4.4,4.3,2.02
+PROD00593,Personal Care,Soap,DailyDrop,250g,787,606.59,5.01,0,1,3.7,4.62,8.5
+PROD00594,Personal Care,Face Wash,DailyDrop,750ml,81,68.56,26.72,0,0,4.6,8.51,4.07
+PROD00595,Frozen Foods,Ice Cream,SpiceRoute,750ml,68,57.99,33.74,0,0,3.0,9.38,6.77
+PROD00596,Personal Care,Soap,PureHarvest,750ml,720,705.14,15.96,1,0,3.4,5.54,1.67
+PROD00597,Snacks,Namkeen,NutriMile,750ml,420,339.29,21.98,0,0,3.7,7.12,1.94
+PROD00598,Frozen Foods,Frozen Pizza,HomeEase,1L,700,554.67,13.43,1,0,3.4,1.5,3.21
+PROD00599,Instant Meals,Pasta,PureHarvest,1L,695,611.42,7.06,0,0,4.1,2.0,3.27
+PROD00600,Personal Care,Face Wash,ChillSip,1L,71,55.93,12.63,1,0,4.1,6.97,7.87
+PROD00601,Snacks,Protein Snacks,SpiceRoute,250g,644,608.68,17.28,0,0,3.1,7.42,4.66
+PROD00602,Snacks,Chips,UrbanCrunch,250g,288,236.96,8.77,0,1,4.9,6.63,7.01
+PROD00603,Instant Meals,Ready Meals,UrbanCrunch,500g,346,301.21,32.93,1,0,3.4,5.07,5.61
+PROD00604,Frozen Foods,Frozen Pizza,PureHarvest,500g,375,313.05,34.36,0,1,4.3,8.1,8.76
+PROD00605,Beverages,Energy Drink,SpiceRoute,250g,686,668.68,8.4,1,1,3.5,6.85,8.85
+PROD00606,Beverages,Juice,SpiceRoute,1kg,602,501.38,25.91,0,0,4.1,2.34,1.27
+PROD00607,Dairy,Curd,FitBite,500g,516,446.5,19.05,0,0,3.9,2.13,3.28
+PROD00608,Frozen Foods,Ice Cream,DailyDrop,1L,678,511.97,20.56,0,0,3.7,5.03,2.25
+PROD00609,Snacks,Namkeen,UrbanCrunch,1L,244,185.69,13.01,0,0,4.9,7.06,8.46
+PROD00610,Health & Wellness,Granola,UrbanCrunch,1L,50,42.18,17.92,0,1,3.7,2.66,1.59
+PROD00611,Snacks,Cookies,FreshNest,500g,663,564.77,10.8,0,0,3.3,9.41,4.21
+PROD00612,Frozen Foods,Frozen Pizza,ChillSip,750ml,254,213.6,9.52,0,1,4.7,5.57,3.62
+PROD00613,Personal Care,Shampoo,DailyDrop,1L,253,192.68,7.31,0,0,3.5,7.35,2.4
+PROD00614,Instant Meals,Pasta,UrbanCrunch,250g,451,428.59,33.77,0,0,3.6,3.78,2.42
+PROD00615,Dairy,Butter,DailyDrop,1kg,747,635.01,16.38,0,1,4.8,5.37,5.3
+PROD00616,Snacks,Namkeen,NutriMile,500g,164,157.26,16.84,0,0,3.2,8.72,1.79
+PROD00617,Health & Wellness,Protein Powder,DailyDrop,1L,419,326.92,17.23,0,1,4.4,6.57,2.47
+PROD00618,Dairy,Paneer,SpiceRoute,750ml,419,323.93,24.42,0,1,3.1,8.1,9.69
+PROD00619,Personal Care,Shampoo,SpiceRoute,750ml,709,543.78,17.83,0,1,4.8,3.38,2.67
+PROD00620,Dairy,Curd,HomeEase,1L,107,88.34,28.7,1,0,4.4,4.7,3.69
+PROD00621,Instant Meals,Noodles,NutriMile,1kg,605,487.04,7.98,1,0,3.2,1.97,6.1
+PROD00622,Snacks,Namkeen,FreshNest,1L,160,141.31,13.35,0,0,3.8,7.19,5.61
+PROD00623,Frozen Foods,Frozen Pizza,PureHarvest,500g,558,431.74,15.16,0,1,4.6,7.41,6.23
+PROD00624,Snacks,Cookies,FreshNest,250g,482,395.02,7.08,1,1,3.2,2.82,8.35
+PROD00625,Instant Meals,Ready Meals,UrbanCrunch,500g,491,473.86,15.23,1,1,4.9,7.18,1.96
+PROD00626,Health & Wellness,Granola,QuickChef,1kg,238,211.34,20.94,1,1,3.2,1.54,5.51
+PROD00627,Snacks,Cookies,QuickChef,250g,582,558.37,25.12,1,0,4.6,9.73,7.69
+PROD00628,Snacks,Namkeen,SpiceRoute,1L,82,72.41,6.18,0,0,4.8,3.84,1.19
+PROD00629,Snacks,Namkeen,FreshNest,1L,346,317.34,12.35,1,0,4.3,2.24,5.43
+PROD00630,Snacks,Namkeen,FitBite,500g,140,106.6,10.31,0,0,4.4,6.56,5.44
+PROD00631,Frozen Foods,Fries,HomeEase,750ml,305,252.8,31.61,0,1,5.0,9.11,6.4
+PROD00632,Snacks,Cookies,NutriMile,1L,436,387.42,25.98,0,0,4.9,9.75,8.25
+PROD00633,Personal Care,Face Wash,ChillSip,500g,498,382.63,19.44,1,1,3.1,7.01,7.81
+PROD00634,Snacks,Cookies,NutriMile,250g,607,541.64,21.53,0,1,3.7,2.91,7.52
+PROD00635,Personal Care,Shampoo,FreshNest,500g,89,80.65,17.04,1,1,4.0,5.2,9.81
+PROD00636,Personal Care,Soap,DailyDrop,250g,124,120.85,23.28,1,0,4.2,8.74,6.16
+PROD00637,Snacks,Cookies,FreshNest,500g,455,352.34,16.95,1,0,3.7,1.4,9.23
+PROD00638,Dairy,Butter,NutriMile,500g,50,37.71,31.15,0,0,3.2,7.46,7.22
+PROD00639,Beverages,Energy Drink,FitBite,500g,518,459.92,10.16,1,0,4.7,9.19,1.96
+PROD00640,Dairy,Butter,QuickChef,500g,255,196.93,28.8,1,1,3.6,1.34,2.28
+PROD00641,Instant Meals,Noodles,PureHarvest,500g,78,62.17,19.03,1,0,4.2,5.36,5.85
+PROD00642,Snacks,Namkeen,SpiceRoute,500g,364,314.69,8.39,1,1,4.0,7.39,4.4
+PROD00643,Beverages,Soft Drink,FitBite,750ml,138,110.73,28.25,0,0,4.8,3.6,1.35
+PROD00644,Snacks,Protein Snacks,SpiceRoute,1kg,291,259.2,20.18,0,0,4.8,8.32,9.71
+PROD00645,Personal Care,Face Wash,FitBite,1kg,249,235.18,15.51,1,1,4.1,8.1,7.26
+PROD00646,Dairy,Butter,UrbanCrunch,750ml,299,231.23,13.96,0,0,4.7,3.47,1.04
+PROD00647,Personal Care,Shampoo,SpiceRoute,500g,625,552.42,20.55,1,1,3.8,2.24,5.25
+PROD00648,Snacks,Cookies,FreshNest,1kg,478,453.52,22.36,0,0,3.5,7.5,3.15
+PROD00649,Personal Care,Soap,NutriMile,750ml,190,159.65,20.77,0,1,4.1,1.85,4.97
+PROD00650,Snacks,Chips,HomeEase,1kg,457,348.51,14.89,1,1,4.9,2.31,1.28
+PROD00651,Frozen Foods,Ice Cream,NutriMile,500g,548,458.22,13.04,0,1,3.2,3.46,9.47
+PROD00652,Health & Wellness,Protein Powder,UrbanCrunch,1L,737,585.78,15.53,1,1,4.5,1.52,4.21
+PROD00653,Personal Care,Face Wash,FreshNest,500g,746,686.53,30.16,1,0,4.2,6.45,3.49
+PROD00654,Dairy,Butter,FitBite,1kg,776,740.35,25.41,0,0,4.7,3.17,5.37
+PROD00655,Instant Meals,Ready Meals,ChillSip,1L,153,148.24,20.33,1,1,4.9,6.46,2.14
+PROD00656,Dairy,Butter,UrbanCrunch,750ml,323,282.77,34.02,1,1,4.5,9.83,2.17
+PROD00657,Beverages,Cold Coffee,FitBite,750ml,641,546.35,9.82,0,0,3.5,2.3,5.87
+PROD00658,Health & Wellness,Oats,ChillSip,1kg,642,519.3,25.6,1,1,3.1,2.69,3.48
+PROD00659,Snacks,Cookies,FitBite,250g,135,131.17,11.36,1,1,4.6,3.81,5.25
+PROD00660,Health & Wellness,Protein Powder,FreshNest,750ml,297,252.0,28.46,1,0,4.3,9.52,7.18
+PROD00661,Personal Care,Shampoo,PureHarvest,1L,329,259.72,14.02,1,0,4.0,5.79,5.31
+PROD00662,Health & Wellness,Protein Powder,HomeEase,750ml,447,371.87,7.64,0,0,3.9,4.89,5.86
+PROD00663,Dairy,Paneer,DailyDrop,1L,42,41.04,9.45,1,1,3.8,1.75,8.45
+PROD00664,Personal Care,Face Wash,NutriMile,1kg,610,473.16,19.27,1,0,4.2,9.78,5.47
+PROD00665,Health & Wellness,Granola,NutriMile,1kg,154,129.96,17.95,1,1,3.6,5.57,5.76
+PROD00666,Health & Wellness,Oats,UrbanCrunch,1kg,56,50.28,7.22,1,1,4.2,9.39,4.57
+PROD00667,Beverages,Cold Coffee,PureHarvest,500g,106,94.92,14.85,1,1,3.2,7.28,1.02
+PROD00668,Beverages,Energy Drink,FitBite,1L,368,343.01,33.31,0,0,3.5,8.58,6.76
+PROD00669,Personal Care,Soap,UrbanCrunch,250g,537,471.07,6.68,0,0,4.0,3.7,8.74
+PROD00670,Beverages,Energy Drink,QuickChef,500g,232,187.79,18.24,1,1,4.2,4.7,5.48
+PROD00671,Dairy,Paneer,DailyDrop,1L,648,544.55,5.77,0,0,4.3,9.72,8.86
+PROD00672,Dairy,Milk,DailyDrop,1kg,218,191.65,11.03,0,1,4.3,4.6,3.48
+PROD00673,Frozen Foods,Frozen Pizza,UrbanCrunch,1kg,287,252.0,6.13,0,0,3.9,3.33,4.31
+PROD00674,Beverages,Cold Coffee,QuickChef,250g,94,72.28,9.73,1,0,4.2,8.41,7.16
+PROD00675,Dairy,Curd,NutriMile,1kg,548,467.62,23.72,0,1,4.5,4.1,9.46
+PROD00676,Instant Meals,Pasta,ChillSip,1L,681,558.72,6.55,0,0,4.8,7.46,2.45
+PROD00677,Dairy,Curd,HomeEase,750ml,350,303.68,19.79,0,1,4.9,8.77,3.83
+PROD00678,Dairy,Curd,FitBite,250g,250,233.07,9.31,1,1,3.4,3.52,1.98
+PROD00679,Frozen Foods,Frozen Pizza,QuickChef,1kg,778,723.13,33.99,0,0,3.0,4.69,9.7
+PROD00680,Instant Meals,Pasta,DailyDrop,1L,540,461.71,31.1,1,1,4.9,6.38,9.14
+PROD00681,Instant Meals,Pasta,DailyDrop,1L,660,549.27,18.22,0,0,4.3,8.97,2.17
+PROD00682,Personal Care,Soap,PureHarvest,500g,720,704.08,30.05,0,0,3.0,1.84,5.57
+PROD00683,Health & Wellness,Oats,SpiceRoute,1L,351,268.86,28.88,1,0,3.2,8.83,5.74
+PROD00684,Personal Care,Shampoo,QuickChef,250g,399,328.33,33.18,1,0,3.5,5.58,4.17
+PROD00685,Personal Care,Shampoo,QuickChef,1kg,121,90.96,32.41,0,1,4.8,9.41,3.71
+PROD00686,Snacks,Chips,FreshNest,1L,458,352.42,7.03,1,0,3.1,5.78,5.96
+PROD00687,Health & Wellness,Oats,QuickChef,500g,454,354.55,7.88,1,0,4.1,7.03,3.65
+PROD00688,Snacks,Chips,DailyDrop,750ml,419,381.55,12.98,1,1,3.1,9.76,4.09
+PROD00689,Dairy,Curd,QuickChef,500g,746,607.06,32.48,0,1,3.5,6.9,8.46
+PROD00690,Snacks,Namkeen,FitBite,250g,74,72.24,21.65,1,1,4.5,3.44,7.76
+PROD00691,Dairy,Curd,ChillSip,500g,479,380.24,12.63,1,0,3.3,7.35,7.11
+PROD00692,Frozen Foods,Frozen Pizza,PureHarvest,250g,736,674.45,11.47,1,1,4.2,6.94,3.72
+PROD00693,Instant Meals,Noodles,DailyDrop,250g,395,360.11,34.23,0,1,4.5,2.46,7.05
+PROD00694,Instant Meals,Noodles,QuickChef,1kg,749,613.21,33.69,1,0,4.9,5.25,7.18
+PROD00695,Personal Care,Shampoo,PureHarvest,1L,48,40.84,26.99,1,0,4.8,7.33,8.32
+PROD00696,Personal Care,Soap,FitBite,750ml,554,423.69,17.4,1,1,4.7,8.66,3.33
+PROD00697,Beverages,Soft Drink,PureHarvest,1L,207,181.26,31.69,0,1,4.2,7.74,6.68
+PROD00698,Beverages,Juice,NutriMile,500g,254,227.97,34.96,0,0,3.4,6.96,3.8
+PROD00699,Beverages,Juice,DailyDrop,1L,94,74.25,16.73,1,0,3.7,9.94,6.54
+PROD00700,Personal Care,Face Wash,FitBite,750ml,237,223.41,16.54,1,0,3.4,1.74,8.65
+PROD00701,Beverages,Cold Coffee,HomeEase,500g,587,491.47,27.73,1,1,4.9,7.41,3.0
+PROD00702,Snacks,Protein Snacks,NutriMile,500g,133,107.17,22.92,0,0,3.8,8.35,5.01
+PROD00703,Health & Wellness,Protein Powder,HomeEase,500g,381,367.24,26.87,0,0,4.4,5.56,9.1
+PROD00704,Frozen Foods,Ice Cream,FreshNest,250g,619,516.94,17.41,1,1,3.6,4.99,1.01
+PROD00705,Beverages,Soft Drink,UrbanCrunch,1L,570,443.58,24.93,1,1,4.5,1.94,9.12
+PROD00706,Dairy,Milk,QuickChef,1L,551,501.33,8.14,1,0,4.7,6.08,7.23
+PROD00707,Beverages,Soft Drink,UrbanCrunch,1kg,604,527.98,34.88,0,0,5.0,2.35,6.47
+PROD00708,Instant Meals,Pasta,QuickChef,1L,41,39.57,10.04,0,1,3.3,2.81,7.86
+PROD00709,Snacks,Cookies,ChillSip,500g,83,65.75,34.7,0,1,5.0,8.39,1.99
+PROD00710,Health & Wellness,Granola,DailyDrop,750ml,544,500.5,12.77,0,0,4.2,2.04,1.64
+PROD00711,Instant Meals,Noodles,FreshNest,250g,642,491.0,17.42,1,1,3.1,2.39,6.91
+PROD00712,Frozen Foods,Frozen Pizza,FreshNest,1kg,530,410.5,29.21,1,0,4.2,9.79,1.69
+PROD00713,Personal Care,Soap,ChillSip,1kg,601,495.2,28.49,0,0,3.2,2.88,1.6
+PROD00714,Dairy,Butter,NutriMile,500g,458,394.33,34.56,0,1,4.3,5.33,2.93
+PROD00715,Personal Care,Face Wash,UrbanCrunch,250g,231,211.84,12.96,1,0,4.1,8.18,9.19
+PROD00716,Personal Care,Soap,HomeEase,1L,146,118.18,14.88,1,1,5.0,1.92,3.34
+PROD00717,Personal Care,Shampoo,QuickChef,500g,102,98.32,20.72,1,1,3.0,7.71,5.01
+PROD00718,Instant Meals,Pasta,HomeEase,1L,47,36.35,18.14,1,0,4.2,9.6,5.99
+PROD00719,Health & Wellness,Oats,HomeEase,500g,98,92.67,22.97,0,0,4.3,7.13,8.2
+PROD00720,Snacks,Cookies,DailyDrop,750ml,515,504.14,33.07,0,1,4.9,2.38,2.47
+PROD00721,Frozen Foods,Fries,ChillSip,1L,132,100.77,19.77,0,0,3.7,3.03,5.17
+PROD00722,Beverages,Energy Drink,UrbanCrunch,750ml,337,264.18,34.55,0,0,4.1,6.21,2.56
+PROD00723,Instant Meals,Noodles,HomeEase,500g,302,229.38,27.38,1,0,3.3,2.12,6.83
+PROD00724,Instant Meals,Ready Meals,NutriMile,1kg,694,525.44,23.7,1,1,4.0,3.36,1.04
+PROD00725,Beverages,Energy Drink,DailyDrop,1kg,777,665.38,13.56,1,0,3.7,2.12,4.61
+PROD00726,Health & Wellness,Granola,DailyDrop,1kg,590,517.89,12.62,1,1,4.3,1.03,1.54
+PROD00727,Personal Care,Soap,FitBite,250g,495,484.28,6.71,1,1,3.8,6.57,4.14
+PROD00728,Personal Care,Soap,SpiceRoute,750ml,576,442.32,25.42,0,0,3.9,7.24,3.87
+PROD00729,Beverages,Energy Drink,SpiceRoute,750ml,155,120.28,24.29,0,1,3.8,4.43,5.98
+PROD00730,Beverages,Cold Coffee,QuickChef,250g,43,32.74,7.85,0,0,4.2,4.13,3.85
+PROD00731,Health & Wellness,Granola,QuickChef,250g,634,587.92,30.56,0,1,3.6,1.24,6.18
+PROD00732,Dairy,Curd,NutriMile,250g,688,553.83,34.49,0,0,4.2,5.8,1.05
+PROD00733,Frozen Foods,Fries,UrbanCrunch,500g,100,93.41,26.99,0,0,3.3,6.44,7.41
+PROD00734,Beverages,Juice,HomeEase,1L,194,146.17,6.35,1,1,3.3,5.68,6.32
+PROD00735,Personal Care,Soap,SpiceRoute,750ml,231,197.07,28.18,1,1,3.1,7.78,1.92
+PROD00736,Personal Care,Shampoo,UrbanCrunch,500g,658,589.2,25.32,1,0,3.6,7.22,6.06
+PROD00737,Beverages,Soft Drink,HomeEase,250g,632,583.2,11.69,1,0,3.2,2.9,2.31
+PROD00738,Personal Care,Soap,FreshNest,1L,770,606.39,11.42,1,1,3.6,8.16,5.06
+PROD00739,Frozen Foods,Fries,HomeEase,1kg,339,266.82,12.75,1,1,4.5,8.94,5.54
+PROD00740,Personal Care,Face Wash,DailyDrop,1L,741,578.36,14.46,1,0,3.6,4.66,5.91
+PROD00741,Health & Wellness,Oats,FreshNest,1kg,692,521.91,24.75,1,0,3.1,8.24,7.4
+PROD00742,Dairy,Paneer,PureHarvest,1kg,560,542.81,21.69,1,0,3.5,7.18,8.19
+PROD00743,Health & Wellness,Protein Powder,FreshNest,250g,120,106.41,32.25,0,1,3.2,6.0,9.58
+PROD00744,Frozen Foods,Fries,PureHarvest,750ml,600,585.88,27.22,1,1,4.0,6.3,2.93
+PROD00745,Beverages,Energy Drink,ChillSip,250g,80,71.24,30.8,0,1,5.0,4.23,9.65
+PROD00746,Personal Care,Soap,HomeEase,1kg,670,517.58,22.7,1,0,4.1,5.92,9.49
+PROD00747,Frozen Foods,Frozen Pizza,QuickChef,1L,436,385.22,29.7,0,1,4.2,4.91,4.85
+PROD00748,Personal Care,Shampoo,DailyDrop,250g,616,592.42,12.27,1,0,4.0,5.55,1.35
+PROD00749,Dairy,Milk,ChillSip,750ml,67,57.3,17.94,1,1,4.9,9.85,4.95
+PROD00750,Snacks,Protein Snacks,PureHarvest,500g,634,617.35,17.16,1,1,4.9,2.44,6.0
+PROD00751,Snacks,Cookies,FitBite,1kg,749,694.87,24.79,0,0,3.5,3.44,9.8
+PROD00752,Personal Care,Face Wash,QuickChef,1kg,497,486.73,5.98,0,1,4.9,3.37,5.08
+PROD00753,Instant Meals,Noodles,PureHarvest,500g,514,454.16,14.06,1,0,4.0,5.4,3.47
+PROD00754,Health & Wellness,Granola,ChillSip,1kg,559,429.23,20.0,1,0,3.6,1.19,2.03
+PROD00755,Frozen Foods,Fries,UrbanCrunch,250g,267,259.51,26.26,1,1,3.2,8.15,9.67
+PROD00756,Instant Meals,Ready Meals,PureHarvest,1kg,424,361.92,29.5,0,1,3.7,6.9,5.39
+PROD00757,Health & Wellness,Protein Powder,ChillSip,1kg,793,698.02,18.47,1,1,4.7,1.12,8.97
+PROD00758,Instant Meals,Noodles,FreshNest,1L,588,574.94,34.39,1,0,3.8,6.72,9.92
+PROD00759,Dairy,Milk,SpiceRoute,1L,382,350.78,30.06,0,1,3.5,1.88,4.16
+PROD00760,Personal Care,Soap,ChillSip,1kg,149,137.48,17.14,1,0,3.3,1.16,7.73
+PROD00761,Frozen Foods,Frozen Pizza,HomeEase,750ml,388,339.6,31.17,1,1,3.5,2.83,9.32
+PROD00762,Snacks,Protein Snacks,FreshNest,1kg,388,317.13,25.12,0,1,3.1,2.71,3.55
+PROD00763,Frozen Foods,Ice Cream,SpiceRoute,500g,696,555.81,28.89,1,0,4.9,1.67,7.94
+PROD00764,Health & Wellness,Oats,HomeEase,1L,76,67.22,32.21,0,0,3.4,1.21,1.13
+PROD00765,Snacks,Protein Snacks,UrbanCrunch,1L,114,94.93,29.69,1,1,4.8,2.53,2.86
+PROD00766,Instant Meals,Noodles,QuickChef,500g,735,590.62,26.88,0,0,3.8,6.33,1.0
+PROD00767,Health & Wellness,Oats,UrbanCrunch,750ml,501,381.8,29.12,0,0,5.0,8.37,3.94
+PROD00768,Beverages,Soft Drink,FitBite,1kg,499,476.95,10.5,0,0,4.9,6.01,9.29
+PROD00769,Snacks,Chips,DailyDrop,750ml,558,441.32,20.07,0,1,3.9,6.93,4.05
+PROD00770,Dairy,Curd,FitBite,1kg,430,362.05,31.06,1,1,3.4,7.56,5.83
+PROD00771,Snacks,Cookies,PureHarvest,750ml,391,349.24,17.55,1,0,3.3,6.48,8.03
+PROD00772,Snacks,Namkeen,SpiceRoute,1L,306,296.05,33.34,1,0,3.3,5.33,4.06
+PROD00773,Personal Care,Soap,ChillSip,1kg,162,128.87,25.93,1,0,3.3,9.06,6.94
+PROD00774,Beverages,Soft Drink,UrbanCrunch,500g,664,611.95,28.08,0,1,3.1,6.54,9.55
+PROD00775,Frozen Foods,Frozen Pizza,FreshNest,500g,596,568.63,19.8,0,0,3.5,7.38,3.45
+PROD00776,Beverages,Energy Drink,QuickChef,1L,419,329.5,21.78,0,1,4.7,7.99,1.42
+PROD00777,Dairy,Paneer,NutriMile,250g,784,632.28,30.14,0,0,3.1,5.84,4.23
+PROD00778,Dairy,Milk,ChillSip,1L,491,426.63,31.99,1,1,4.0,1.19,2.19
+PROD00779,Dairy,Milk,ChillSip,500g,371,355.59,25.05,0,0,4.7,4.72,3.31
+PROD00780,Health & Wellness,Granola,DailyDrop,750ml,713,577.76,29.3,0,0,4.9,5.09,1.64
+PROD00781,Personal Care,Face Wash,UrbanCrunch,500g,412,339.15,23.71,0,0,4.9,9.71,4.55
+PROD00782,Frozen Foods,Frozen Pizza,DailyDrop,1L,544,458.7,24.36,0,0,3.3,4.91,2.64
+PROD00783,Beverages,Cold Coffee,SpiceRoute,750ml,568,450.08,5.61,0,1,4.4,3.34,8.6
+PROD00784,Frozen Foods,Fries,FitBite,1kg,564,488.2,20.67,1,1,4.3,1.91,6.83
+PROD00785,Frozen Foods,Fries,ChillSip,250g,224,193.87,11.22,1,0,3.2,8.06,8.35
+PROD00786,Personal Care,Face Wash,HomeEase,500g,620,534.63,24.96,0,1,3.2,7.93,9.24
+PROD00787,Personal Care,Face Wash,FitBite,250g,388,361.27,34.91,0,0,3.0,8.5,1.14
+PROD00788,Frozen Foods,Frozen Pizza,NutriMile,500g,76,65.0,21.18,1,0,3.2,3.89,2.11
+PROD00789,Dairy,Milk,NutriMile,500g,527,477.24,31.81,1,0,4.0,8.53,2.44
+PROD00790,Frozen Foods,Ice Cream,FreshNest,500g,264,250.41,6.09,0,1,4.9,2.79,1.02
+PROD00791,Frozen Foods,Fries,DailyDrop,250g,667,501.91,30.93,0,1,4.9,5.77,6.84
+PROD00792,Dairy,Milk,FitBite,1kg,162,137.65,33.77,1,1,3.5,7.69,7.88
+PROD00793,Snacks,Chips,QuickChef,250g,672,591.48,18.15,1,1,4.1,8.12,5.33
+PROD00794,Dairy,Curd,HomeEase,1L,700,590.12,30.75,0,1,3.8,3.29,3.86
+PROD00795,Snacks,Chips,UrbanCrunch,250g,463,398.34,31.13,0,1,4.4,1.75,5.18
+PROD00796,Snacks,Chips,FreshNest,1L,159,142.1,5.5,0,0,3.1,3.98,9.06
+PROD00797,Instant Meals,Pasta,PureHarvest,1kg,629,559.53,21.45,0,1,4.2,2.14,9.66
+PROD00798,Instant Meals,Ready Meals,FreshNest,250g,683,528.72,14.94,0,1,4.9,6.68,1.81
+PROD00799,Health & Wellness,Granola,PureHarvest,1L,78,69.0,12.59,1,0,4.8,5.5,7.12
+PROD00800,Dairy,Butter,QuickChef,1L,583,515.46,12.63,1,0,3.8,8.64,6.34
+PROD00801,Instant Meals,Pasta,FreshNest,500g,566,493.08,29.42,1,1,3.8,3.21,7.88
+PROD00802,Instant Meals,Ready Meals,NutriMile,750ml,110,91.11,29.89,0,1,4.5,5.79,9.93
+PROD00803,Frozen Foods,Fries,FreshNest,1kg,552,460.53,30.99,0,0,3.5,7.57,7.89
+PROD00804,Instant Meals,Noodles,FitBite,750ml,259,231.97,24.33,1,1,3.4,9.37,5.67
+PROD00805,Frozen Foods,Fries,NutriMile,1kg,366,320.46,18.8,0,1,3.9,2.0,9.59
+PROD00806,Snacks,Protein Snacks,SpiceRoute,250g,745,568.03,15.33,1,1,3.5,6.51,2.5
+PROD00807,Beverages,Energy Drink,DailyDrop,1L,60,48.99,21.84,1,0,4.7,8.78,5.11
+PROD00808,Beverages,Cold Coffee,FreshNest,250g,478,392.21,19.95,1,0,3.9,2.96,5.07
+PROD00809,Personal Care,Soap,NutriMile,750ml,500,427.8,7.33,0,0,3.3,3.77,4.73
+PROD00810,Dairy,Milk,DailyDrop,500g,537,462.63,11.53,1,1,4.6,4.3,5.33
+PROD00811,Frozen Foods,Frozen Pizza,UrbanCrunch,500g,485,391.45,8.37,1,0,5.0,5.54,8.53
+PROD00812,Personal Care,Face Wash,NutriMile,500g,411,338.31,11.06,1,1,3.4,6.69,5.3
+PROD00813,Dairy,Curd,ChillSip,750ml,737,555.28,31.55,0,0,3.6,6.84,1.5
+PROD00814,Beverages,Energy Drink,QuickChef,250g,795,600.27,29.04,0,0,4.6,1.95,7.66
+PROD00815,Snacks,Cookies,PureHarvest,500g,293,257.3,18.03,0,1,4.2,8.25,1.17
+PROD00816,Dairy,Butter,FitBite,1L,472,356.35,5.31,0,0,3.3,3.06,7.73
+PROD00817,Personal Care,Face Wash,HomeEase,250g,763,609.39,15.92,1,1,4.3,5.78,8.86
+PROD00818,Snacks,Cookies,ChillSip,250g,747,632.11,14.53,0,0,4.3,7.69,1.72
+PROD00819,Snacks,Namkeen,SpiceRoute,750ml,749,623.51,27.55,0,1,4.7,6.4,5.57
+PROD00820,Health & Wellness,Protein Powder,ChillSip,1L,688,536.52,9.08,0,1,3.8,2.84,6.98
+PROD00821,Beverages,Energy Drink,UrbanCrunch,750ml,384,356.52,28.84,1,0,3.0,6.66,7.06
+PROD00822,Snacks,Namkeen,ChillSip,1L,50,41.9,11.37,1,0,3.7,9.59,2.34
+PROD00823,Dairy,Curd,FitBite,500g,697,628.51,31.94,0,0,3.7,8.37,1.18
+PROD00824,Frozen Foods,Fries,FitBite,1L,394,381.26,33.48,1,1,4.4,1.54,1.32
+PROD00825,Personal Care,Shampoo,PureHarvest,1L,353,317.77,30.6,1,1,4.1,4.98,4.5
+PROD00826,Instant Meals,Pasta,PureHarvest,1L,667,549.99,22.79,0,1,4.4,1.27,4.35
+PROD00827,Health & Wellness,Oats,SpiceRoute,750ml,566,469.65,10.9,0,1,3.3,3.84,1.42
+PROD00828,Instant Meals,Pasta,SpiceRoute,1L,229,192.78,23.06,0,0,3.9,1.79,8.67
+PROD00829,Frozen Foods,Fries,FreshNest,500g,603,570.65,7.58,1,0,3.5,6.94,7.28
+PROD00830,Beverages,Energy Drink,ChillSip,750ml,210,176.25,20.04,1,1,3.3,1.91,5.07
+PROD00831,Personal Care,Face Wash,NutriMile,1L,490,428.88,10.95,0,1,4.7,9.59,4.05
+PROD00832,Dairy,Curd,DailyDrop,250g,503,459.77,34.87,1,0,3.7,3.43,8.38
+PROD00833,Personal Care,Face Wash,DailyDrop,250g,769,591.09,33.02,1,1,3.8,7.36,9.03
+PROD00834,Health & Wellness,Oats,FitBite,1L,729,602.25,34.17,0,1,3.2,9.67,7.97
+PROD00835,Personal Care,Soap,UrbanCrunch,500g,608,551.1,23.44,0,1,4.3,9.37,9.47
+PROD00836,Snacks,Protein Snacks,HomeEase,1kg,330,247.9,21.1,0,1,3.6,9.91,5.26
+PROD00837,Personal Care,Shampoo,FitBite,1kg,584,493.9,11.16,0,1,3.8,7.22,6.9
+PROD00838,Beverages,Cold Coffee,FreshNest,1kg,582,556.41,32.69,1,1,3.2,6.25,8.93
+PROD00839,Frozen Foods,Ice Cream,ChillSip,750ml,457,417.68,27.03,0,1,4.4,6.17,5.98
+PROD00840,Health & Wellness,Protein Powder,DailyDrop,1L,377,302.57,14.36,1,0,3.9,1.9,7.78
+PROD00841,Personal Care,Soap,FreshNest,250g,66,56.34,34.38,0,1,4.1,8.21,2.19
+PROD00842,Frozen Foods,Fries,FitBite,250g,239,192.48,13.22,1,0,3.6,9.37,7.09
+PROD00843,Dairy,Paneer,SpiceRoute,500g,424,413.75,6.08,0,1,4.2,7.76,4.3
+PROD00844,Personal Care,Face Wash,FitBite,500g,254,217.46,24.18,0,0,5.0,7.92,6.91
+PROD00845,Dairy,Milk,HomeEase,1kg,475,377.81,20.84,0,1,3.3,5.93,3.71
+PROD00846,Instant Meals,Ready Meals,HomeEase,1L,202,188.23,28.02,1,1,3.2,6.52,5.04
+PROD00847,Beverages,Cold Coffee,HomeEase,1kg,725,637.0,33.02,0,0,3.3,4.16,4.87
+PROD00848,Snacks,Namkeen,NutriMile,1kg,214,183.77,34.1,1,0,3.5,3.91,6.7
+PROD00849,Frozen Foods,Ice Cream,FitBite,250g,109,88.71,18.04,0,1,4.7,4.64,8.53
+PROD00850,Beverages,Soft Drink,HomeEase,1kg,733,612.43,9.4,1,0,3.4,1.65,4.77
+PROD00851,Beverages,Juice,FitBite,750ml,239,225.79,27.35,1,1,4.0,9.34,3.45
+PROD00852,Dairy,Butter,DailyDrop,1L,339,302.2,7.49,0,1,4.1,6.58,7.24
+PROD00853,Health & Wellness,Granola,QuickChef,250g,694,623.99,16.03,1,0,3.6,1.92,3.54
+PROD00854,Snacks,Protein Snacks,NutriMile,750ml,655,548.28,20.23,1,0,3.9,9.77,1.63
+PROD00855,Frozen Foods,Fries,FitBite,500g,185,141.79,17.0,1,1,3.7,7.5,1.25
+PROD00856,Frozen Foods,Frozen Pizza,FitBite,250g,677,621.64,13.2,1,1,3.3,5.27,2.48
+PROD00857,Snacks,Chips,SpiceRoute,750ml,590,506.91,24.33,1,0,4.3,2.56,9.22
+PROD00858,Personal Care,Face Wash,UrbanCrunch,500g,611,533.22,19.05,0,0,3.2,2.73,7.56
+PROD00859,Snacks,Chips,FreshNest,250g,684,564.03,11.88,1,1,4.0,6.87,6.19
+PROD00860,Dairy,Paneer,UrbanCrunch,1kg,457,417.08,21.06,0,1,4.2,8.67,4.46
+PROD00861,Health & Wellness,Oats,PureHarvest,1kg,41,40.1,6.19,1,1,3.8,8.24,5.2
+PROD00862,Beverages,Energy Drink,UrbanCrunch,250g,463,403.96,22.65,1,1,3.9,3.25,9.87
+PROD00863,Personal Care,Shampoo,DailyDrop,1kg,572,474.26,14.51,1,1,3.9,5.83,5.26
+PROD00864,Snacks,Chips,QuickChef,750ml,99,91.02,18.51,0,0,3.2,6.09,7.66
+PROD00865,Personal Care,Shampoo,QuickChef,250g,470,355.49,32.35,1,0,4.6,3.74,6.3
+PROD00866,Personal Care,Shampoo,PureHarvest,1kg,422,317.04,11.01,0,1,4.9,4.0,1.45
+PROD00867,Instant Meals,Ready Meals,HomeEase,750ml,537,503.01,10.79,1,0,4.0,3.85,1.82
+PROD00868,Dairy,Butter,SpiceRoute,750ml,262,218.51,9.04,1,0,3.7,9.03,9.99
+PROD00869,Snacks,Protein Snacks,DailyDrop,250g,51,47.18,8.77,0,0,4.9,8.16,2.84
+PROD00870,Beverages,Juice,PureHarvest,750ml,498,381.37,22.2,1,0,4.2,9.23,7.05
+PROD00871,Dairy,Paneer,PureHarvest,1L,403,373.08,22.26,1,0,4.1,8.72,8.49
+PROD00872,Personal Care,Shampoo,HomeEase,1L,741,657.87,7.63,1,1,4.4,6.43,7.52
+PROD00873,Frozen Foods,Frozen Pizza,HomeEase,250g,580,472.93,26.3,1,0,4.5,9.35,4.31
+PROD00874,Snacks,Chips,NutriMile,500g,338,327.22,23.62,1,0,4.0,6.86,4.48
+PROD00875,Frozen Foods,Fries,HomeEase,500g,219,210.19,8.57,0,1,3.0,3.52,5.12
+PROD00876,Personal Care,Soap,FreshNest,500g,318,302.12,23.44,1,1,4.1,7.78,4.31
+PROD00877,Instant Meals,Noodles,UrbanCrunch,1L,693,549.47,29.65,0,1,3.3,6.75,7.43
+PROD00878,Snacks,Protein Snacks,PureHarvest,500g,163,140.31,20.8,1,1,4.7,8.48,8.13
+PROD00879,Snacks,Namkeen,FreshNest,750ml,91,89.03,7.6,0,0,3.1,3.52,3.63
+PROD00880,Health & Wellness,Granola,FitBite,500g,155,120.94,22.64,0,0,3.6,5.47,4.82
+PROD00881,Instant Meals,Noodles,DailyDrop,500g,508,442.43,14.29,1,0,4.0,2.26,2.35
+PROD00882,Snacks,Namkeen,QuickChef,750ml,204,172.44,12.84,0,1,3.1,8.96,3.4
+PROD00883,Health & Wellness,Granola,UrbanCrunch,750ml,663,600.63,13.67,1,0,3.5,1.42,6.83
+PROD00884,Dairy,Curd,HomeEase,1L,46,39.67,16.44,0,0,4.4,8.87,4.26
+PROD00885,Dairy,Curd,DailyDrop,1L,329,264.21,16.13,0,0,3.0,8.84,8.89
+PROD00886,Beverages,Energy Drink,HomeEase,1kg,648,503.44,32.28,0,0,4.5,7.15,7.86
+PROD00887,Dairy,Butter,SpiceRoute,250g,350,266.89,11.44,0,1,4.5,9.17,1.07
+PROD00888,Instant Meals,Ready Meals,HomeEase,750ml,65,57.54,21.19,1,1,3.2,5.72,5.38
+PROD00889,Dairy,Butter,QuickChef,500g,717,606.91,15.46,0,1,3.7,8.58,1.7
+PROD00890,Snacks,Cookies,FreshNest,1L,665,500.89,5.77,1,0,3.4,2.33,3.66
+PROD00891,Health & Wellness,Protein Powder,SpiceRoute,1L,131,111.23,32.58,0,1,4.2,1.92,1.2
+PROD00892,Frozen Foods,Frozen Pizza,PureHarvest,250g,274,267.59,22.81,0,0,4.6,5.71,5.84
+PROD00893,Beverages,Energy Drink,HomeEase,250g,732,622.86,32.14,0,1,5.0,7.69,5.43
+PROD00894,Snacks,Namkeen,NutriMile,1kg,267,201.39,13.89,0,1,4.5,5.48,8.44
+PROD00895,Beverages,Cold Coffee,SpiceRoute,1L,712,643.88,20.16,1,1,4.8,4.94,1.03
+PROD00896,Personal Care,Shampoo,SpiceRoute,250g,341,317.69,28.45,1,1,4.7,2.39,2.21
+PROD00897,Dairy,Curd,UrbanCrunch,1kg,277,265.17,9.69,1,0,5.0,5.0,8.49
+PROD00898,Snacks,Chips,PureHarvest,250g,780,748.26,24.92,0,0,3.7,2.84,9.88
+PROD00899,Health & Wellness,Protein Powder,QuickChef,1L,182,151.93,9.25,1,1,3.5,4.03,5.37
+PROD00900,Personal Care,Face Wash,NutriMile,750ml,595,468.32,5.53,1,0,4.7,6.3,1.05
+PROD00901,Personal Care,Soap,FitBite,750ml,427,321.56,17.08,0,0,4.6,2.57,6.51
+PROD00902,Frozen Foods,Frozen Pizza,QuickChef,250g,59,45.82,20.18,1,0,4.9,8.93,2.99
+PROD00903,Snacks,Namkeen,HomeEase,1L,375,340.08,21.56,0,0,3.9,2.29,2.39
+PROD00904,Personal Care,Soap,NutriMile,1kg,165,157.51,5.23,0,1,4.5,8.48,1.86
+PROD00905,Health & Wellness,Oats,SpiceRoute,750ml,460,390.95,33.74,1,0,3.3,9.59,7.5
+PROD00906,Snacks,Protein Snacks,QuickChef,1L,476,395.34,26.77,0,1,3.8,7.97,5.72
+PROD00907,Instant Meals,Noodles,HomeEase,1L,640,571.99,30.05,1,1,3.1,1.57,1.8
+PROD00908,Beverages,Energy Drink,QuickChef,1L,657,513.92,17.41,0,0,4.7,9.37,2.96
+PROD00909,Instant Meals,Noodles,FitBite,500g,175,159.47,10.08,1,0,3.2,7.65,9.88
+PROD00910,Instant Meals,Ready Meals,HomeEase,1L,668,513.75,24.03,0,1,4.5,1.59,3.44
+PROD00911,Personal Care,Soap,UrbanCrunch,500g,306,249.13,16.87,1,1,3.9,7.82,8.32
+PROD00912,Dairy,Curd,PureHarvest,500g,695,560.07,10.6,1,0,4.9,1.07,3.69
+PROD00913,Snacks,Chips,SpiceRoute,1kg,392,294.59,31.08,1,0,3.8,7.19,5.69
+PROD00914,Beverages,Energy Drink,HomeEase,1kg,612,573.1,25.97,1,0,4.5,2.71,1.98
+PROD00915,Snacks,Chips,NutriMile,250g,254,214.72,25.22,1,1,4.8,7.76,4.09
+PROD00916,Instant Meals,Pasta,SpiceRoute,1kg,229,189.52,34.49,1,1,4.1,1.37,3.38
+PROD00917,Personal Care,Shampoo,HomeEase,500g,642,623.66,5.36,1,1,4.9,5.81,7.5
+PROD00918,Frozen Foods,Frozen Pizza,DailyDrop,500g,84,80.42,16.41,0,0,4.6,6.22,2.51
+PROD00919,Personal Care,Shampoo,QuickChef,750ml,686,520.87,33.41,1,1,4.5,5.8,4.65
+PROD00920,Personal Care,Soap,ChillSip,250g,373,307.19,26.39,0,0,4.6,6.41,3.93
+PROD00921,Snacks,Cookies,FreshNest,250g,368,346.83,15.61,0,0,3.1,6.92,1.05
+PROD00922,Instant Meals,Ready Meals,HomeEase,500g,564,545.68,5.89,1,1,4.7,6.98,7.74
+PROD00923,Beverages,Juice,HomeEase,1kg,464,398.26,31.88,1,0,4.1,6.15,4.26
+PROD00924,Snacks,Cookies,PureHarvest,1L,644,601.83,17.39,1,0,4.7,5.77,4.15
+PROD00925,Beverages,Energy Drink,QuickChef,1L,205,160.69,28.36,1,1,4.4,3.75,3.71
+PROD00926,Beverages,Cold Coffee,FitBite,250g,639,609.54,16.69,1,0,4.8,8.21,9.61
+PROD00927,Personal Care,Face Wash,NutriMile,750ml,602,482.28,31.71,1,1,3.6,5.34,5.64
+PROD00928,Health & Wellness,Granola,NutriMile,1L,624,472.45,30.08,1,0,3.7,9.25,6.88
+PROD00929,Dairy,Paneer,PureHarvest,1L,192,180.18,20.25,0,1,3.1,6.68,9.74
+PROD00930,Dairy,Curd,UrbanCrunch,500g,515,498.65,29.29,1,1,3.3,1.76,9.88
+PROD00931,Dairy,Milk,QuickChef,1L,305,271.82,28.0,1,0,4.4,1.59,1.2
+PROD00932,Frozen Foods,Ice Cream,UrbanCrunch,750ml,527,453.71,17.81,1,0,4.2,6.47,4.51
+PROD00933,Health & Wellness,Protein Powder,FreshNest,250g,184,167.75,12.12,1,1,4.0,5.96,4.85
+PROD00934,Health & Wellness,Granola,FreshNest,750ml,430,346.81,23.39,1,1,3.9,2.07,1.46
+PROD00935,Health & Wellness,Oats,UrbanCrunch,1kg,742,577.93,20.26,1,1,3.0,2.14,5.08
+PROD00936,Personal Care,Shampoo,QuickChef,250g,570,429.12,29.96,1,1,4.5,5.3,8.0
+PROD00937,Beverages,Soft Drink,FitBite,500g,226,193.88,32.43,1,1,3.9,1.74,5.96
+PROD00938,Instant Meals,Pasta,UrbanCrunch,500g,73,65.84,32.93,1,1,4.7,6.9,4.03
+PROD00939,Snacks,Chips,ChillSip,1kg,334,251.17,15.84,1,1,4.2,4.72,3.1
+PROD00940,Frozen Foods,Ice Cream,FreshNest,500g,687,534.82,19.67,1,1,3.1,3.29,7.97
+PROD00941,Snacks,Cookies,UrbanCrunch,500g,248,205.58,14.65,0,0,3.0,2.49,1.56
+PROD00942,Health & Wellness,Oats,HomeEase,1L,693,532.98,29.15,0,0,3.7,9.8,8.23
+PROD00943,Beverages,Soft Drink,DailyDrop,1L,265,250.64,30.33,1,1,4.9,6.9,7.91
+PROD00944,Health & Wellness,Protein Powder,HomeEase,1kg,404,349.22,21.57,0,0,4.6,6.06,7.92
+PROD00945,Personal Care,Face Wash,UrbanCrunch,1L,703,613.97,7.33,1,0,4.6,9.42,6.85
+PROD00946,Personal Care,Face Wash,ChillSip,250g,800,660.94,11.41,0,1,4.8,3.18,4.3
+PROD00947,Frozen Foods,Frozen Pizza,FitBite,250g,777,675.62,31.78,1,1,3.3,2.17,2.39
+PROD00948,Instant Meals,Pasta,FreshNest,1L,578,454.98,16.87,1,1,4.9,3.66,8.06
+PROD00949,Dairy,Curd,SpiceRoute,1kg,583,439.17,8.02,0,0,4.7,5.84,6.0
+PROD00950,Personal Care,Soap,HomeEase,500g,742,599.71,7.66,1,1,4.0,9.29,3.06
+PROD00951,Frozen Foods,Frozen Pizza,SpiceRoute,1L,101,88.53,6.71,0,0,4.1,7.79,9.57
+PROD00952,Health & Wellness,Granola,FreshNest,1kg,434,339.55,16.56,0,1,3.4,4.95,4.4
+PROD00953,Beverages,Energy Drink,FreshNest,750ml,433,408.36,32.13,1,0,3.4,1.92,1.67
+PROD00954,Personal Care,Shampoo,HomeEase,1kg,598,467.96,27.12,1,1,4.1,5.2,6.36
+PROD00955,Health & Wellness,Granola,UrbanCrunch,500g,695,615.36,18.85,0,0,4.3,2.53,5.62
+PROD00956,Instant Meals,Noodles,DailyDrop,250g,677,624.8,29.89,1,1,3.9,1.45,3.17
+PROD00957,Personal Care,Face Wash,ChillSip,1kg,477,416.04,32.3,1,0,4.2,6.82,4.98
+PROD00958,Dairy,Curd,ChillSip,500g,135,115.49,23.84,1,0,4.7,9.08,3.61
+PROD00959,Beverages,Cold Coffee,SpiceRoute,1kg,196,183.04,13.78,0,1,4.1,6.86,6.19
+PROD00960,Snacks,Cookies,QuickChef,1kg,441,354.1,14.92,0,1,4.3,3.85,7.76
+PROD00961,Personal Care,Soap,FitBite,1kg,193,164.37,13.77,1,1,3.9,1.57,5.41
+PROD00962,Dairy,Paneer,UrbanCrunch,500g,445,413.35,27.13,0,0,3.3,7.97,2.95
+PROD00963,Snacks,Cookies,DailyDrop,1L,376,349.0,28.8,1,0,3.5,7.47,6.47
+PROD00964,Instant Meals,Pasta,FreshNest,1L,318,292.12,25.83,1,1,3.5,9.31,9.84
+PROD00965,Beverages,Soft Drink,PureHarvest,1L,263,229.41,33.17,1,1,3.5,6.88,3.0
+PROD00966,Instant Meals,Ready Meals,PureHarvest,750ml,274,263.49,16.67,0,1,3.6,5.88,8.6
+PROD00967,Instant Meals,Ready Meals,QuickChef,1kg,757,635.56,19.09,0,0,3.9,7.66,2.97
+PROD00968,Instant Meals,Ready Meals,FreshNest,1kg,747,669.87,34.92,0,0,4.7,9.51,8.37
+PROD00969,Personal Care,Shampoo,QuickChef,500g,362,288.36,27.06,0,1,3.2,7.87,2.05
+PROD00970,Health & Wellness,Granola,QuickChef,1L,124,104.32,31.74,0,0,3.6,5.26,4.84
+PROD00971,Instant Meals,Ready Meals,FreshNest,250g,482,371.5,24.74,1,1,3.4,4.19,5.02
+PROD00972,Instant Meals,Noodles,DailyDrop,750ml,152,134.65,30.33,0,0,3.8,4.97,2.86
+PROD00973,Health & Wellness,Granola,PureHarvest,250g,561,495.17,21.04,1,0,3.5,9.28,4.63
+PROD00974,Frozen Foods,Ice Cream,QuickChef,750ml,223,211.7,10.35,1,0,4.6,7.82,2.08
+PROD00975,Personal Care,Face Wash,HomeEase,1kg,435,378.24,9.65,1,1,4.6,1.64,6.84
+PROD00976,Dairy,Milk,SpiceRoute,1L,329,293.22,8.31,1,0,3.2,5.88,2.29
+PROD00977,Instant Meals,Noodles,FitBite,250g,221,191.19,9.14,1,1,4.6,5.74,1.73
+PROD00978,Dairy,Milk,NutriMile,750ml,251,216.37,13.79,0,1,3.1,8.86,1.12
+PROD00979,Dairy,Butter,FreshNest,1L,781,735.13,31.76,1,0,4.8,4.93,5.81
+PROD00980,Instant Meals,Ready Meals,UrbanCrunch,1L,589,515.77,10.66,0,1,3.1,3.13,9.2
+PROD00981,Frozen Foods,Fries,DailyDrop,500g,412,347.48,5.81,0,0,3.6,7.54,5.18
+PROD00982,Personal Care,Soap,UrbanCrunch,250g,748,632.22,26.8,1,0,4.9,4.41,9.69
+PROD00983,Dairy,Butter,UrbanCrunch,1L,58,48.7,6.43,0,0,4.6,4.34,3.76
+PROD00984,Personal Care,Shampoo,ChillSip,1L,749,709.77,33.34,1,0,4.5,9.42,3.49
+PROD00985,Health & Wellness,Protein Powder,ChillSip,500g,454,439.67,16.86,1,1,4.3,5.32,2.52
+PROD00986,Beverages,Cold Coffee,QuickChef,1kg,364,323.09,9.64,0,1,4.2,4.3,1.97
+PROD00987,Beverages,Juice,DailyDrop,1L,134,128.67,21.63,0,1,4.9,5.56,3.34
+PROD00988,Instant Meals,Noodles,PureHarvest,750ml,164,142.48,12.55,1,0,4.8,3.1,5.77
+PROD00989,Health & Wellness,Oats,HomeEase,500g,652,540.78,13.17,0,1,4.5,6.5,4.22
+PROD00990,Health & Wellness,Oats,SpiceRoute,250g,355,314.99,32.86,1,1,3.7,8.49,6.92
+PROD00991,Beverages,Energy Drink,QuickChef,1kg,40,31.81,18.75,1,1,4.6,1.57,8.25
+PROD00992,Personal Care,Shampoo,UrbanCrunch,500g,94,74.92,12.49,1,0,3.0,7.76,5.14
+PROD00993,Instant Meals,Noodles,FreshNest,1L,76,63.36,17.73,1,0,4.8,7.49,1.67
+PROD00994,Health & Wellness,Protein Powder,NutriMile,500g,254,228.26,18.51,1,0,3.4,8.86,5.37
+PROD00995,Personal Care,Soap,DailyDrop,250g,570,534.65,28.33,1,0,3.0,3.17,1.17
+PROD00996,Personal Care,Shampoo,NutriMile,250g,333,301.56,11.68,0,0,4.6,9.13,9.04
+PROD00997,Dairy,Curd,UrbanCrunch,1L,593,449.63,7.8,1,0,3.3,6.99,4.4
+PROD00998,Health & Wellness,Oats,PureHarvest,1L,548,496.51,21.71,0,0,4.5,4.3,9.43
+PROD00999,Personal Care,Shampoo,FreshNest,500g,208,156.39,28.08,1,0,4.6,5.87,7.75
+PROD01000,Instant Meals,Ready Meals,FreshNest,500g,248,233.86,26.32,0,1,4.8,1.47,5.72
+PROD01001,Personal Care,Soap,FreshNest,1kg,104,85.53,17.7,0,0,3.4,2.67,8.68
+PROD01002,Frozen Foods,Ice Cream,FreshNest,750ml,471,452.46,17.88,0,0,4.6,8.62,5.86
+PROD01003,Snacks,Chips,FitBite,500g,583,512.42,19.88,1,1,4.1,4.35,9.54
+PROD01004,Frozen Foods,Ice Cream,QuickChef,1kg,503,489.98,11.72,0,1,4.9,2.13,8.79
+PROD01005,Health & Wellness,Oats,PureHarvest,750ml,790,739.67,7.84,1,1,4.2,5.36,6.25
+PROD01006,Health & Wellness,Granola,FreshNest,500g,397,380.59,20.2,0,1,3.6,9.16,6.76
+PROD01007,Dairy,Curd,PureHarvest,250g,413,395.98,5.98,0,0,3.6,1.07,7.72
+PROD01008,Frozen Foods,Fries,PureHarvest,1L,234,203.2,29.68,0,1,3.2,5.98,1.42
+PROD01009,Snacks,Chips,QuickChef,250g,786,699.15,12.43,1,1,4.1,8.84,6.58
+PROD01010,Frozen Foods,Ice Cream,PureHarvest,1L,369,323.56,30.54,1,1,3.6,7.31,7.46
+PROD01011,Personal Care,Face Wash,PureHarvest,1kg,732,565.84,13.99,0,0,5.0,6.14,4.31
+PROD01012,Health & Wellness,Oats,ChillSip,1L,276,211.21,26.14,1,1,3.2,5.66,7.41
+PROD01013,Snacks,Cookies,NutriMile,1kg,646,558.48,6.16,0,1,3.8,7.44,8.25
+PROD01014,Snacks,Chips,HomeEase,500g,623,555.12,9.87,0,1,4.4,5.17,1.4
+PROD01015,Health & Wellness,Granola,FreshNest,1L,704,642.64,20.62,0,1,4.4,6.13,2.12
+PROD01016,Instant Meals,Pasta,UrbanCrunch,500g,376,297.46,9.54,0,0,4.3,5.97,4.99
+PROD01017,Snacks,Protein Snacks,PureHarvest,1kg,472,436.37,32.99,1,1,4.9,8.04,5.86
+PROD01018,Personal Care,Soap,PureHarvest,1L,792,671.55,21.48,0,0,3.5,7.37,1.92
+PROD01019,Health & Wellness,Granola,FitBite,1L,374,336.01,27.87,0,1,3.4,7.54,9.73
+PROD01020,Health & Wellness,Protein Powder,ChillSip,1L,513,415.95,14.56,0,1,3.9,5.05,8.83
+PROD01021,Frozen Foods,Ice Cream,SpiceRoute,1kg,137,114.64,23.03,0,0,4.5,3.04,2.13
+PROD01022,Frozen Foods,Fries,SpiceRoute,750ml,758,716.21,17.88,1,1,4.0,8.34,1.5
+PROD01023,Beverages,Juice,FitBite,250g,57,54.8,23.99,1,1,3.1,7.38,9.15
+PROD01024,Snacks,Protein Snacks,QuickChef,750ml,204,192.21,32.03,0,1,4.5,7.37,4.61
+PROD01025,Beverages,Juice,HomeEase,1kg,300,259.27,6.45,1,1,3.6,6.67,2.61
+PROD01026,Beverages,Cold Coffee,PureHarvest,1kg,756,575.58,24.67,1,1,4.9,9.89,1.89
+PROD01027,Beverages,Cold Coffee,FreshNest,1L,344,307.65,34.45,1,0,4.9,3.54,8.36
+PROD01028,Instant Meals,Noodles,PureHarvest,1L,254,233.38,5.53,1,1,4.3,1.42,5.74
+PROD01029,Instant Meals,Pasta,DailyDrop,1kg,458,386.83,5.14,1,0,3.3,3.59,9.03
+PROD01030,Instant Meals,Ready Meals,DailyDrop,750ml,101,90.58,21.03,0,1,3.4,8.49,7.12
+PROD01031,Dairy,Paneer,FitBite,250g,367,346.84,17.28,0,1,5.0,7.5,3.39
+PROD01032,Snacks,Protein Snacks,SpiceRoute,750ml,512,419.36,15.52,1,1,4.9,6.28,3.86
+PROD01033,Beverages,Soft Drink,NutriMile,750ml,756,673.68,5.79,0,0,3.7,5.43,9.96
+PROD01034,Health & Wellness,Protein Powder,NutriMile,250g,634,543.75,13.63,1,1,4.0,5.33,3.1
+PROD01035,Frozen Foods,Ice Cream,NutriMile,500g,682,619.0,29.17,1,1,4.9,7.58,2.91
+PROD01036,Personal Care,Shampoo,NutriMile,1kg,414,400.84,15.02,1,0,3.4,1.57,2.08
+PROD01037,Frozen Foods,Fries,ChillSip,250g,202,184.55,14.17,0,1,3.7,1.46,6.21
+PROD01038,Personal Care,Face Wash,HomeEase,1L,332,253.77,24.11,1,1,4.2,3.52,4.24
+PROD01039,Dairy,Curd,DailyDrop,1kg,278,245.22,19.93,1,0,3.4,6.95,6.83
+PROD01040,Instant Meals,Pasta,FreshNest,1L,583,438.98,26.96,1,1,4.9,8.43,6.86
+PROD01041,Personal Care,Soap,FitBite,1L,723,668.4,13.76,0,1,3.6,3.43,4.06
+PROD01042,Instant Meals,Ready Meals,FitBite,500g,560,536.63,12.58,0,1,3.7,1.68,7.31
+PROD01043,Dairy,Curd,NutriMile,250g,150,139.41,15.37,1,0,5.0,3.87,4.28
+PROD01044,Instant Meals,Noodles,NutriMile,1kg,117,90.45,9.15,0,0,3.5,3.93,7.78
+PROD01045,Health & Wellness,Granola,PureHarvest,250g,485,425.19,13.64,0,1,4.4,7.36,9.63
+PROD01046,Health & Wellness,Granola,FitBite,500g,488,435.16,24.56,0,0,3.4,3.33,6.6
+PROD01047,Snacks,Chips,PureHarvest,250g,62,51.01,20.91,1,1,3.2,2.35,7.73
+PROD01048,Health & Wellness,Protein Powder,FitBite,750ml,678,542.24,12.75,1,0,3.7,7.35,2.54
+PROD01049,Personal Care,Soap,NutriMile,1kg,383,355.41,16.11,0,1,4.6,3.03,1.95
+PROD01050,Dairy,Milk,FreshNest,750ml,86,82.41,15.26,1,0,4.6,9.56,2.58
+PROD01051,Health & Wellness,Protein Powder,SpiceRoute,500g,585,493.22,33.82,1,1,3.8,5.35,2.96
+PROD01052,Personal Care,Face Wash,FitBite,750ml,787,609.12,33.83,1,1,4.6,7.65,7.73
+PROD01053,Personal Care,Face Wash,FitBite,750ml,355,344.3,23.27,0,0,3.6,7.27,6.16
+PROD01054,Frozen Foods,Fries,ChillSip,1kg,283,232.44,28.8,0,0,5.0,6.76,7.38
+PROD01055,Instant Meals,Noodles,HomeEase,500g,287,260.94,21.33,0,0,3.6,1.52,8.95
+PROD01056,Beverages,Soft Drink,UrbanCrunch,1kg,205,157.46,15.06,0,0,3.7,6.65,3.03
+PROD01057,Dairy,Curd,UrbanCrunch,750ml,350,284.0,34.32,0,1,3.4,3.57,3.51
+PROD01058,Health & Wellness,Granola,UrbanCrunch,500g,584,473.25,30.02,0,1,3.3,5.84,4.84
+PROD01059,Frozen Foods,Fries,DailyDrop,1kg,241,195.17,8.76,1,0,3.7,5.26,8.06
+PROD01060,Personal Care,Soap,HomeEase,750ml,764,725.02,18.97,0,0,4.7,7.67,2.59
+PROD01061,Personal Care,Soap,HomeEase,250g,796,676.23,16.32,0,0,3.1,8.17,3.73
+PROD01062,Snacks,Protein Snacks,FreshNest,500g,595,516.01,28.4,1,0,4.0,8.21,6.57
+PROD01063,Instant Meals,Ready Meals,ChillSip,750ml,275,239.78,29.0,1,0,3.9,7.1,8.15
+PROD01064,Snacks,Cookies,PureHarvest,1L,269,202.98,31.25,1,0,4.3,3.55,8.89
+PROD01065,Health & Wellness,Granola,DailyDrop,1kg,275,237.17,33.59,1,1,4.5,8.41,2.78
+PROD01066,Instant Meals,Noodles,NutriMile,250g,311,272.24,5.45,0,0,3.2,2.82,2.38
+PROD01067,Personal Care,Shampoo,NutriMile,1L,213,173.12,30.44,1,0,3.2,9.3,9.4
+PROD01068,Instant Meals,Pasta,DailyDrop,250g,338,274.26,34.45,1,1,3.5,3.55,6.78
+PROD01069,Beverages,Soft Drink,UrbanCrunch,1kg,62,52.84,23.85,0,0,4.2,7.05,6.22
+PROD01070,Health & Wellness,Protein Powder,FitBite,750ml,790,669.35,16.09,0,1,3.8,1.17,6.24
+PROD01071,Personal Care,Shampoo,NutriMile,500g,772,712.36,11.54,1,0,3.1,3.65,5.43
+PROD01072,Health & Wellness,Protein Powder,FreshNest,500g,370,278.24,24.55,1,1,4.9,6.89,2.44
+PROD01073,Personal Care,Soap,FreshNest,1L,196,166.92,32.58,1,1,3.9,6.57,3.06
+PROD01074,Snacks,Namkeen,FitBite,1kg,476,397.66,13.0,0,1,4.2,8.91,7.19
+PROD01075,Health & Wellness,Protein Powder,FitBite,500g,759,596.51,13.42,1,0,4.9,2.09,7.82
+PROD01076,Frozen Foods,Fries,PureHarvest,250g,298,290.67,26.56,1,0,4.1,7.99,2.95
+PROD01077,Beverages,Energy Drink,ChillSip,1kg,82,77.67,8.84,1,1,3.3,1.21,2.56
+PROD01078,Beverages,Juice,HomeEase,1L,541,490.3,20.17,1,1,4.0,4.67,9.88
+PROD01079,Health & Wellness,Oats,QuickChef,250g,538,487.39,17.97,0,1,4.2,6.97,1.36
+PROD01080,Instant Meals,Ready Meals,DailyDrop,250g,346,321.58,22.7,1,1,4.4,4.79,1.02
+PROD01081,Instant Meals,Ready Meals,ChillSip,500g,492,475.73,30.3,0,0,4.3,5.44,5.17
+PROD01082,Instant Meals,Pasta,SpiceRoute,1kg,611,543.61,12.71,1,1,4.5,9.27,5.49
+PROD01083,Beverages,Soft Drink,FitBite,1L,472,381.52,20.92,0,0,3.9,9.04,1.81
+PROD01084,Health & Wellness,Granola,DailyDrop,250g,732,576.42,12.4,0,0,3.6,6.16,2.41
+PROD01085,Dairy,Paneer,ChillSip,1kg,174,141.64,31.63,0,1,3.5,5.58,6.91
+PROD01086,Frozen Foods,Ice Cream,FitBite,750ml,526,432.89,30.39,0,1,3.4,7.76,8.73
+PROD01087,Health & Wellness,Oats,UrbanCrunch,1L,656,512.69,10.95,1,0,4.3,6.28,2.72
+PROD01088,Beverages,Energy Drink,DailyDrop,250g,722,656.71,7.56,1,0,3.2,3.17,7.05
+PROD01089,Beverages,Juice,FitBite,750ml,322,273.39,32.77,1,1,4.6,5.44,2.98
+PROD01090,Beverages,Juice,FreshNest,750ml,242,183.85,27.21,1,1,4.0,5.43,9.49
+PROD01091,Instant Meals,Pasta,ChillSip,500g,51,42.31,16.2,0,1,3.8,5.0,1.8
+PROD01092,Health & Wellness,Oats,NutriMile,1kg,645,544.68,9.79,1,0,4.5,9.95,3.9
+PROD01093,Personal Care,Soap,SpiceRoute,1kg,608,524.6,31.28,1,1,3.1,6.47,1.88
+PROD01094,Instant Meals,Pasta,SpiceRoute,1L,707,643.97,26.28,1,0,4.1,1.77,2.89
+PROD01095,Instant Meals,Pasta,NutriMile,500g,404,337.23,29.38,1,0,4.4,4.43,5.44
+PROD01096,Beverages,Cold Coffee,UrbanCrunch,1L,501,478.09,33.85,1,0,3.9,7.68,3.33
+PROD01097,Instant Meals,Pasta,FreshNest,1L,58,49.27,24.78,1,0,3.4,9.23,9.83
+PROD01098,Instant Meals,Noodles,SpiceRoute,1kg,387,359.92,32.33,1,1,4.7,7.2,1.44
+PROD01099,Instant Meals,Pasta,ChillSip,500g,146,118.03,24.23,1,1,4.0,9.13,1.56
+PROD01100,Health & Wellness,Oats,QuickChef,1L,650,555.23,29.56,0,0,4.8,5.9,6.4
+PROD01101,Instant Meals,Noodles,FitBite,1L,195,181.2,7.12,1,0,4.0,5.64,9.41
+PROD01102,Snacks,Cookies,FitBite,250g,484,396.58,13.34,1,0,4.1,8.32,7.59
+PROD01103,Frozen Foods,Frozen Pizza,ChillSip,250g,702,675.53,6.22,0,0,4.8,7.71,1.78
+PROD01104,Frozen Foods,Frozen Pizza,QuickChef,1L,560,516.94,25.46,1,1,4.2,5.0,3.62
+PROD01105,Dairy,Butter,UrbanCrunch,750ml,415,332.02,14.77,1,0,4.7,5.03,5.24
+PROD01106,Dairy,Paneer,DailyDrop,1kg,265,246.5,17.35,0,1,4.8,9.95,2.84
+PROD01107,Beverages,Juice,QuickChef,1kg,581,529.28,14.37,0,1,3.5,7.27,6.52
+PROD01108,Frozen Foods,Fries,HomeEase,750ml,340,256.96,30.78,0,1,3.8,3.65,5.29
+PROD01109,Personal Care,Soap,QuickChef,250g,45,35.68,29.78,0,1,3.1,2.78,3.01
+PROD01110,Beverages,Cold Coffee,UrbanCrunch,1L,327,292.66,13.13,0,1,3.3,7.23,5.44
+PROD01111,Snacks,Cookies,FitBite,250g,381,309.2,31.84,0,1,4.4,2.49,8.08
+PROD01112,Snacks,Namkeen,FreshNest,1L,222,203.52,25.81,1,1,4.7,7.12,4.21
+PROD01113,Personal Care,Shampoo,NutriMile,1L,241,200.1,27.98,1,0,4.2,1.47,8.35
+PROD01114,Dairy,Milk,PureHarvest,250g,378,326.56,24.56,0,0,3.3,9.5,3.61
+PROD01115,Personal Care,Soap,QuickChef,250g,84,81.7,12.3,0,0,4.3,3.66,6.06
+PROD01116,Beverages,Soft Drink,FreshNest,250g,779,722.48,33.91,0,0,4.1,4.29,5.94
+PROD01117,Dairy,Paneer,QuickChef,750ml,66,60.61,22.77,0,0,4.7,1.3,8.62
+PROD01118,Health & Wellness,Protein Powder,UrbanCrunch,1L,570,510.19,5.96,0,0,4.5,3.79,5.9
+PROD01119,Snacks,Namkeen,DailyDrop,1L,740,559.39,16.83,0,0,4.8,7.68,7.22
+PROD01120,Personal Care,Shampoo,HomeEase,750ml,161,149.42,19.05,0,0,3.1,3.03,5.96
+PROD01121,Frozen Foods,Frozen Pizza,FitBite,500g,297,268.76,12.65,1,1,4.7,2.56,8.78
+PROD01122,Health & Wellness,Protein Powder,NutriMile,1kg,423,350.97,29.05,1,0,3.6,9.04,8.61
+PROD01123,Beverages,Energy Drink,HomeEase,250g,600,565.68,16.72,0,0,3.9,3.42,8.08
+PROD01124,Snacks,Namkeen,SpiceRoute,250g,220,202.35,16.62,1,0,4.2,5.86,7.18
+PROD01125,Health & Wellness,Granola,ChillSip,250g,255,206.53,13.35,1,0,3.4,4.37,7.16
+PROD01126,Personal Care,Shampoo,FreshNest,500g,572,526.79,19.5,0,1,3.2,7.5,7.56
+PROD01127,Snacks,Protein Snacks,HomeEase,1L,453,443.15,28.86,0,0,3.9,2.95,6.84
+PROD01128,Personal Care,Face Wash,FitBite,750ml,261,238.48,29.23,1,1,4.3,4.73,5.04
+PROD01129,Frozen Foods,Frozen Pizza,HomeEase,1kg,690,595.78,22.11,0,0,3.9,9.8,1.09
+PROD01130,Health & Wellness,Protein Powder,ChillSip,1L,239,181.07,7.72,1,1,4.9,4.74,9.89
+PROD01131,Frozen Foods,Fries,QuickChef,1L,758,612.71,20.16,1,1,3.2,4.2,7.75
+PROD01132,Snacks,Protein Snacks,DailyDrop,750ml,500,485.34,18.67,1,1,3.0,2.85,9.55
+PROD01133,Personal Care,Soap,NutriMile,1L,349,331.88,32.14,0,1,3.3,7.83,1.47
+PROD01134,Health & Wellness,Oats,UrbanCrunch,750ml,645,506.43,19.0,1,0,5.0,5.6,7.94
+PROD01135,Snacks,Namkeen,FitBite,250g,590,468.5,33.95,0,0,5.0,2.02,5.53
+PROD01136,Frozen Foods,Frozen Pizza,UrbanCrunch,500g,260,238.53,7.83,1,1,3.5,8.34,7.51
+PROD01137,Personal Care,Soap,NutriMile,500g,725,559.5,16.49,0,0,4.5,2.36,6.68
+PROD01138,Frozen Foods,Fries,UrbanCrunch,750ml,83,66.12,20.22,0,1,3.7,3.85,7.29
+PROD01139,Instant Meals,Ready Meals,UrbanCrunch,1L,446,344.15,11.86,1,1,4.0,7.1,1.8
+PROD01140,Snacks,Namkeen,DailyDrop,1kg,441,394.81,10.23,1,0,4.7,4.4,3.2
+PROD01141,Dairy,Milk,NutriMile,750ml,427,368.31,7.47,1,0,3.8,9.31,1.02
+PROD01142,Health & Wellness,Protein Powder,NutriMile,750ml,341,279.35,21.26,0,1,3.8,9.91,4.5
+PROD01143,Snacks,Protein Snacks,NutriMile,250g,94,83.36,10.49,0,1,3.2,4.51,7.39
+PROD01144,Frozen Foods,Fries,PureHarvest,500g,704,612.45,29.46,0,1,4.2,4.28,5.87
+PROD01145,Frozen Foods,Ice Cream,DailyDrop,250g,573,554.84,30.04,0,1,4.0,8.26,2.31
+PROD01146,Beverages,Cold Coffee,FitBite,1L,754,697.07,17.39,1,0,3.4,1.41,5.22
+PROD01147,Beverages,Energy Drink,PureHarvest,750ml,132,115.57,15.4,1,1,4.1,3.75,2.18
+PROD01148,Snacks,Protein Snacks,NutriMile,1L,274,238.46,31.41,1,0,3.1,4.74,6.28
+PROD01149,Dairy,Milk,FreshNest,250g,117,88.54,25.98,0,1,4.9,6.41,4.35
+PROD01150,Instant Meals,Pasta,ChillSip,1L,759,637.74,5.86,1,1,3.7,8.61,7.87
+PROD01151,Frozen Foods,Frozen Pizza,QuickChef,500g,172,158.5,6.51,1,1,3.4,8.45,5.52
+PROD01152,Beverages,Energy Drink,DailyDrop,1L,591,460.26,28.85,1,0,4.3,4.65,2.79
+PROD01153,Snacks,Protein Snacks,UrbanCrunch,500g,576,536.51,30.98,1,1,4.0,8.76,1.86
+PROD01154,Health & Wellness,Protein Powder,UrbanCrunch,1kg,628,518.2,19.94,0,0,3.8,4.51,2.26
+PROD01155,Health & Wellness,Granola,SpiceRoute,250g,177,138.53,32.59,1,1,5.0,2.33,9.08
+PROD01156,Beverages,Juice,FreshNest,500g,786,750.02,27.11,1,0,4.8,2.35,8.96
+PROD01157,Personal Care,Shampoo,SpiceRoute,1kg,166,147.21,10.4,1,0,3.3,2.76,7.03
+PROD01158,Instant Meals,Pasta,NutriMile,750ml,717,567.59,17.38,1,1,4.7,9.17,2.47
+PROD01159,Beverages,Soft Drink,QuickChef,1kg,548,525.26,25.11,0,1,3.3,2.25,2.59
+PROD01160,Instant Meals,Ready Meals,QuickChef,750ml,617,552.66,11.11,0,1,3.7,8.26,9.86
+PROD01161,Snacks,Cookies,QuickChef,500g,100,81.73,11.88,0,1,4.1,5.4,3.97
+PROD01162,Instant Meals,Noodles,NutriMile,500g,232,197.23,24.31,0,1,4.2,3.4,2.0
+PROD01163,Health & Wellness,Granola,FitBite,750ml,223,207.31,8.98,1,1,4.5,4.57,1.96
+PROD01164,Beverages,Energy Drink,NutriMile,500g,171,139.77,18.56,0,1,3.3,8.99,6.05
+PROD01165,Health & Wellness,Protein Powder,PureHarvest,750ml,384,353.61,8.05,0,0,4.8,7.57,8.59
+PROD01166,Health & Wellness,Oats,FitBite,1kg,746,623.52,19.77,0,1,3.6,2.59,5.5
+PROD01167,Dairy,Butter,FitBite,1L,744,664.69,13.6,1,1,4.6,4.45,8.35
+PROD01168,Snacks,Namkeen,UrbanCrunch,500g,740,632.46,16.93,1,1,3.8,6.07,2.04
+PROD01169,Dairy,Butter,HomeEase,1L,743,595.26,18.15,1,0,4.0,7.85,9.82
+PROD01170,Instant Meals,Noodles,SpiceRoute,750ml,781,647.71,8.74,0,1,4.3,3.81,8.44
+PROD01171,Health & Wellness,Granola,HomeEase,250g,105,95.21,25.32,1,1,3.0,4.57,4.97
+PROD01172,Health & Wellness,Protein Powder,HomeEase,500g,308,282.65,22.79,1,1,4.6,5.99,5.87
+PROD01173,Health & Wellness,Oats,SpiceRoute,1L,118,104.1,25.23,0,1,4.7,8.33,6.0
+PROD01174,Instant Meals,Pasta,UrbanCrunch,500g,599,462.35,22.49,1,0,4.2,4.55,3.28
+PROD01175,Health & Wellness,Protein Powder,DailyDrop,1kg,458,434.52,27.2,1,1,4.0,8.0,6.79
+PROD01176,Personal Care,Shampoo,SpiceRoute,1L,787,769.51,12.27,1,0,3.2,1.6,6.15
+PROD01177,Beverages,Energy Drink,QuickChef,750ml,190,151.79,7.52,0,1,3.3,4.76,9.63
+PROD01178,Health & Wellness,Oats,SpiceRoute,250g,243,192.79,7.72,0,1,3.7,3.46,5.11
+PROD01179,Instant Meals,Noodles,UrbanCrunch,250g,216,181.46,23.41,0,0,3.4,3.11,5.77
+PROD01180,Personal Care,Face Wash,HomeEase,750ml,609,501.75,6.73,1,1,3.5,8.66,6.8
+PROD01181,Frozen Foods,Fries,UrbanCrunch,500g,287,265.42,31.34,1,0,4.8,8.24,3.16
+PROD01182,Dairy,Milk,HomeEase,750ml,237,224.33,34.34,0,1,3.6,8.08,8.06
+PROD01183,Snacks,Cookies,QuickChef,1L,311,286.7,11.68,0,1,3.5,4.29,4.9
+PROD01184,Beverages,Cold Coffee,SpiceRoute,1kg,560,456.63,12.09,1,1,4.2,6.6,9.94
+PROD01185,Snacks,Cookies,DailyDrop,1L,170,150.92,33.58,1,1,3.1,6.91,8.74
+PROD01186,Dairy,Paneer,NutriMile,1kg,217,181.73,20.29,1,1,3.3,1.5,6.53
+PROD01187,Dairy,Milk,UrbanCrunch,1kg,201,179.8,18.7,0,0,3.8,8.98,3.77
+PROD01188,Frozen Foods,Ice Cream,SpiceRoute,1kg,536,477.48,24.15,0,0,3.9,8.43,8.11
+PROD01189,Snacks,Cookies,SpiceRoute,250g,635,535.56,15.45,0,1,5.0,9.5,9.11
+PROD01190,Dairy,Paneer,SpiceRoute,750ml,393,314.03,23.24,0,1,4.9,6.68,7.14
+PROD01191,Personal Care,Face Wash,DailyDrop,1kg,379,346.7,10.03,1,1,4.9,9.33,7.41
+PROD01192,Instant Meals,Ready Meals,ChillSip,1L,571,486.23,8.14,0,0,3.4,3.59,8.64
+PROD01193,Personal Care,Shampoo,NutriMile,1L,410,397.44,33.48,0,0,3.8,2.62,5.27
+PROD01194,Frozen Foods,Fries,NutriMile,750ml,152,121.68,19.46,1,1,4.3,3.45,2.14
+PROD01195,Health & Wellness,Granola,UrbanCrunch,250g,107,102.02,12.67,0,1,3.0,2.85,9.98
+PROD01196,Snacks,Chips,FitBite,1kg,187,153.04,10.31,0,0,4.7,9.17,3.69
+PROD01197,Dairy,Milk,ChillSip,1L,136,131.62,17.72,1,1,3.1,1.6,5.36
+PROD01198,Beverages,Juice,NutriMile,1L,318,275.63,15.38,0,0,4.4,3.1,5.7
+PROD01199,Instant Meals,Pasta,DailyDrop,750ml,66,59.25,30.64,1,0,4.8,3.93,4.93
+PROD01200,Personal Care,Face Wash,FreshNest,750ml,701,569.25,25.99,1,1,4.3,6.44,9.68
+PROD01201,Beverages,Juice,FreshNest,1kg,66,51.52,21.65,1,0,4.9,3.82,2.79
+PROD01202,Dairy,Curd,QuickChef,1kg,727,674.72,26.6,0,0,4.5,5.88,8.29
+PROD01203,Dairy,Curd,UrbanCrunch,750ml,256,194.72,30.5,1,1,3.7,7.67,2.4
+PROD01204,Health & Wellness,Oats,QuickChef,1kg,549,473.15,23.68,1,1,3.1,9.99,8.44
+PROD01205,Snacks,Cookies,PureHarvest,250g,259,213.57,31.96,0,0,3.5,1.38,2.71
+PROD01206,Health & Wellness,Granola,HomeEase,1kg,116,112.84,9.47,1,0,3.2,6.66,2.36
+PROD01207,Dairy,Butter,UrbanCrunch,1L,169,135.44,25.93,0,0,3.9,7.35,8.05
+PROD01208,Dairy,Butter,SpiceRoute,250g,614,557.62,5.03,0,1,4.8,4.21,7.23
+PROD01209,Personal Care,Face Wash,ChillSip,750ml,405,312.81,16.19,1,0,4.5,3.84,2.3
+PROD01210,Dairy,Paneer,NutriMile,1L,591,514.28,13.91,0,0,3.7,9.17,8.97
+PROD01211,Beverages,Juice,QuickChef,750ml,774,725.98,7.59,1,1,4.7,9.99,4.34
+PROD01212,Dairy,Butter,FitBite,750ml,149,112.41,12.81,0,0,3.5,8.7,2.76
+PROD01213,Personal Care,Face Wash,ChillSip,500g,95,75.91,9.63,1,0,4.3,6.37,1.08
+PROD01214,Frozen Foods,Frozen Pizza,FitBite,250g,373,356.83,19.86,0,1,4.8,3.37,7.17
+PROD01215,Dairy,Curd,NutriMile,1kg,569,512.09,27.89,0,1,3.7,3.09,7.33
+PROD01216,Dairy,Milk,QuickChef,250g,211,186.74,22.89,0,1,4.8,2.43,6.62
+PROD01217,Beverages,Soft Drink,QuickChef,1kg,255,217.32,21.81,0,0,4.0,8.05,9.82
+PROD01218,Personal Care,Shampoo,SpiceRoute,250g,444,424.77,32.43,1,1,4.3,1.99,7.42
+PROD01219,Health & Wellness,Protein Powder,FreshNest,500g,549,447.36,34.4,1,1,4.7,8.65,4.9
+PROD01220,Dairy,Milk,PureHarvest,1L,85,74.21,18.68,1,1,4.9,8.85,8.67
+PROD01221,Dairy,Curd,SpiceRoute,500g,562,439.19,7.7,0,0,3.9,6.76,4.99
+PROD01222,Beverages,Cold Coffee,SpiceRoute,750ml,395,318.59,34.53,0,1,3.8,5.81,7.35
+PROD01223,Health & Wellness,Oats,FitBite,1L,308,293.37,6.94,1,1,4.1,4.86,5.2
+PROD01224,Beverages,Energy Drink,NutriMile,500g,235,205.87,20.24,0,1,3.5,1.81,2.6
+PROD01225,Beverages,Juice,FreshNest,1kg,374,311.92,13.94,0,0,4.9,9.37,7.54
+PROD01226,Personal Care,Face Wash,FitBite,1kg,192,168.32,20.87,1,0,4.9,2.14,1.43
+PROD01227,Dairy,Paneer,PureHarvest,500g,520,465.03,21.88,1,0,4.2,8.14,7.93
+PROD01228,Beverages,Cold Coffee,SpiceRoute,250g,221,167.72,32.38,1,1,4.2,6.65,3.71
+PROD01229,Health & Wellness,Protein Powder,DailyDrop,500g,298,257.77,9.12,0,1,5.0,4.82,9.19
+PROD01230,Beverages,Soft Drink,HomeEase,750ml,705,604.42,26.21,0,1,4.3,8.29,5.12
+PROD01231,Instant Meals,Pasta,ChillSip,1L,603,549.89,14.93,0,0,4.3,1.81,4.99
+PROD01232,Frozen Foods,Frozen Pizza,ChillSip,750ml,493,395.95,19.67,1,1,3.2,2.76,6.56
+PROD01233,Health & Wellness,Oats,NutriMile,1L,749,610.36,20.94,1,1,3.1,1.75,9.1
+PROD01234,Instant Meals,Ready Meals,FreshNest,500g,738,667.19,28.04,1,1,4.2,6.92,9.95
+PROD01235,Snacks,Chips,QuickChef,1L,124,118.99,6.12,1,0,5.0,7.83,5.06
+PROD01236,Health & Wellness,Granola,NutriMile,500g,460,356.53,22.43,1,1,4.9,7.96,7.98
+PROD01237,Personal Care,Shampoo,DailyDrop,250g,417,350.97,31.05,1,0,3.6,8.68,8.25
+PROD01238,Personal Care,Shampoo,DailyDrop,1L,191,166.65,20.77,0,0,3.7,7.24,2.2
+PROD01239,Dairy,Milk,DailyDrop,750ml,776,725.74,18.54,1,0,3.9,6.84,9.97
+PROD01240,Snacks,Namkeen,QuickChef,750ml,133,122.82,28.52,1,0,3.5,4.29,2.69
+PROD01241,Health & Wellness,Protein Powder,UrbanCrunch,1kg,285,275.09,20.67,1,1,4.4,7.15,4.67
+PROD01242,Snacks,Chips,SpiceRoute,250g,50,41.32,19.55,1,0,4.7,8.46,8.2
+PROD01243,Frozen Foods,Frozen Pizza,SpiceRoute,500g,134,106.79,33.33,0,0,3.4,7.37,3.54
+PROD01244,Instant Meals,Noodles,QuickChef,500g,546,495.06,30.64,0,0,3.6,7.45,7.1
+PROD01245,Snacks,Namkeen,PureHarvest,750ml,759,625.37,34.59,1,1,3.8,3.05,6.37
+PROD01246,Instant Meals,Noodles,QuickChef,1kg,759,659.7,30.22,0,0,3.2,5.46,2.39
+PROD01247,Frozen Foods,Ice Cream,HomeEase,750ml,386,289.76,19.42,1,1,4.4,7.39,2.56
+PROD01248,Snacks,Chips,FitBite,1L,356,348.68,30.94,0,0,3.0,6.99,6.89
+PROD01249,Health & Wellness,Protein Powder,ChillSip,250g,596,543.0,29.14,1,1,3.9,4.64,7.9
+PROD01250,Beverages,Energy Drink,FreshNest,500g,584,528.23,16.27,1,1,4.3,8.63,5.59
+PROD01251,Snacks,Chips,SpiceRoute,750ml,313,289.44,6.62,0,0,3.2,7.07,4.02
+PROD01252,Instant Meals,Noodles,QuickChef,250g,401,305.42,23.98,1,0,3.0,5.23,7.48
+PROD01253,Instant Meals,Noodles,ChillSip,1kg,633,573.32,18.99,0,1,3.2,9.51,6.08
+PROD01254,Personal Care,Shampoo,DailyDrop,250g,354,335.56,9.66,1,0,3.9,6.83,3.4
+PROD01255,Beverages,Juice,UrbanCrunch,750ml,650,552.34,26.05,1,0,5.0,1.34,7.05
+PROD01256,Frozen Foods,Ice Cream,QuickChef,250g,670,525.16,10.85,0,0,3.8,8.45,4.24
+PROD01257,Beverages,Juice,PureHarvest,250g,597,467.22,10.83,1,0,3.0,6.54,9.4
+PROD01258,Personal Care,Face Wash,QuickChef,500g,656,527.5,19.11,0,1,3.7,1.17,7.48
+PROD01259,Dairy,Paneer,ChillSip,250g,782,666.31,25.7,0,1,4.2,8.16,6.6
+PROD01260,Health & Wellness,Oats,DailyDrop,1L,709,580.8,13.28,0,0,4.3,1.96,5.33
+PROD01261,Beverages,Cold Coffee,FreshNest,750ml,546,509.38,5.2,1,1,3.3,3.07,6.28
+PROD01262,Instant Meals,Pasta,FitBite,1L,727,548.39,15.16,1,0,4.3,1.83,1.95
+PROD01263,Beverages,Juice,FreshNest,1L,138,125.82,34.45,1,1,4.6,9.43,1.92
+PROD01264,Instant Meals,Ready Meals,HomeEase,250g,566,454.81,33.07,0,1,3.1,1.25,1.21
+PROD01265,Snacks,Chips,ChillSip,250g,417,376.3,32.35,1,0,4.6,9.48,8.14
+PROD01266,Dairy,Curd,HomeEase,1kg,461,355.11,7.46,0,0,3.1,6.92,3.54
+PROD01267,Personal Care,Soap,NutriMile,250g,734,658.09,10.39,0,0,4.2,5.2,9.61
+PROD01268,Health & Wellness,Protein Powder,FitBite,250g,299,248.32,17.23,1,1,3.5,4.56,3.26
+PROD01269,Dairy,Paneer,ChillSip,750ml,435,392.95,34.42,1,0,4.7,4.45,1.4
+PROD01270,Personal Care,Face Wash,QuickChef,1L,329,317.97,22.35,1,0,3.8,6.23,5.52
+PROD01271,Personal Care,Shampoo,ChillSip,1kg,92,71.45,16.76,0,0,4.1,2.86,1.1
+PROD01272,Personal Care,Shampoo,QuickChef,1L,337,269.11,18.72,1,0,3.2,3.65,1.84
+PROD01273,Dairy,Milk,FitBite,750ml,457,372.8,28.37,1,1,4.1,4.07,5.14
+PROD01274,Dairy,Paneer,NutriMile,500g,456,384.58,16.82,1,1,4.4,6.52,2.55
+PROD01275,Personal Care,Face Wash,ChillSip,1kg,462,356.3,10.89,0,0,4.4,5.96,9.77
+PROD01276,Frozen Foods,Fries,UrbanCrunch,250g,68,63.82,10.75,1,0,4.2,5.51,4.19
+PROD01277,Frozen Foods,Frozen Pizza,PureHarvest,250g,528,504.6,14.36,1,0,4.5,9.91,2.52
+PROD01278,Beverages,Juice,FitBite,1kg,463,357.36,16.39,0,1,4.4,3.39,3.2
+PROD01279,Beverages,Cold Coffee,DailyDrop,750ml,301,283.37,28.08,1,0,4.2,7.23,4.62
+PROD01280,Snacks,Namkeen,FitBite,1L,412,346.97,5.33,0,1,4.9,9.54,7.42
+PROD01281,Dairy,Milk,UrbanCrunch,1kg,148,124.9,23.76,1,1,3.1,1.65,1.69
+PROD01282,Health & Wellness,Oats,QuickChef,1L,437,356.13,15.4,0,0,3.1,1.74,8.11
+PROD01283,Beverages,Energy Drink,PureHarvest,500g,208,165.26,28.72,0,0,4.6,7.89,3.27
+PROD01284,Snacks,Protein Snacks,FitBite,250g,331,324.32,19.38,1,1,4.3,8.24,5.12
+PROD01285,Personal Care,Shampoo,DailyDrop,500g,568,534.54,29.45,1,1,4.7,2.99,5.38
+PROD01286,Instant Meals,Noodles,SpiceRoute,500g,591,520.2,28.15,0,0,4.6,1.85,8.87
+PROD01287,Beverages,Cold Coffee,PureHarvest,750ml,760,658.63,26.26,0,1,3.8,4.37,4.15
+PROD01288,Personal Care,Soap,PureHarvest,250g,649,553.71,20.79,0,0,4.3,3.59,2.0
+PROD01289,Instant Meals,Pasta,QuickChef,1kg,222,203.39,10.85,1,1,4.4,2.45,7.88
+PROD01290,Frozen Foods,Fries,FitBite,250g,608,459.3,23.72,0,0,5.0,9.87,4.55
+PROD01291,Dairy,Butter,HomeEase,1kg,555,426.21,17.85,0,0,3.6,4.5,2.5
+PROD01292,Dairy,Butter,QuickChef,500g,198,159.16,17.95,1,1,3.1,1.74,1.79
+PROD01293,Frozen Foods,Ice Cream,PureHarvest,1kg,689,564.98,31.82,0,0,3.9,3.74,5.88
+PROD01294,Dairy,Paneer,NutriMile,1kg,101,80.59,24.22,0,1,3.6,5.91,1.47
+PROD01295,Instant Meals,Ready Meals,FreshNest,1L,166,146.51,20.26,1,0,5.0,9.89,3.5
+PROD01296,Frozen Foods,Ice Cream,NutriMile,500g,568,556.5,10.61,1,0,4.6,5.79,2.99
+PROD01297,Instant Meals,Ready Meals,NutriMile,250g,233,175.76,10.37,1,0,4.2,9.85,8.33
+PROD01298,Health & Wellness,Oats,FreshNest,750ml,347,295.13,27.56,0,1,3.8,2.01,1.05
+PROD01299,Personal Care,Shampoo,QuickChef,500g,160,127.28,25.09,0,0,4.9,6.14,2.72
+PROD01300,Frozen Foods,Fries,SpiceRoute,1L,365,325.05,27.07,1,1,3.2,3.1,3.09
+PROD01301,Instant Meals,Pasta,ChillSip,750ml,472,400.84,8.84,1,1,3.9,2.13,1.9
+PROD01302,Health & Wellness,Protein Powder,FitBite,250g,587,500.93,20.42,0,1,3.8,1.32,6.5
+PROD01303,Health & Wellness,Oats,HomeEase,750ml,359,298.06,29.37,1,0,4.2,8.97,9.32
+PROD01304,Beverages,Cold Coffee,ChillSip,1L,445,363.22,14.78,0,1,3.3,5.13,3.94
+PROD01305,Dairy,Butter,FitBite,1kg,131,108.65,32.73,1,0,3.2,4.32,6.8
+PROD01306,Snacks,Namkeen,HomeEase,1L,473,355.54,10.6,1,0,4.5,4.89,4.65
+PROD01307,Snacks,Protein Snacks,PureHarvest,250g,779,733.86,15.04,1,0,3.1,9.08,7.37
+PROD01308,Health & Wellness,Granola,FreshNest,1L,601,462.15,15.92,1,0,4.8,2.0,8.02
+PROD01309,Snacks,Cookies,FreshNest,500g,368,337.9,14.97,1,0,3.4,6.51,1.79
+PROD01310,Snacks,Namkeen,DailyDrop,1kg,94,74.69,16.26,1,1,3.5,2.95,9.96
+PROD01311,Personal Care,Soap,NutriMile,250g,484,440.3,24.91,0,0,4.5,4.23,3.23
+PROD01312,Health & Wellness,Oats,SpiceRoute,250g,657,610.36,21.7,1,1,4.7,1.99,2.66
+PROD01313,Dairy,Butter,FitBite,1L,498,461.86,26.88,0,0,4.9,4.15,9.93
+PROD01314,Frozen Foods,Ice Cream,DailyDrop,250g,763,695.23,33.02,0,0,3.2,1.32,1.44
+PROD01315,Frozen Foods,Frozen Pizza,FreshNest,750ml,539,435.92,8.67,0,1,3.3,9.36,4.24
+PROD01316,Beverages,Juice,NutriMile,500g,360,273.75,11.68,1,1,3.0,1.76,2.68
+PROD01317,Personal Care,Face Wash,SpiceRoute,750ml,708,656.4,11.02,0,1,3.9,5.65,4.36
+PROD01318,Frozen Foods,Frozen Pizza,FitBite,1L,395,348.15,14.79,1,0,4.9,4.64,1.85
+PROD01319,Health & Wellness,Protein Powder,FitBite,1kg,769,698.33,19.74,0,1,4.2,3.71,7.97
+PROD01320,Beverages,Soft Drink,HomeEase,250g,452,403.62,33.54,1,0,3.3,6.05,8.03
+PROD01321,Beverages,Cold Coffee,UrbanCrunch,750ml,256,209.97,24.89,1,1,4.7,2.5,9.56
+PROD01322,Health & Wellness,Granola,ChillSip,750ml,284,231.45,15.55,1,1,4.6,6.79,2.39
+PROD01323,Instant Meals,Pasta,HomeEase,1kg,115,100.99,34.88,1,1,3.4,8.86,8.66
+PROD01324,Health & Wellness,Granola,SpiceRoute,250g,756,578.01,20.73,0,0,4.4,4.4,8.17
+PROD01325,Snacks,Namkeen,FitBite,1kg,689,564.27,14.12,1,0,4.3,9.74,6.82
+PROD01326,Personal Care,Shampoo,ChillSip,1kg,416,341.5,19.05,1,0,3.9,7.24,4.72
+PROD01327,Dairy,Paneer,HomeEase,500g,400,324.3,11.46,0,1,4.1,4.46,1.9
+PROD01328,Beverages,Soft Drink,NutriMile,1kg,95,77.63,17.24,0,1,3.5,5.91,6.59
+PROD01329,Personal Care,Shampoo,NutriMile,750ml,553,464.69,29.69,0,0,4.4,7.26,9.89
+PROD01330,Frozen Foods,Ice Cream,UrbanCrunch,250g,750,689.68,33.45,1,1,3.9,8.06,7.44
+PROD01331,Frozen Foods,Ice Cream,FitBite,1kg,404,361.59,29.58,1,0,3.9,7.26,9.15
+PROD01332,Instant Meals,Pasta,ChillSip,250g,180,145.58,11.74,0,0,4.7,7.22,3.07
+PROD01333,Health & Wellness,Oats,DailyDrop,500g,361,280.74,33.56,0,0,4.7,1.98,7.49
+PROD01334,Snacks,Namkeen,PureHarvest,1kg,713,636.15,9.44,1,1,4.8,6.27,8.1
+PROD01335,Instant Meals,Pasta,HomeEase,500g,601,451.48,31.88,0,1,3.8,6.17,6.75
+PROD01336,Snacks,Chips,FreshNest,1L,113,98.33,17.42,1,1,5.0,4.84,3.31
+PROD01337,Health & Wellness,Oats,NutriMile,750ml,99,79.09,17.21,0,1,5.0,6.68,9.65
+PROD01338,Instant Meals,Pasta,ChillSip,750ml,209,157.16,7.92,0,1,4.3,7.82,4.04
+PROD01339,Snacks,Chips,FitBite,1kg,66,59.84,26.75,0,0,4.6,7.62,2.7
+PROD01340,Frozen Foods,Ice Cream,QuickChef,1L,444,418.9,33.27,1,1,3.5,4.46,7.01
+PROD01341,Personal Care,Face Wash,UrbanCrunch,1L,386,311.05,26.53,0,1,3.5,1.04,8.32
+PROD01342,Instant Meals,Pasta,QuickChef,250g,752,658.73,30.58,1,0,3.5,2.65,5.23
+PROD01343,Beverages,Cold Coffee,FreshNest,1L,217,179.81,14.25,1,1,4.9,9.31,5.28
+PROD01344,Snacks,Cookies,PureHarvest,1L,515,408.37,9.35,1,1,4.7,3.92,8.76
+PROD01345,Health & Wellness,Protein Powder,FreshNest,1L,754,630.96,29.43,0,1,3.2,7.96,5.27
+PROD01346,Dairy,Milk,HomeEase,1kg,320,312.86,16.51,0,0,4.6,5.09,1.18
+PROD01347,Dairy,Milk,ChillSip,1kg,104,89.48,5.61,0,1,4.6,2.51,3.0
+PROD01348,Personal Care,Shampoo,FitBite,500g,570,481.51,18.6,1,1,3.7,6.67,4.57
+PROD01349,Frozen Foods,Fries,PureHarvest,750ml,441,334.7,5.18,0,1,4.9,7.37,5.6
+PROD01350,Health & Wellness,Oats,FreshNest,500g,328,300.72,18.68,1,0,4.3,2.63,5.33
+PROD01351,Personal Care,Soap,FreshNest,500g,446,378.42,17.9,1,1,4.1,4.94,6.05
+PROD01352,Snacks,Protein Snacks,QuickChef,500g,528,401.22,9.38,1,1,4.7,9.03,3.76
+PROD01353,Dairy,Curd,DailyDrop,1L,64,49.09,31.56,0,0,4.4,8.44,8.9
+PROD01354,Dairy,Curd,ChillSip,500g,553,523.8,9.36,1,0,4.0,8.21,6.03
+PROD01355,Personal Care,Soap,NutriMile,500g,62,52.71,5.31,1,0,4.3,9.99,9.57
+PROD01356,Dairy,Butter,HomeEase,750ml,590,531.99,33.76,0,0,3.2,9.88,1.13
+PROD01357,Dairy,Milk,FreshNest,1kg,418,341.78,14.46,0,0,4.2,8.48,2.13
+PROD01358,Personal Care,Soap,DailyDrop,1L,774,652.8,16.48,1,1,3.0,4.62,3.92
+PROD01359,Frozen Foods,Frozen Pizza,FitBite,750ml,424,339.8,27.99,1,1,4.3,2.29,6.46
+PROD01360,Beverages,Juice,SpiceRoute,1L,462,390.34,30.54,1,1,3.9,6.44,3.89
+PROD01361,Snacks,Chips,FreshNest,750ml,122,116.87,20.49,1,1,4.0,8.88,4.79
+PROD01362,Frozen Foods,Frozen Pizza,FitBite,1kg,766,710.16,30.85,1,1,4.2,9.64,9.45
+PROD01363,Dairy,Milk,DailyDrop,750ml,435,421.23,17.01,0,0,4.4,9.5,9.4
+PROD01364,Health & Wellness,Granola,DailyDrop,250g,544,527.33,6.85,1,1,3.5,5.39,8.17
+PROD01365,Health & Wellness,Oats,FitBite,500g,797,711.89,22.3,0,1,4.8,7.6,1.25
+PROD01366,Personal Care,Face Wash,SpiceRoute,1L,113,91.28,23.41,1,0,5.0,5.81,4.21
+PROD01367,Beverages,Cold Coffee,ChillSip,250g,647,540.15,5.74,1,1,3.9,3.65,2.06
+PROD01368,Frozen Foods,Frozen Pizza,DailyDrop,1L,498,465.56,5.68,1,1,4.1,1.97,2.48
+PROD01369,Personal Care,Shampoo,SpiceRoute,750ml,173,153.71,18.75,0,1,4.3,5.33,9.88
+PROD01370,Health & Wellness,Protein Powder,ChillSip,1L,70,67.78,6.58,1,1,4.9,2.19,5.01
+PROD01371,Beverages,Cold Coffee,FreshNest,250g,398,339.23,21.62,1,0,4.0,6.74,8.63
+PROD01372,Personal Care,Shampoo,FitBite,1L,184,142.57,33.94,1,0,4.1,8.33,1.12
+PROD01373,Health & Wellness,Protein Powder,SpiceRoute,500g,359,291.52,15.33,1,0,4.1,7.91,1.72
+PROD01374,Frozen Foods,Fries,QuickChef,500g,641,518.13,16.75,0,1,3.1,1.87,7.98
+PROD01375,Beverages,Soft Drink,ChillSip,250g,70,67.86,16.03,1,1,3.1,6.7,3.81
+PROD01376,Health & Wellness,Oats,PureHarvest,1kg,531,463.55,10.49,0,1,4.1,3.86,2.8
+PROD01377,Personal Care,Face Wash,DailyDrop,500g,294,230.04,20.38,0,0,4.1,1.89,7.52
+PROD01378,Beverages,Soft Drink,HomeEase,1L,556,475.41,34.29,0,1,4.8,8.1,1.3
+PROD01379,Instant Meals,Pasta,FitBite,750ml,524,471.27,15.72,0,0,3.1,8.56,2.05
+PROD01380,Instant Meals,Noodles,QuickChef,500g,604,508.67,23.1,1,1,3.7,1.21,1.86
+PROD01381,Health & Wellness,Oats,SpiceRoute,1L,132,106.78,26.96,1,1,3.3,3.21,6.94
+PROD01382,Snacks,Chips,FreshNest,1L,481,452.5,25.41,0,0,4.8,3.47,4.72
+PROD01383,Health & Wellness,Granola,DailyDrop,1kg,507,410.7,24.96,1,1,3.7,7.92,8.37
+PROD01384,Personal Care,Shampoo,NutriMile,1kg,545,524.67,27.42,1,1,3.2,4.35,7.44
+PROD01385,Snacks,Namkeen,PureHarvest,1kg,648,514.5,25.72,0,1,4.7,9.2,6.29
+PROD01386,Health & Wellness,Protein Powder,NutriMile,500g,610,469.3,22.4,0,0,3.4,6.03,2.53
+PROD01387,Beverages,Energy Drink,NutriMile,1L,706,634.73,30.87,1,0,3.0,9.52,1.9
+PROD01388,Personal Care,Soap,FitBite,500g,55,45.34,28.95,0,0,4.5,6.48,1.89
+PROD01389,Instant Meals,Ready Meals,FreshNest,250g,765,634.31,19.23,1,0,3.3,9.36,2.51
+PROD01390,Dairy,Paneer,PureHarvest,500g,190,157.53,12.41,0,1,4.7,6.04,8.45
+PROD01391,Health & Wellness,Protein Powder,NutriMile,750ml,238,206.33,31.31,0,1,3.2,5.32,4.81
+PROD01392,Beverages,Energy Drink,UrbanCrunch,750ml,344,258.36,12.14,0,0,4.3,2.44,7.43
+PROD01393,Dairy,Curd,UrbanCrunch,1kg,724,699.56,28.52,1,1,3.5,8.43,6.25
+PROD01394,Personal Care,Shampoo,UrbanCrunch,1L,524,413.08,5.02,1,1,4.4,5.31,6.23
+PROD01395,Snacks,Namkeen,SpiceRoute,1L,315,293.89,6.07,1,0,3.9,8.59,6.62
+PROD01396,Personal Care,Soap,FitBite,1L,427,330.18,8.06,0,1,4.8,8.66,6.89
+PROD01397,Snacks,Chips,ChillSip,1kg,228,182.45,13.53,0,0,4.3,4.16,7.56
+PROD01398,Dairy,Curd,FitBite,750ml,666,619.56,24.64,0,0,4.8,1.96,5.76
+PROD01399,Personal Care,Face Wash,SpiceRoute,750ml,342,295.52,24.29,1,1,3.1,5.5,3.62
+PROD01400,Instant Meals,Noodles,FreshNest,750ml,623,600.66,33.7,0,1,3.7,9.87,2.21
+PROD01401,Beverages,Energy Drink,FreshNest,1L,77,72.42,20.65,1,1,4.5,8.03,5.95
+PROD01402,Health & Wellness,Oats,FreshNest,750ml,549,534.6,18.94,1,0,3.3,2.81,9.67
+PROD01403,Personal Care,Face Wash,SpiceRoute,250g,556,512.53,24.15,1,1,4.1,3.4,3.65
+PROD01404,Instant Meals,Pasta,DailyDrop,750ml,134,123.55,30.55,1,0,3.4,8.93,7.58
+PROD01405,Snacks,Cookies,HomeEase,500g,392,337.62,12.12,1,0,4.2,7.58,7.3
+PROD01406,Instant Meals,Noodles,NutriMile,1kg,784,634.46,8.6,0,0,4.3,2.26,2.95
+PROD01407,Beverages,Soft Drink,FitBite,750ml,119,90.87,34.54,1,0,4.3,3.03,1.6
+PROD01408,Health & Wellness,Granola,ChillSip,500g,617,574.61,16.39,0,1,4.4,7.8,4.13
+PROD01409,Frozen Foods,Frozen Pizza,QuickChef,500g,558,420.52,15.05,0,1,3.8,3.62,9.3
+PROD01410,Instant Meals,Noodles,HomeEase,1kg,426,396.74,7.14,1,0,4.8,8.97,1.57
+PROD01411,Frozen Foods,Ice Cream,FitBite,1L,70,60.85,19.95,1,0,4.2,7.72,7.29
+PROD01412,Dairy,Curd,FitBite,500g,201,153.9,21.86,0,1,3.9,7.63,2.4
+PROD01413,Personal Care,Face Wash,QuickChef,1L,513,402.92,19.78,1,1,3.9,6.95,5.08
+PROD01414,Dairy,Paneer,QuickChef,250g,202,177.15,26.83,0,0,4.6,8.9,1.64
+PROD01415,Frozen Foods,Ice Cream,PureHarvest,250g,373,319.74,29.5,1,1,3.4,2.69,8.49
+PROD01416,Instant Meals,Noodles,NutriMile,750ml,572,458.06,26.46,0,1,4.9,4.15,4.75
+PROD01417,Dairy,Curd,DailyDrop,500g,529,502.79,22.71,1,1,3.6,2.54,4.36
+PROD01418,Frozen Foods,Fries,UrbanCrunch,250g,800,642.7,34.95,0,0,4.3,3.97,7.37
+PROD01419,Beverages,Energy Drink,FitBite,1L,674,526.34,26.34,0,1,4.5,8.0,3.31
+PROD01420,Personal Care,Soap,DailyDrop,1L,191,171.6,14.86,0,1,3.7,1.61,9.81
+PROD01421,Dairy,Butter,HomeEase,500g,151,123.51,19.88,0,0,4.9,6.59,9.69
+PROD01422,Health & Wellness,Protein Powder,NutriMile,250g,782,706.31,31.79,1,1,3.6,1.62,1.68
+PROD01423,Snacks,Namkeen,FitBite,250g,64,58.51,21.46,1,1,3.7,5.97,5.79
+PROD01424,Personal Care,Face Wash,NutriMile,500g,772,636.1,28.38,1,1,4.5,5.49,3.27
+PROD01425,Beverages,Energy Drink,DailyDrop,750ml,732,640.5,10.14,1,0,3.6,6.34,5.65
+PROD01426,Frozen Foods,Fries,UrbanCrunch,1kg,428,360.47,29.32,0,1,4.2,7.17,8.38
+PROD01427,Instant Meals,Ready Meals,FreshNest,250g,261,237.91,7.05,0,0,4.8,5.17,2.26
+PROD01428,Snacks,Namkeen,ChillSip,250g,764,593.51,32.46,1,1,4.9,5.69,7.18
+PROD01429,Dairy,Curd,UrbanCrunch,500g,465,373.56,29.33,1,1,4.2,8.77,3.02
+PROD01430,Snacks,Protein Snacks,PureHarvest,250g,638,609.67,23.85,1,0,3.4,2.54,4.66
+PROD01431,Instant Meals,Ready Meals,FitBite,750ml,317,282.2,30.48,0,0,3.2,9.56,7.72
+PROD01432,Health & Wellness,Oats,DailyDrop,500g,45,41.86,34.56,0,1,4.2,8.95,8.14
+PROD01433,Snacks,Namkeen,DailyDrop,1kg,611,596.71,6.43,1,0,4.0,8.43,9.07
+PROD01434,Instant Meals,Pasta,UrbanCrunch,750ml,384,375.32,12.47,0,1,3.6,8.77,2.63
+PROD01435,Frozen Foods,Fries,SpiceRoute,500g,316,244.27,32.43,0,1,3.1,8.29,9.49
+PROD01436,Dairy,Paneer,SpiceRoute,1kg,416,313.71,16.68,0,1,3.2,7.85,6.46
+PROD01437,Instant Meals,Noodles,SpiceRoute,1kg,793,695.65,21.16,1,1,4.4,7.2,1.52
+PROD01438,Dairy,Milk,PureHarvest,1kg,748,680.75,10.38,1,1,4.3,9.1,3.92
+PROD01439,Health & Wellness,Granola,FitBite,750ml,200,155.41,27.48,1,0,5.0,5.87,1.51
+PROD01440,Instant Meals,Ready Meals,SpiceRoute,1kg,325,284.99,9.99,0,1,3.0,2.63,4.38
+PROD01441,Beverages,Cold Coffee,HomeEase,1L,779,645.62,9.19,1,1,3.3,5.57,8.1
+PROD01442,Beverages,Cold Coffee,DailyDrop,1L,462,407.89,24.05,1,1,4.5,1.82,8.14
+PROD01443,Personal Care,Face Wash,QuickChef,500g,163,141.15,30.39,0,0,3.7,8.52,4.01
+PROD01444,Beverages,Soft Drink,UrbanCrunch,250g,231,197.34,29.87,0,0,4.2,1.74,4.39
+PROD01445,Snacks,Cookies,SpiceRoute,750ml,79,68.84,21.61,1,1,3.9,2.96,7.38
+PROD01446,Instant Meals,Pasta,QuickChef,1kg,691,614.27,30.7,1,1,4.7,2.39,8.96
+PROD01447,Health & Wellness,Oats,UrbanCrunch,1kg,156,127.26,5.22,0,1,4.5,9.74,4.21
+PROD01448,Beverages,Soft Drink,QuickChef,750ml,749,701.92,16.42,1,1,4.0,9.06,3.42
+PROD01449,Dairy,Curd,HomeEase,1L,446,406.44,29.28,0,0,4.7,1.9,9.36
+PROD01450,Snacks,Chips,UrbanCrunch,750ml,518,479.44,7.59,1,0,4.4,4.97,5.64
+PROD01451,Beverages,Juice,UrbanCrunch,250g,800,644.49,31.53,1,1,4.9,5.19,6.19
+PROD01452,Personal Care,Shampoo,DailyDrop,1kg,336,318.85,25.22,0,0,3.2,8.46,9.14
+PROD01453,Personal Care,Shampoo,UrbanCrunch,500g,521,479.44,21.77,0,0,3.2,3.16,3.51
+PROD01454,Beverages,Energy Drink,HomeEase,750ml,710,671.15,12.07,1,1,3.6,8.36,6.67
+PROD01455,Snacks,Cookies,HomeEase,1L,595,498.06,18.02,0,0,3.2,1.42,5.8
+PROD01456,Dairy,Butter,QuickChef,750ml,476,439.6,11.13,1,0,4.1,9.51,2.83
+PROD01457,Instant Meals,Pasta,QuickChef,750ml,325,303.59,7.39,1,1,4.8,2.02,3.26
+PROD01458,Personal Care,Face Wash,PureHarvest,750ml,584,464.34,20.84,1,0,3.8,3.2,4.07
+PROD01459,Frozen Foods,Fries,FreshNest,500g,717,650.82,8.8,1,0,3.7,1.33,7.53
+PROD01460,Beverages,Juice,NutriMile,250g,562,524.79,22.82,1,1,4.2,7.01,5.17
+PROD01461,Instant Meals,Pasta,NutriMile,250g,109,82.54,15.8,0,0,3.3,4.08,3.4
+PROD01462,Beverages,Juice,DailyDrop,250g,668,573.86,13.41,1,0,3.2,5.33,3.1
+PROD01463,Frozen Foods,Frozen Pizza,FitBite,250g,489,477.34,21.17,1,0,4.7,1.84,6.23
+PROD01464,Instant Meals,Pasta,UrbanCrunch,750ml,592,533.31,32.1,1,1,4.8,8.4,2.38
+PROD01465,Beverages,Juice,UrbanCrunch,750ml,682,552.8,14.59,1,0,3.4,2.5,3.98
+PROD01466,Dairy,Butter,HomeEase,750ml,463,452.41,27.89,0,1,5.0,6.76,8.63
+PROD01467,Frozen Foods,Frozen Pizza,FitBite,750ml,288,222.56,21.2,1,0,3.2,6.73,5.05
+PROD01468,Instant Meals,Pasta,QuickChef,1kg,521,405.16,22.29,0,1,3.1,8.03,6.75
+PROD01469,Health & Wellness,Granola,QuickChef,250g,85,75.91,13.4,0,0,4.4,9.6,1.87
+PROD01470,Beverages,Juice,FreshNest,1kg,679,583.82,33.42,0,1,4.9,5.25,4.51
+PROD01471,Snacks,Namkeen,FitBite,1L,303,256.04,29.84,1,1,4.1,8.61,4.82
+PROD01472,Instant Meals,Pasta,DailyDrop,250g,627,501.39,19.15,0,1,3.1,2.88,6.29
+PROD01473,Snacks,Namkeen,UrbanCrunch,1kg,621,552.51,26.25,0,0,3.5,7.49,4.11
+PROD01474,Frozen Foods,Ice Cream,DailyDrop,750ml,245,220.07,27.69,0,0,3.4,9.68,7.42
+PROD01475,Dairy,Paneer,FreshNest,750ml,401,319.06,19.04,0,0,3.8,5.05,8.1
+PROD01476,Health & Wellness,Granola,FitBite,500g,274,221.35,7.79,1,1,4.0,8.67,8.15
+PROD01477,Dairy,Butter,QuickChef,1kg,693,535.77,34.44,0,1,3.4,8.29,3.28
+PROD01478,Instant Meals,Pasta,FitBite,1L,609,593.1,24.69,1,0,4.8,9.65,6.24
+PROD01479,Beverages,Cold Coffee,NutriMile,750ml,74,64.95,24.6,1,1,4.8,7.52,8.78
+PROD01480,Dairy,Milk,PureHarvest,250g,539,505.73,26.56,1,0,4.6,9.42,9.35
+PROD01481,Dairy,Milk,DailyDrop,1L,304,250.98,18.43,1,0,4.9,5.52,4.15
+PROD01482,Dairy,Paneer,NutriMile,250g,446,408.09,14.84,1,1,4.5,9.07,4.76
+PROD01483,Dairy,Milk,NutriMile,250g,605,517.52,16.53,0,0,3.7,8.86,5.3
+PROD01484,Health & Wellness,Granola,FreshNest,1kg,512,452.08,12.81,1,0,3.4,4.68,7.67
+PROD01485,Health & Wellness,Oats,FreshNest,1L,136,109.93,32.05,1,1,4.7,3.18,4.0
+PROD01486,Frozen Foods,Ice Cream,NutriMile,1L,443,391.11,33.07,1,0,4.1,2.99,3.53
+PROD01487,Snacks,Namkeen,PureHarvest,750ml,668,562.61,21.9,1,1,4.9,7.52,7.54
+PROD01488,Health & Wellness,Oats,PureHarvest,1L,427,338.93,13.26,0,0,4.0,7.79,9.46
+PROD01489,Beverages,Energy Drink,HomeEase,1kg,451,391.9,10.76,1,1,4.8,2.02,6.68
+PROD01490,Dairy,Paneer,DailyDrop,1kg,547,443.51,25.51,0,1,4.1,9.02,8.24
+PROD01491,Beverages,Cold Coffee,PureHarvest,750ml,442,419.03,33.68,0,1,4.3,5.24,4.7
+PROD01492,Snacks,Cookies,ChillSip,1kg,418,344.75,14.17,1,0,3.8,3.64,1.7
+PROD01493,Health & Wellness,Oats,HomeEase,250g,388,306.36,17.82,0,1,4.3,3.61,1.22
+PROD01494,Dairy,Butter,DailyDrop,1L,143,118.61,13.56,0,0,3.3,6.25,5.88
+PROD01495,Dairy,Curd,UrbanCrunch,1L,682,594.75,5.8,1,1,4.2,8.2,3.19
+PROD01496,Personal Care,Face Wash,QuickChef,1kg,243,203.17,31.09,0,1,3.4,5.34,7.06
+PROD01497,Snacks,Protein Snacks,FitBite,1kg,303,238.16,28.57,0,1,3.7,3.59,2.98
+PROD01498,Personal Care,Face Wash,UrbanCrunch,1kg,450,361.74,10.52,0,0,3.5,6.34,7.42
+PROD01499,Frozen Foods,Ice Cream,DailyDrop,500g,650,608.52,19.03,1,1,4.8,4.05,2.11
+PROD01500,Beverages,Juice,UrbanCrunch,500g,244,230.23,27.57,1,1,4.6,9.84,4.89
+PROD01501,Instant Meals,Pasta,QuickChef,250g,456,428.98,33.33,0,0,4.9,7.29,1.97
+PROD01502,Snacks,Namkeen,SpiceRoute,750ml,582,565.7,20.84,0,0,5.0,6.14,2.52
+PROD01503,Personal Care,Face Wash,FitBite,250g,517,447.84,25.24,0,0,3.8,9.55,2.58
+PROD01504,Health & Wellness,Granola,SpiceRoute,500g,263,220.26,12.75,0,1,3.8,5.87,7.03
+PROD01505,Snacks,Chips,PureHarvest,250g,454,409.95,13.4,1,0,3.4,4.25,3.28
+PROD01506,Frozen Foods,Fries,UrbanCrunch,750ml,400,356.63,5.71,0,1,4.3,2.04,8.68
+PROD01507,Frozen Foods,Ice Cream,NutriMile,750ml,397,369.75,18.91,0,0,4.8,5.36,3.91
+PROD01508,Frozen Foods,Frozen Pizza,DailyDrop,750ml,383,318.43,22.1,0,0,4.3,1.13,5.64
+PROD01509,Beverages,Juice,FitBite,750ml,41,34.11,11.33,0,1,3.2,6.68,8.03
+PROD01510,Health & Wellness,Oats,UrbanCrunch,1kg,770,605.79,16.43,1,1,4.8,6.5,6.03
+PROD01511,Frozen Foods,Frozen Pizza,FitBite,500g,475,429.14,12.82,1,0,3.4,8.53,6.8
+PROD01512,Health & Wellness,Protein Powder,NutriMile,1kg,246,190.59,10.35,1,0,3.7,8.06,5.59
+PROD01513,Frozen Foods,Fries,QuickChef,1kg,506,391.37,21.93,0,0,4.8,3.07,5.43
+PROD01514,Instant Meals,Ready Meals,ChillSip,1L,334,296.46,5.57,0,1,3.8,8.83,5.82
+PROD01515,Personal Care,Face Wash,SpiceRoute,500g,68,64.9,10.85,1,0,5.0,5.69,9.85
+PROD01516,Instant Meals,Pasta,UrbanCrunch,750ml,660,498.17,31.17,1,0,3.4,2.6,2.44
+PROD01517,Instant Meals,Noodles,SpiceRoute,250g,178,155.91,13.45,0,0,4.1,3.14,7.89
+PROD01518,Dairy,Curd,SpiceRoute,500g,409,367.78,19.28,1,0,4.7,2.31,1.88
+PROD01519,Beverages,Juice,PureHarvest,1kg,652,606.11,26.71,0,1,4.2,3.92,8.66
+PROD01520,Personal Care,Shampoo,ChillSip,750ml,683,645.69,14.36,0,1,4.1,7.46,9.48
+PROD01521,Personal Care,Face Wash,FreshNest,750ml,417,388.28,21.54,0,1,4.4,3.39,6.14
+PROD01522,Personal Care,Soap,UrbanCrunch,1L,418,380.4,18.81,1,0,4.6,8.08,3.14
+PROD01523,Dairy,Paneer,ChillSip,750ml,638,604.19,34.14,0,0,4.4,5.78,1.24
+PROD01524,Personal Care,Soap,ChillSip,500g,542,422.29,20.96,0,1,4.2,8.54,3.1
+PROD01525,Personal Care,Soap,UrbanCrunch,1kg,438,425.29,16.5,1,0,3.4,1.01,6.48
+PROD01526,Personal Care,Face Wash,NutriMile,1kg,586,462.24,31.63,1,0,4.8,6.32,8.88
+PROD01527,Frozen Foods,Frozen Pizza,ChillSip,1L,198,164.35,10.4,0,1,3.4,8.11,9.92
+PROD01528,Frozen Foods,Fries,NutriMile,750ml,390,374.19,27.33,0,1,3.5,2.5,9.11
+PROD01529,Personal Care,Shampoo,DailyDrop,500g,785,616.11,23.18,0,0,3.9,8.06,6.47
+PROD01530,Snacks,Cookies,QuickChef,1kg,353,274.53,19.15,0,0,3.4,6.26,5.59
+PROD01531,Personal Care,Shampoo,FitBite,250g,637,489.35,18.53,1,0,3.1,9.67,9.43
+PROD01532,Dairy,Paneer,DailyDrop,250g,679,581.38,32.56,0,0,4.2,4.45,3.9
+PROD01533,Snacks,Protein Snacks,HomeEase,1L,433,363.74,12.16,1,0,4.4,8.93,8.31
+PROD01534,Snacks,Chips,DailyDrop,1L,224,215.63,17.46,0,0,4.9,9.98,2.94
+PROD01535,Dairy,Paneer,QuickChef,1kg,79,71.98,11.29,0,1,3.2,6.23,4.91
+PROD01536,Snacks,Protein Snacks,ChillSip,750ml,317,294.87,31.97,0,1,4.2,4.23,4.99
+PROD01537,Instant Meals,Ready Meals,PureHarvest,1kg,95,73.24,34.72,0,1,4.4,7.46,6.49
+PROD01538,Personal Care,Shampoo,DailyDrop,250g,330,281.39,5.4,0,0,3.4,3.75,8.4
+PROD01539,Frozen Foods,Frozen Pizza,NutriMile,1kg,460,402.84,10.89,0,0,3.9,3.14,7.61
+PROD01540,Instant Meals,Noodles,HomeEase,1L,360,291.91,32.26,1,1,3.8,6.08,9.96
+PROD01541,Beverages,Juice,ChillSip,750ml,534,438.0,5.84,1,1,4.0,2.69,7.78
+PROD01542,Frozen Foods,Fries,DailyDrop,500g,760,706.28,27.97,1,0,4.7,9.16,9.68
+PROD01543,Beverages,Soft Drink,FitBite,1kg,731,630.2,26.13,0,1,3.1,2.13,1.78
+PROD01544,Beverages,Energy Drink,QuickChef,500g,679,634.57,12.99,1,1,3.2,2.33,3.12
+PROD01545,Frozen Foods,Frozen Pizza,DailyDrop,500g,430,325.26,26.6,1,0,3.7,5.59,6.04
+PROD01546,Beverages,Soft Drink,FitBite,1L,137,119.11,31.44,0,0,3.8,1.25,7.96
+PROD01547,Dairy,Milk,PureHarvest,750ml,82,72.81,7.05,1,0,3.4,5.64,5.09
+PROD01548,Snacks,Protein Snacks,NutriMile,1L,667,610.56,6.44,0,0,4.3,3.17,2.43
+PROD01549,Snacks,Namkeen,FitBite,1kg,352,316.18,27.1,0,1,4.6,6.71,1.81
+PROD01550,Frozen Foods,Frozen Pizza,HomeEase,1L,131,102.03,24.97,0,0,4.7,2.04,5.39
+PROD01551,Health & Wellness,Oats,PureHarvest,750ml,224,214.5,34.77,0,0,3.3,3.29,8.04
+PROD01552,Health & Wellness,Granola,QuickChef,500g,363,325.44,8.42,0,1,4.4,5.63,2.38
+PROD01553,Frozen Foods,Ice Cream,ChillSip,1L,432,412.85,20.81,0,1,4.2,1.58,6.85
+PROD01554,Health & Wellness,Granola,PureHarvest,250g,456,386.4,14.87,0,0,3.8,9.44,2.66
+PROD01555,Health & Wellness,Oats,DailyDrop,1kg,548,416.73,5.22,0,1,3.2,9.55,9.52
+PROD01556,Snacks,Namkeen,FitBite,750ml,200,159.83,15.23,1,0,4.0,5.61,7.06
+PROD01557,Dairy,Curd,FreshNest,250g,323,315.56,14.2,1,1,3.7,5.6,3.22
+PROD01558,Personal Care,Shampoo,HomeEase,1L,437,373.17,14.8,0,1,3.6,7.12,9.15
+PROD01559,Dairy,Curd,FitBite,250g,693,532.54,24.66,1,1,3.0,5.36,1.13
+PROD01560,Instant Meals,Noodles,PureHarvest,1L,703,529.79,17.23,1,1,3.1,4.39,4.95
+PROD01561,Health & Wellness,Protein Powder,QuickChef,750ml,730,664.74,26.31,1,1,3.4,2.49,3.7
+PROD01562,Snacks,Namkeen,DailyDrop,750ml,727,679.22,28.97,0,0,4.4,3.55,6.15
+PROD01563,Beverages,Energy Drink,ChillSip,500g,190,157.38,21.26,1,0,4.2,3.35,3.81
+PROD01564,Instant Meals,Noodles,FitBite,750ml,93,81.94,27.61,1,1,4.1,4.91,7.29
+PROD01565,Personal Care,Face Wash,NutriMile,500g,331,320.39,28.93,1,0,4.6,8.8,3.29
+PROD01566,Snacks,Namkeen,FreshNest,500g,240,228.03,27.34,1,1,4.0,6.13,3.38
+PROD01567,Health & Wellness,Granola,NutriMile,500g,130,115.0,8.52,1,0,4.5,1.64,3.23
+PROD01568,Health & Wellness,Oats,HomeEase,1L,92,73.4,23.1,0,1,3.6,9.36,3.38
+PROD01569,Beverages,Soft Drink,FitBite,500g,264,229.46,34.33,0,1,3.7,5.44,6.59
+PROD01570,Health & Wellness,Granola,FitBite,750ml,84,81.65,30.46,0,0,4.9,8.89,7.48
+PROD01571,Health & Wellness,Granola,QuickChef,500g,367,301.34,5.17,1,0,3.7,7.94,6.29
+PROD01572,Personal Care,Face Wash,SpiceRoute,500g,89,72.95,23.19,1,1,4.8,2.95,3.96
+PROD01573,Instant Meals,Noodles,SpiceRoute,750ml,556,529.02,10.49,0,0,3.8,8.43,4.7
+PROD01574,Dairy,Milk,FitBite,1L,744,595.51,24.02,1,0,3.8,4.92,2.15
+PROD01575,Snacks,Namkeen,ChillSip,1L,583,569.99,9.71,1,1,4.0,6.23,1.86
+PROD01576,Frozen Foods,Ice Cream,NutriMile,250g,620,548.73,22.0,0,1,4.3,1.93,4.6
+PROD01577,Beverages,Energy Drink,FreshNest,500g,303,279.78,30.83,1,1,4.0,2.99,6.48
+PROD01578,Snacks,Protein Snacks,UrbanCrunch,750ml,313,272.46,18.13,0,0,4.5,1.83,4.18
+PROD01579,Instant Meals,Pasta,UrbanCrunch,1L,363,335.15,29.43,1,0,4.1,7.95,9.81
+PROD01580,Instant Meals,Noodles,QuickChef,500g,44,42.82,17.56,0,0,3.3,8.76,8.48
+PROD01581,Instant Meals,Ready Meals,FitBite,750ml,471,361.06,32.08,1,0,4.2,2.06,3.83
+PROD01582,Personal Care,Soap,UrbanCrunch,500g,680,597.95,22.2,0,1,3.1,9.6,8.81
+PROD01583,Dairy,Milk,DailyDrop,1kg,793,748.68,29.74,1,1,4.0,3.63,6.37
+PROD01584,Beverages,Cold Coffee,NutriMile,1kg,514,389.11,16.67,0,1,3.2,7.82,2.98
+PROD01585,Frozen Foods,Frozen Pizza,FreshNest,1kg,176,147.82,12.04,1,0,3.7,3.23,1.23
+PROD01586,Snacks,Chips,DailyDrop,250g,487,409.32,23.76,0,0,5.0,5.49,1.18
+PROD01587,Frozen Foods,Frozen Pizza,HomeEase,250g,611,518.97,7.34,1,1,3.2,6.59,3.18
+PROD01588,Personal Care,Face Wash,FitBite,250g,610,581.27,10.82,0,0,4.5,2.32,9.32
+PROD01589,Dairy,Butter,FreshNest,750ml,659,617.62,25.29,1,1,3.5,9.71,8.3
+PROD01590,Health & Wellness,Granola,UrbanCrunch,500g,797,735.06,23.42,1,1,4.6,3.72,2.13
+PROD01591,Snacks,Namkeen,DailyDrop,1kg,785,603.62,32.03,0,1,4.5,7.43,9.89
+PROD01592,Beverages,Soft Drink,QuickChef,250g,681,581.9,31.16,1,1,4.8,7.06,8.09
+PROD01593,Frozen Foods,Fries,FreshNest,250g,574,452.6,16.23,1,0,3.4,8.39,3.82
+PROD01594,Frozen Foods,Fries,ChillSip,250g,105,79.76,21.79,1,1,4.4,2.8,7.8
+PROD01595,Dairy,Butter,HomeEase,250g,792,693.86,12.94,0,1,3.7,3.62,1.66
+PROD01596,Dairy,Butter,FreshNest,1kg,649,516.13,31.69,0,0,3.8,1.14,5.05
+PROD01597,Personal Care,Shampoo,DailyDrop,750ml,407,363.84,16.32,0,0,4.7,5.62,6.81
+PROD01598,Beverages,Cold Coffee,SpiceRoute,500g,559,474.29,31.47,1,0,4.5,8.73,7.2
+PROD01599,Personal Care,Face Wash,SpiceRoute,1kg,333,286.66,13.71,0,0,3.1,9.14,9.94
+PROD01600,Frozen Foods,Fries,QuickChef,750ml,562,449.72,9.98,1,0,4.1,3.21,3.07
+PROD01601,Health & Wellness,Protein Powder,QuickChef,250g,367,277.1,13.66,1,0,3.3,7.94,3.63
+PROD01602,Personal Care,Soap,FreshNest,1kg,442,404.99,19.65,0,0,3.8,5.47,4.1
+PROD01603,Health & Wellness,Oats,PureHarvest,1L,94,88.01,34.33,0,0,4.3,3.79,9.87
+PROD01604,Personal Care,Face Wash,PureHarvest,500g,426,387.02,18.33,0,1,4.5,3.98,2.03
+PROD01605,Beverages,Energy Drink,FitBite,250g,456,431.76,9.83,0,0,3.2,5.64,9.78
+PROD01606,Frozen Foods,Frozen Pizza,SpiceRoute,250g,490,421.16,9.92,1,1,3.7,1.98,2.74
+PROD01607,Beverages,Energy Drink,QuickChef,750ml,728,621.1,15.92,1,0,3.7,1.59,3.3
+PROD01608,Frozen Foods,Ice Cream,HomeEase,1L,281,234.74,12.52,0,1,4.8,3.05,4.87
+PROD01609,Dairy,Curd,NutriMile,250g,538,506.31,13.25,1,0,4.8,5.08,2.73
+PROD01610,Dairy,Paneer,UrbanCrunch,500g,60,57.82,18.63,1,0,4.9,8.66,1.7
+PROD01611,Instant Meals,Pasta,FreshNest,750ml,230,172.68,13.4,0,0,4.5,8.67,8.34
+PROD01612,Instant Meals,Ready Meals,SpiceRoute,1L,791,670.61,16.65,1,1,4.6,1.76,6.51
+PROD01613,Personal Care,Shampoo,FitBite,1L,575,560.52,17.48,1,0,3.0,3.96,7.4
+PROD01614,Personal Care,Soap,ChillSip,750ml,625,539.97,8.29,1,0,3.4,9.46,8.87
+PROD01615,Dairy,Milk,UrbanCrunch,500g,400,336.45,12.6,0,0,3.5,5.52,7.31
+PROD01616,Personal Care,Face Wash,FitBite,500g,54,46.56,13.31,0,0,3.3,6.96,3.5
+PROD01617,Instant Meals,Pasta,UrbanCrunch,1kg,585,482.19,9.48,1,1,4.1,9.48,3.19
+PROD01618,Dairy,Paneer,PureHarvest,1L,142,137.56,34.5,1,0,4.5,7.53,8.47
+PROD01619,Snacks,Namkeen,UrbanCrunch,1L,749,707.07,27.45,0,1,3.8,7.48,7.83
+PROD01620,Beverages,Juice,FitBite,500g,562,507.92,33.26,0,0,3.8,6.49,2.72
+PROD01621,Snacks,Chips,HomeEase,750ml,91,76.55,7.6,1,0,4.7,7.98,1.33
+PROD01622,Instant Meals,Noodles,QuickChef,1kg,263,208.27,22.34,1,0,3.1,1.06,3.88
+PROD01623,Health & Wellness,Granola,FreshNest,1kg,155,142.23,17.18,1,1,4.7,9.38,9.95
+PROD01624,Beverages,Juice,QuickChef,1kg,472,441.42,9.53,0,0,4.3,2.02,3.88
+PROD01625,Personal Care,Shampoo,NutriMile,750ml,582,552.23,34.15,1,1,3.7,7.28,1.8
+PROD01626,Dairy,Milk,FreshNest,500g,178,135.11,7.62,0,0,4.2,5.07,6.33
+PROD01627,Instant Meals,Noodles,PureHarvest,250g,245,226.03,12.3,0,0,4.7,5.83,2.36
+PROD01628,Health & Wellness,Granola,FitBite,750ml,439,402.34,6.66,0,1,3.0,3.4,8.12
+PROD01629,Personal Care,Shampoo,ChillSip,1L,331,274.05,24.29,1,1,3.3,8.81,8.26
+PROD01630,Frozen Foods,Ice Cream,NutriMile,1L,284,276.18,13.19,0,1,4.7,2.06,7.75
+PROD01631,Personal Care,Face Wash,HomeEase,1L,384,327.72,27.33,0,1,3.3,6.95,5.58
+PROD01632,Beverages,Soft Drink,UrbanCrunch,750ml,161,138.53,19.08,1,1,3.1,4.66,6.37
+PROD01633,Instant Meals,Pasta,PureHarvest,1kg,786,724.08,16.63,1,0,4.8,7.46,9.5
+PROD01634,Personal Care,Face Wash,FreshNest,250g,193,188.95,23.48,1,1,4.9,4.18,2.53
+PROD01635,Snacks,Chips,FreshNest,500g,198,191.1,10.17,1,1,3.0,5.64,5.26
+PROD01636,Personal Care,Face Wash,SpiceRoute,1kg,560,476.48,29.2,0,0,3.1,3.85,6.36
+PROD01637,Instant Meals,Pasta,ChillSip,750ml,738,714.36,10.32,1,0,3.3,9.13,2.57
+PROD01638,Beverages,Soft Drink,FitBite,1kg,582,474.97,9.21,1,0,3.8,4.28,1.4
+PROD01639,Health & Wellness,Oats,ChillSip,1L,653,560.43,33.28,1,1,3.2,2.0,7.06
+PROD01640,Dairy,Butter,HomeEase,1kg,534,479.48,24.09,0,1,3.2,5.4,2.73
+PROD01641,Beverages,Juice,NutriMile,500g,281,261.86,11.47,0,0,3.9,4.59,6.26
+PROD01642,Frozen Foods,Frozen Pizza,DailyDrop,500g,43,34.49,19.27,0,0,3.6,7.8,9.19
+PROD01643,Health & Wellness,Oats,PureHarvest,1kg,632,506.38,23.75,1,0,3.8,5.97,5.62
+PROD01644,Dairy,Curd,DailyDrop,1L,792,664.92,29.55,1,1,3.9,2.3,4.18
+PROD01645,Instant Meals,Pasta,DailyDrop,500g,182,164.57,9.54,1,0,5.0,2.84,6.23
+PROD01646,Dairy,Butter,FitBite,1L,592,577.86,16.06,1,1,4.1,3.83,6.74
+PROD01647,Snacks,Namkeen,QuickChef,1kg,678,627.7,33.5,0,0,4.5,1.57,9.35
+PROD01648,Instant Meals,Noodles,UrbanCrunch,1kg,292,278.32,21.5,0,1,3.6,9.93,9.97
+PROD01649,Dairy,Butter,FitBite,500g,764,725.82,11.94,1,0,4.8,9.86,8.44
+PROD01650,Frozen Foods,Ice Cream,ChillSip,750ml,460,354.08,22.84,1,0,3.1,1.73,3.55
+PROD01651,Instant Meals,Ready Meals,PureHarvest,250g,705,579.24,26.24,1,1,4.5,7.5,4.06
+PROD01652,Instant Meals,Noodles,NutriMile,1kg,326,312.18,11.17,1,1,4.7,1.49,9.1
+PROD01653,Snacks,Cookies,NutriMile,1kg,391,355.13,31.86,1,1,4.5,8.36,2.94
+PROD01654,Beverages,Energy Drink,UrbanCrunch,500g,280,273.16,14.53,1,1,3.7,4.94,8.61
+PROD01655,Instant Meals,Pasta,HomeEase,500g,129,110.64,33.42,0,1,4.1,9.48,2.88
+PROD01656,Dairy,Paneer,PureHarvest,750ml,220,214.95,27.87,0,1,4.0,1.22,8.9
+PROD01657,Personal Care,Shampoo,QuickChef,1kg,441,394.82,21.32,1,1,4.0,2.4,4.45
+PROD01658,Health & Wellness,Protein Powder,QuickChef,250g,325,289.42,10.67,0,0,4.5,8.34,8.17
+PROD01659,Frozen Foods,Fries,DailyDrop,750ml,295,270.82,32.39,0,1,3.4,3.08,5.41
+PROD01660,Dairy,Milk,NutriMile,1kg,294,239.04,14.08,0,1,4.3,3.46,1.15
+PROD01661,Frozen Foods,Ice Cream,NutriMile,500g,751,706.37,21.75,1,1,4.8,3.66,4.72
+PROD01662,Snacks,Chips,PureHarvest,250g,632,557.82,25.0,1,0,3.6,1.78,8.74
+PROD01663,Beverages,Juice,PureHarvest,1kg,470,422.95,14.18,0,1,3.9,1.44,6.22
+PROD01664,Health & Wellness,Protein Powder,NutriMile,1kg,262,205.68,11.86,1,0,4.3,2.41,8.59
+PROD01665,Snacks,Protein Snacks,SpiceRoute,500g,563,496.73,24.05,0,0,3.5,6.69,1.83
+PROD01666,Frozen Foods,Ice Cream,UrbanCrunch,1L,760,709.22,18.66,1,1,4.5,9.94,1.7
+PROD01667,Personal Care,Soap,FitBite,250g,623,595.24,20.84,1,0,3.6,9.23,6.41
+PROD01668,Beverages,Juice,SpiceRoute,1L,51,40.61,12.92,1,0,4.9,9.93,9.58
+PROD01669,Frozen Foods,Ice Cream,HomeEase,1kg,581,566.83,11.46,0,1,3.5,9.38,7.02
+PROD01670,Health & Wellness,Oats,DailyDrop,750ml,242,204.13,25.63,1,0,4.8,4.54,7.38
+PROD01671,Personal Care,Soap,DailyDrop,1kg,471,391.8,21.79,1,1,4.6,8.86,9.33
+PROD01672,Instant Meals,Ready Meals,FitBite,750ml,218,169.62,12.85,1,0,3.4,9.85,3.1
+PROD01673,Instant Meals,Pasta,FreshNest,500g,442,331.78,12.92,1,0,4.5,2.92,3.82
+PROD01674,Snacks,Cookies,HomeEase,750ml,156,136.16,5.93,1,1,3.5,5.35,2.52
+PROD01675,Beverages,Energy Drink,PureHarvest,1L,682,624.46,21.71,1,0,3.7,6.04,6.54
+PROD01676,Personal Care,Shampoo,PureHarvest,500g,339,324.5,17.76,1,0,4.2,4.47,6.88
+PROD01677,Frozen Foods,Ice Cream,FreshNest,250g,249,200.29,17.73,1,1,3.4,2.98,2.15
+PROD01678,Frozen Foods,Frozen Pizza,FitBite,250g,144,139.51,14.41,1,1,4.0,1.89,4.27
+PROD01679,Beverages,Cold Coffee,NutriMile,1L,647,517.24,27.12,1,0,4.3,1.67,1.19
+PROD01680,Personal Care,Face Wash,HomeEase,500g,210,185.04,8.41,1,1,4.6,1.36,9.96
+PROD01681,Snacks,Chips,HomeEase,1kg,164,147.65,15.5,0,1,4.9,1.08,3.17
+PROD01682,Snacks,Cookies,UrbanCrunch,750ml,764,596.08,33.02,0,0,4.4,6.33,4.49
+PROD01683,Snacks,Chips,PureHarvest,1kg,580,443.17,14.62,0,1,3.3,5.06,5.42
+PROD01684,Beverages,Soft Drink,FreshNest,750ml,783,660.43,26.44,1,0,3.0,1.49,7.47
+PROD01685,Dairy,Paneer,FreshNest,1kg,376,300.89,15.51,0,1,4.7,1.12,7.45
+PROD01686,Beverages,Soft Drink,NutriMile,500g,396,361.4,34.68,0,1,4.9,6.61,2.28
+PROD01687,Instant Meals,Noodles,UrbanCrunch,250g,242,185.98,23.77,1,1,3.2,2.27,8.88
+PROD01688,Beverages,Cold Coffee,HomeEase,1kg,366,300.65,12.6,0,1,4.0,9.95,9.46
+PROD01689,Dairy,Paneer,FreshNest,500g,215,161.79,5.76,1,1,3.1,6.22,9.24
+PROD01690,Beverages,Cold Coffee,QuickChef,250g,706,591.06,10.01,0,1,3.8,1.59,3.65
+PROD01691,Instant Meals,Pasta,FitBite,1kg,559,424.97,26.18,0,1,3.9,3.79,9.84
+PROD01692,Personal Care,Shampoo,SpiceRoute,1kg,245,197.55,9.29,1,1,4.7,4.62,6.94
+PROD01693,Personal Care,Soap,NutriMile,1kg,564,451.22,33.3,1,0,4.2,5.99,8.48
+PROD01694,Snacks,Chips,FreshNest,250g,734,573.23,13.13,1,0,4.1,7.64,4.13
+PROD01695,Beverages,Energy Drink,PureHarvest,1kg,391,310.05,33.65,1,0,4.4,1.51,3.81
+PROD01696,Personal Care,Face Wash,QuickChef,750ml,384,353.18,28.09,0,0,4.6,6.69,7.26
+PROD01697,Beverages,Soft Drink,FitBite,750ml,298,259.51,26.86,1,0,4.8,7.87,1.5
+PROD01698,Personal Care,Shampoo,QuickChef,500g,273,214.09,23.81,0,0,4.1,3.42,8.7
+PROD01699,Beverages,Soft Drink,UrbanCrunch,250g,220,212.17,33.88,1,1,4.1,1.3,5.63
+PROD01700,Instant Meals,Pasta,FreshNest,1kg,483,390.5,21.93,0,0,4.8,2.52,5.69
+PROD01701,Health & Wellness,Granola,DailyDrop,750ml,360,336.98,25.28,0,0,3.1,4.52,5.32
+PROD01702,Dairy,Curd,PureHarvest,750ml,525,480.77,6.02,1,1,3.6,9.36,3.0
+PROD01703,Frozen Foods,Fries,FitBite,750ml,271,251.47,10.01,1,1,3.3,2.36,2.97
+PROD01704,Snacks,Namkeen,FreshNest,250g,613,550.26,22.64,0,1,4.8,1.15,4.77
+PROD01705,Health & Wellness,Oats,FitBite,750ml,381,354.49,25.02,1,0,3.9,3.5,7.96
+PROD01706,Beverages,Cold Coffee,ChillSip,500g,480,452.48,26.99,1,0,3.8,8.33,8.53
+PROD01707,Health & Wellness,Oats,FitBite,250g,86,76.65,22.72,0,1,3.6,8.37,7.24
+PROD01708,Personal Care,Face Wash,FitBite,750ml,181,152.59,29.76,0,1,3.0,9.32,5.07
+PROD01709,Health & Wellness,Protein Powder,QuickChef,500g,778,645.24,27.15,1,0,4.6,8.8,6.48
+PROD01710,Instant Meals,Pasta,UrbanCrunch,750ml,780,690.0,21.79,1,0,4.4,7.18,5.01
+PROD01711,Snacks,Cookies,QuickChef,250g,266,255.75,28.52,0,1,4.1,9.45,1.15
+PROD01712,Beverages,Energy Drink,UrbanCrunch,1L,181,175.52,21.54,1,0,4.8,7.11,3.96
+PROD01713,Snacks,Chips,DailyDrop,750ml,361,345.26,31.51,1,0,4.9,1.04,5.65
+PROD01714,Snacks,Namkeen,UrbanCrunch,250g,190,185.49,7.11,0,1,3.6,3.95,1.25
+PROD01715,Frozen Foods,Fries,ChillSip,250g,491,395.07,5.48,0,0,4.2,2.06,2.13
+PROD01716,Instant Meals,Pasta,ChillSip,1L,719,638.09,5.08,1,1,4.9,1.28,3.02
+PROD01717,Dairy,Curd,PureHarvest,1kg,233,193.56,21.64,1,1,3.4,5.78,3.15
+PROD01718,Dairy,Paneer,ChillSip,500g,354,300.83,19.28,0,0,4.0,7.83,6.5
+PROD01719,Beverages,Cold Coffee,SpiceRoute,250g,482,388.54,29.78,1,1,3.4,3.28,6.07
+PROD01720,Personal Care,Shampoo,UrbanCrunch,250g,178,155.09,21.55,1,1,4.7,6.03,3.28
+PROD01721,Instant Meals,Ready Meals,HomeEase,750ml,76,66.6,18.59,1,0,4.1,2.06,6.38
+PROD01722,Health & Wellness,Oats,HomeEase,750ml,708,687.53,16.77,0,1,3.2,6.27,5.52
+PROD01723,Snacks,Chips,NutriMile,1kg,167,160.94,12.02,0,0,3.4,4.97,9.66
+PROD01724,Health & Wellness,Protein Powder,ChillSip,1L,141,136.36,33.96,0,1,4.4,3.82,1.28
+PROD01725,Personal Care,Face Wash,HomeEase,250g,353,342.18,24.4,0,1,3.4,4.64,5.45
+PROD01726,Dairy,Milk,SpiceRoute,250g,724,622.41,9.29,1,0,4.3,6.29,3.97
+PROD01727,Instant Meals,Pasta,PureHarvest,1kg,623,591.34,5.03,1,1,3.5,7.01,4.06
+PROD01728,Beverages,Cold Coffee,FitBite,750ml,441,334.02,23.36,0,1,4.6,9.37,1.74
+PROD01729,Snacks,Cookies,HomeEase,1L,228,176.32,23.1,0,0,4.9,5.38,7.79
+PROD01730,Instant Meals,Noodles,ChillSip,250g,585,550.67,34.36,1,1,4.3,5.45,2.85
+PROD01731,Beverages,Juice,NutriMile,1kg,503,425.67,25.18,1,0,4.6,6.91,8.41
+PROD01732,Frozen Foods,Frozen Pizza,UrbanCrunch,1L,608,568.08,22.29,1,0,3.1,2.12,4.17
+PROD01733,Frozen Foods,Frozen Pizza,UrbanCrunch,500g,45,41.42,21.36,1,1,4.3,3.93,5.46
+PROD01734,Beverages,Energy Drink,QuickChef,1kg,696,637.28,28.65,0,1,3.5,7.45,9.61
+PROD01735,Instant Meals,Pasta,NutriMile,750ml,402,384.67,32.54,1,1,3.6,9.18,2.91
+PROD01736,Beverages,Juice,PureHarvest,250g,82,65.51,28.36,1,1,3.1,2.46,3.77
+PROD01737,Personal Care,Face Wash,PureHarvest,250g,523,399.02,21.48,1,1,3.3,3.39,6.58
+PROD01738,Instant Meals,Noodles,HomeEase,500g,488,397.08,9.17,1,0,3.1,7.46,9.09
+PROD01739,Health & Wellness,Protein Powder,UrbanCrunch,1kg,97,79.06,9.51,0,1,3.7,7.96,4.87
+PROD01740,Frozen Foods,Frozen Pizza,UrbanCrunch,1L,258,200.27,29.06,1,0,3.7,3.77,2.15
+PROD01741,Frozen Foods,Ice Cream,ChillSip,1kg,322,307.72,30.5,0,1,3.6,9.22,5.23
+PROD01742,Instant Meals,Noodles,FitBite,750ml,356,345.21,8.47,0,1,4.5,4.25,2.18
+PROD01743,Instant Meals,Pasta,HomeEase,1kg,486,426.62,19.82,1,0,4.1,3.3,5.48
+PROD01744,Beverages,Juice,SpiceRoute,1kg,272,259.19,12.74,0,0,4.3,8.98,7.73
+PROD01745,Instant Meals,Pasta,SpiceRoute,1L,259,247.29,11.33,1,1,4.2,3.45,1.13
+PROD01746,Instant Meals,Ready Meals,FitBite,500g,464,421.98,25.49,1,1,3.3,8.18,4.15
+PROD01747,Personal Care,Face Wash,DailyDrop,750ml,309,294.0,12.9,1,1,4.9,6.2,5.71
+PROD01748,Personal Care,Shampoo,FreshNest,500g,579,456.32,31.81,1,0,4.0,3.76,1.17
+PROD01749,Health & Wellness,Oats,FitBite,750ml,740,696.34,11.89,1,0,4.6,9.98,6.37
+PROD01750,Health & Wellness,Protein Powder,FitBite,250g,317,268.87,24.52,0,1,4.7,6.81,4.88
+PROD01751,Dairy,Paneer,FreshNest,250g,310,248.36,31.95,1,0,4.1,5.1,2.07
+PROD01752,Frozen Foods,Ice Cream,NutriMile,500g,247,220.92,10.03,1,0,3.4,3.41,5.22
+PROD01753,Instant Meals,Noodles,HomeEase,500g,695,660.06,33.31,0,0,3.3,6.56,4.48
+PROD01754,Frozen Foods,Frozen Pizza,ChillSip,500g,534,404.16,17.92,0,1,4.5,5.0,8.17
+PROD01755,Beverages,Cold Coffee,ChillSip,750ml,277,269.11,10.26,1,0,4.6,6.17,7.35
+PROD01756,Instant Meals,Noodles,QuickChef,1kg,397,373.44,32.7,0,0,4.7,7.42,2.08
+PROD01757,Frozen Foods,Frozen Pizza,QuickChef,750ml,497,424.6,26.45,1,1,4.1,8.16,7.41
+PROD01758,Dairy,Butter,FitBite,1L,99,91.92,21.09,0,1,3.4,6.46,3.74
+PROD01759,Frozen Foods,Ice Cream,SpiceRoute,500g,765,634.52,34.81,1,1,4.8,2.82,6.17
+PROD01760,Beverages,Soft Drink,UrbanCrunch,750ml,453,347.61,24.12,1,0,4.6,9.62,3.27
+PROD01761,Frozen Foods,Fries,PureHarvest,1kg,658,541.54,19.13,0,0,4.6,4.95,9.44
+PROD01762,Personal Care,Face Wash,HomeEase,500g,540,463.18,15.71,0,0,4.8,5.63,6.21
+PROD01763,Health & Wellness,Oats,HomeEase,1L,666,580.29,24.29,1,1,4.3,9.69,4.71
+PROD01764,Health & Wellness,Oats,UrbanCrunch,750ml,689,643.15,18.33,1,0,3.1,5.6,2.08
+PROD01765,Instant Meals,Pasta,PureHarvest,750ml,254,215.81,16.15,1,0,4.3,6.15,2.92
+PROD01766,Personal Care,Soap,QuickChef,250g,799,648.73,19.58,0,1,3.3,3.84,2.52
+PROD01767,Personal Care,Shampoo,FreshNest,1L,491,425.1,5.46,1,1,3.8,8.41,1.51
+PROD01768,Beverages,Energy Drink,QuickChef,750ml,610,487.36,19.44,0,0,3.4,7.48,2.64
+PROD01769,Frozen Foods,Ice Cream,DailyDrop,1L,172,144.62,15.3,1,1,4.4,5.45,1.16
+PROD01770,Dairy,Curd,PureHarvest,750ml,649,562.14,19.17,1,1,4.2,6.34,3.97
+PROD01771,Dairy,Milk,PureHarvest,250g,696,595.61,17.58,0,0,4.9,2.77,2.74
+PROD01772,Snacks,Protein Snacks,UrbanCrunch,750ml,319,241.26,18.69,1,1,3.5,5.91,7.54
+PROD01773,Instant Meals,Noodles,SpiceRoute,750ml,204,168.57,18.8,0,0,5.0,2.73,2.88
+PROD01774,Personal Care,Shampoo,FreshNest,1L,783,594.09,23.3,1,0,3.5,9.77,8.1
+PROD01775,Personal Care,Shampoo,FreshNest,750ml,613,583.22,19.01,1,1,3.2,6.77,7.59
+PROD01776,Beverages,Cold Coffee,NutriMile,750ml,610,549.42,32.36,1,1,3.2,4.64,2.47
+PROD01777,Personal Care,Shampoo,NutriMile,750ml,752,644.98,27.84,1,1,4.9,5.04,5.1
+PROD01778,Personal Care,Shampoo,PureHarvest,250g,680,557.94,9.36,1,0,4.6,7.13,5.54
+PROD01779,Beverages,Energy Drink,QuickChef,750ml,794,612.68,31.63,0,1,4.8,2.75,3.87
+PROD01780,Beverages,Juice,PureHarvest,1kg,773,669.1,29.62,1,1,4.4,5.38,5.51
+PROD01781,Snacks,Protein Snacks,NutriMile,750ml,341,326.9,17.58,1,1,4.4,5.29,9.87
+PROD01782,Snacks,Cookies,QuickChef,1L,678,562.64,5.99,0,0,4.9,5.98,8.36
+PROD01783,Beverages,Energy Drink,NutriMile,1kg,660,629.61,11.37,1,0,3.5,7.77,6.37
+PROD01784,Personal Care,Face Wash,UrbanCrunch,250g,543,441.94,18.86,0,0,4.5,2.42,4.01
+PROD01785,Dairy,Paneer,DailyDrop,500g,659,596.63,27.57,0,0,4.1,5.17,2.76
+PROD01786,Health & Wellness,Oats,PureHarvest,750ml,85,67.79,29.4,0,0,3.3,6.61,6.48
+PROD01787,Beverages,Cold Coffee,DailyDrop,1L,617,477.91,12.92,1,1,3.7,3.61,1.35
+PROD01788,Frozen Foods,Ice Cream,PureHarvest,500g,591,546.04,13.4,0,1,4.9,8.9,6.91
+PROD01789,Snacks,Cookies,SpiceRoute,500g,433,335.76,26.7,0,0,3.3,4.38,8.61
+PROD01790,Beverages,Energy Drink,QuickChef,250g,167,157.13,29.63,1,0,3.2,1.32,2.2
+PROD01791,Health & Wellness,Granola,HomeEase,500g,792,744.02,22.9,1,0,4.1,6.7,9.15
+PROD01792,Frozen Foods,Fries,NutriMile,750ml,611,486.58,7.24,0,0,3.1,5.45,8.08
+PROD01793,Dairy,Curd,UrbanCrunch,250g,587,465.62,26.1,0,0,3.9,1.2,2.98
+PROD01794,Instant Meals,Ready Meals,HomeEase,1L,164,152.51,12.22,0,0,4.9,2.63,3.0
+PROD01795,Dairy,Paneer,NutriMile,1L,485,413.18,16.16,1,0,4.1,3.09,3.75
+PROD01796,Snacks,Protein Snacks,DailyDrop,1L,466,373.09,9.84,0,1,4.5,9.1,7.36
+PROD01797,Frozen Foods,Ice Cream,NutriMile,500g,463,416.33,22.49,1,0,4.8,2.23,6.17
+PROD01798,Frozen Foods,Ice Cream,PureHarvest,750ml,407,339.84,31.52,0,0,4.2,4.32,8.83
+PROD01799,Personal Care,Soap,FreshNest,500g,229,204.47,27.74,1,0,3.3,4.16,1.95
+PROD01800,Personal Care,Shampoo,DailyDrop,750ml,203,187.12,26.56,1,0,3.5,4.1,3.88
+PROD01801,Instant Meals,Ready Meals,SpiceRoute,500g,261,216.27,18.08,0,1,4.1,9.32,3.0
+PROD01802,Snacks,Cookies,PureHarvest,1L,224,197.04,16.93,0,1,4.4,2.81,5.76
+PROD01803,Health & Wellness,Protein Powder,UrbanCrunch,500g,137,103.15,8.85,0,1,3.3,1.2,6.89
+PROD01804,Instant Meals,Pasta,DailyDrop,250g,567,550.09,30.26,0,0,5.0,2.53,4.91
+PROD01805,Beverages,Energy Drink,SpiceRoute,500g,660,551.65,18.11,0,0,3.0,5.38,5.44
+PROD01806,Dairy,Butter,QuickChef,750ml,269,250.51,33.44,0,1,4.4,6.57,6.6
+PROD01807,Dairy,Butter,SpiceRoute,750ml,361,334.94,19.31,1,1,3.1,7.26,1.5
+PROD01808,Frozen Foods,Frozen Pizza,PureHarvest,1L,338,327.42,7.0,1,1,4.0,2.68,2.9
+PROD01809,Dairy,Paneer,UrbanCrunch,750ml,727,690.8,6.03,0,1,3.7,5.82,5.17
+PROD01810,Beverages,Energy Drink,FitBite,750ml,604,531.88,14.87,0,0,4.2,1.86,2.95
+PROD01811,Dairy,Paneer,FreshNest,1L,791,766.83,18.26,0,0,4.6,2.21,4.23
+PROD01812,Personal Care,Soap,HomeEase,250g,711,657.96,28.78,1,1,4.5,7.25,6.21
+PROD01813,Frozen Foods,Fries,UrbanCrunch,1kg,586,478.61,6.29,0,1,4.6,5.67,8.27
+PROD01814,Instant Meals,Pasta,HomeEase,750ml,240,207.32,18.71,1,0,4.5,5.55,2.08
+PROD01815,Health & Wellness,Protein Powder,SpiceRoute,750ml,350,309.03,5.76,0,0,3.4,6.67,1.24
+PROD01816,Personal Care,Face Wash,FitBite,500g,616,485.43,28.07,1,1,3.6,6.27,8.43
+PROD01817,Instant Meals,Pasta,FitBite,750ml,544,465.55,14.93,1,0,4.3,4.09,1.28
+PROD01818,Beverages,Soft Drink,DailyDrop,750ml,706,646.55,25.87,1,0,4.9,1.53,5.91
+PROD01819,Instant Meals,Pasta,FitBite,1L,137,131.17,23.01,0,0,3.2,9.32,5.78
+PROD01820,Beverages,Energy Drink,DailyDrop,1L,508,400.76,23.21,1,1,3.7,7.46,3.05
+PROD01821,Instant Meals,Pasta,FreshNest,500g,460,384.52,22.25,1,1,3.7,9.05,6.76
+PROD01822,Beverages,Soft Drink,NutriMile,250g,232,193.31,12.18,0,1,4.9,6.79,6.26
+PROD01823,Dairy,Butter,FreshNest,1kg,100,89.82,11.8,1,1,3.6,2.75,4.11
+PROD01824,Instant Meals,Noodles,HomeEase,250g,524,462.87,30.34,1,0,3.3,3.18,2.34
+PROD01825,Snacks,Cookies,DailyDrop,500g,397,319.55,7.05,1,0,3.1,8.38,5.04
+PROD01826,Health & Wellness,Oats,PureHarvest,1kg,358,289.12,32.22,0,0,3.7,6.93,1.53
+PROD01827,Snacks,Namkeen,SpiceRoute,1L,499,458.16,11.47,0,1,3.7,4.37,1.29
+PROD01828,Beverages,Energy Drink,PureHarvest,750ml,160,129.74,24.72,0,1,4.0,6.13,9.82
+PROD01829,Dairy,Curd,NutriMile,250g,372,307.04,10.39,1,0,3.4,8.75,4.85
+PROD01830,Beverages,Soft Drink,DailyDrop,1L,317,241.44,30.25,0,1,4.1,4.84,4.54
+PROD01831,Personal Care,Soap,UrbanCrunch,1kg,650,565.33,22.24,0,0,4.2,4.11,2.02
+PROD01832,Snacks,Protein Snacks,FitBite,750ml,702,538.49,18.31,0,1,3.6,3.06,1.39
+PROD01833,Snacks,Chips,DailyDrop,1kg,619,507.92,32.06,0,1,3.4,9.1,4.47
+PROD01834,Personal Care,Soap,FitBite,1kg,545,418.98,5.15,1,0,4.2,3.02,3.02
+PROD01835,Dairy,Curd,UrbanCrunch,750ml,726,692.41,30.89,0,0,4.2,3.6,9.83
+PROD01836,Beverages,Soft Drink,DailyDrop,1L,581,558.04,29.99,0,1,4.0,8.26,3.73
+PROD01837,Health & Wellness,Oats,PureHarvest,1kg,485,414.09,12.62,0,1,4.9,2.53,5.88
+PROD01838,Health & Wellness,Protein Powder,FreshNest,1L,342,259.11,29.61,0,1,4.8,9.6,9.84
+PROD01839,Health & Wellness,Granola,FreshNest,1L,376,311.23,5.09,1,1,4.8,1.26,3.8
+PROD01840,Dairy,Curd,UrbanCrunch,1kg,131,125.57,8.14,0,0,3.6,7.36,9.28
+PROD01841,Health & Wellness,Protein Powder,FreshNest,750ml,187,168.77,20.46,0,0,3.1,4.84,9.62
+PROD01842,Health & Wellness,Oats,NutriMile,1L,411,395.17,23.5,0,0,4.4,8.0,8.77
+PROD01843,Health & Wellness,Granola,SpiceRoute,1kg,612,467.33,10.69,1,1,4.1,6.52,6.74
+PROD01844,Snacks,Chips,ChillSip,500g,94,71.85,25.9,0,0,4.8,4.43,9.53
+PROD01845,Personal Care,Face Wash,PureHarvest,250g,151,142.15,25.52,0,1,4.6,7.28,1.72
+PROD01846,Instant Meals,Pasta,HomeEase,250g,303,239.54,17.27,1,0,3.6,4.77,1.66
+PROD01847,Personal Care,Soap,DailyDrop,250g,269,224.63,6.83,0,0,3.4,5.32,3.99
+PROD01848,Instant Meals,Ready Meals,DailyDrop,500g,102,79.82,7.72,0,1,3.8,5.32,6.61
+PROD01849,Health & Wellness,Protein Powder,DailyDrop,1L,421,353.7,17.27,1,1,3.5,3.29,2.9
+PROD01850,Dairy,Milk,FitBite,1kg,247,197.53,18.84,0,1,3.0,4.75,2.21
+PROD01851,Snacks,Namkeen,UrbanCrunch,1L,553,458.35,11.55,1,1,4.5,2.67,1.67
+PROD01852,Snacks,Protein Snacks,NutriMile,1kg,795,671.4,18.53,0,0,3.4,3.23,7.84
+PROD01853,Beverages,Energy Drink,SpiceRoute,500g,176,142.9,10.5,1,1,4.0,1.4,3.26
+PROD01854,Dairy,Paneer,UrbanCrunch,750ml,127,106.23,30.27,1,0,5.0,3.53,9.86
+PROD01855,Health & Wellness,Granola,HomeEase,1L,697,589.97,13.78,0,1,3.1,9.88,7.02
+PROD01856,Beverages,Soft Drink,PureHarvest,750ml,691,538.44,5.34,0,0,4.4,6.93,6.37
+PROD01857,Personal Care,Soap,PureHarvest,1L,532,400.13,18.67,1,1,4.3,2.81,2.95
+PROD01858,Health & Wellness,Granola,SpiceRoute,1kg,192,180.74,5.61,1,1,4.1,7.34,9.79
+PROD01859,Health & Wellness,Protein Powder,DailyDrop,500g,682,618.7,25.26,1,0,4.1,1.68,3.79
+PROD01860,Personal Care,Soap,SpiceRoute,1L,88,70.75,11.56,1,0,4.3,5.65,3.66
+PROD01861,Dairy,Curd,PureHarvest,250g,647,553.92,13.08,1,1,4.3,5.88,8.44
+PROD01862,Snacks,Protein Snacks,DailyDrop,1kg,561,476.83,10.84,1,1,3.9,3.36,8.88
+PROD01863,Personal Care,Shampoo,FreshNest,250g,69,57.4,13.95,0,0,4.6,9.67,6.43
+PROD01864,Health & Wellness,Granola,NutriMile,750ml,75,64.96,23.9,0,1,4.1,8.95,2.72
+PROD01865,Snacks,Namkeen,NutriMile,500g,367,294.73,31.6,0,0,3.9,7.83,5.52
+PROD01866,Beverages,Energy Drink,ChillSip,750ml,468,372.25,22.33,0,1,4.6,2.85,6.17
+PROD01867,Personal Care,Shampoo,PureHarvest,1kg,262,233.41,27.86,0,1,3.7,2.4,8.41
+PROD01868,Beverages,Cold Coffee,NutriMile,1L,342,327.89,30.21,0,1,3.8,4.68,6.98
+PROD01869,Frozen Foods,Frozen Pizza,PureHarvest,750ml,76,62.71,24.95,1,0,3.2,5.04,1.53
+PROD01870,Beverages,Juice,FitBite,1kg,384,355.76,27.78,1,0,4.0,9.2,6.98
+PROD01871,Personal Care,Soap,SpiceRoute,750ml,168,161.66,28.36,0,0,4.4,8.69,6.52
+PROD01872,Instant Meals,Pasta,SpiceRoute,1kg,499,431.0,13.71,1,1,4.2,8.18,5.92
+PROD01873,Personal Care,Shampoo,FreshNest,250g,152,141.01,16.7,1,0,4.4,7.64,1.5
+PROD01874,Health & Wellness,Granola,ChillSip,500g,187,173.02,34.12,1,0,3.2,3.25,5.05
+PROD01875,Personal Care,Shampoo,UrbanCrunch,250g,793,625.11,33.9,1,1,4.8,3.3,7.22
+PROD01876,Dairy,Curd,SpiceRoute,500g,605,572.93,24.88,0,0,3.4,9.15,9.76
+PROD01877,Dairy,Butter,UrbanCrunch,500g,124,108.43,12.41,1,0,3.7,3.98,4.26
+PROD01878,Instant Meals,Ready Meals,PureHarvest,500g,606,559.4,21.65,0,1,3.6,9.46,9.04
+PROD01879,Dairy,Butter,FreshNest,500g,120,102.13,30.69,0,1,4.6,3.12,2.71
+PROD01880,Health & Wellness,Protein Powder,HomeEase,250g,246,195.12,31.43,1,0,4.3,3.59,3.88
+PROD01881,Instant Meals,Pasta,HomeEase,1L,247,237.02,20.83,1,0,4.6,4.61,9.05
+PROD01882,Health & Wellness,Granola,ChillSip,250g,456,415.04,29.92,0,1,3.8,7.89,9.35
+PROD01883,Dairy,Butter,SpiceRoute,750ml,105,84.14,16.21,1,0,3.8,4.83,5.99
+PROD01884,Frozen Foods,Frozen Pizza,UrbanCrunch,500g,743,719.97,5.41,0,0,4.5,9.23,8.63
+PROD01885,Dairy,Butter,PureHarvest,1L,141,128.67,6.8,0,1,3.7,8.35,5.32
+PROD01886,Instant Meals,Noodles,PureHarvest,250g,242,190.88,15.34,1,1,4.9,2.26,4.68
+PROD01887,Health & Wellness,Protein Powder,FitBite,750ml,232,178.95,7.68,1,0,4.2,1.31,9.16
+PROD01888,Snacks,Namkeen,HomeEase,500g,287,265.51,6.98,1,1,4.7,9.36,5.63
+PROD01889,Frozen Foods,Ice Cream,UrbanCrunch,1kg,139,107.39,24.7,1,1,4.1,2.87,3.03
+PROD01890,Dairy,Curd,UrbanCrunch,750ml,137,129.72,6.76,1,1,3.7,2.35,7.37
+PROD01891,Health & Wellness,Granola,PureHarvest,1kg,111,94.03,26.71,0,1,3.2,5.83,3.4
+PROD01892,Instant Meals,Ready Meals,HomeEase,500g,97,73.21,15.89,0,1,4.1,5.97,6.45
+PROD01893,Instant Meals,Ready Meals,PureHarvest,250g,472,435.31,17.62,0,1,4.2,8.75,9.69
+PROD01894,Dairy,Curd,PureHarvest,1L,114,98.56,30.42,0,0,3.7,1.45,8.26
+PROD01895,Dairy,Butter,NutriMile,500g,384,310.14,5.33,1,1,4.2,1.13,4.09
+PROD01896,Dairy,Butter,FitBite,1L,693,603.13,27.05,0,0,4.9,8.16,8.22
+PROD01897,Dairy,Butter,DailyDrop,1L,522,477.62,23.34,1,1,4.2,8.44,1.12
+PROD01898,Personal Care,Face Wash,DailyDrop,250g,699,555.17,17.25,0,1,3.8,8.94,1.83
+PROD01899,Dairy,Butter,DailyDrop,750ml,766,701.72,29.62,1,0,4.4,4.34,3.93
+PROD01900,Beverages,Soft Drink,SpiceRoute,750ml,484,382.7,8.44,1,1,3.1,4.55,7.27
+PROD01901,Personal Care,Shampoo,FitBite,1kg,75,62.34,28.13,0,0,4.0,8.8,4.92
+PROD01902,Frozen Foods,Frozen Pizza,FitBite,250g,317,301.92,7.26,0,1,3.8,2.76,9.32
+PROD01903,Dairy,Butter,SpiceRoute,1kg,571,556.1,15.39,0,0,4.7,3.74,1.8
+PROD01904,Personal Care,Face Wash,FitBite,750ml,779,748.94,9.01,1,1,4.5,2.71,6.58
+PROD01905,Personal Care,Face Wash,FreshNest,1L,566,544.44,8.16,1,1,4.3,2.19,7.61
+PROD01906,Frozen Foods,Fries,PureHarvest,500g,564,474.08,19.9,1,0,4.1,6.12,2.65
+PROD01907,Dairy,Paneer,FitBite,500g,215,189.79,20.23,1,1,3.9,1.03,5.45
+PROD01908,Snacks,Chips,ChillSip,250g,354,294.71,11.78,0,1,3.7,3.58,3.55
+PROD01909,Snacks,Namkeen,NutriMile,750ml,772,627.32,17.58,0,1,3.2,3.45,7.84
+PROD01910,Instant Meals,Noodles,UrbanCrunch,1L,652,510.81,14.29,0,0,4.2,2.53,5.09
+PROD01911,Beverages,Energy Drink,UrbanCrunch,1L,298,246.18,13.6,1,1,4.4,4.91,3.36
+PROD01912,Frozen Foods,Fries,HomeEase,250g,703,667.63,13.96,1,0,3.3,9.56,2.34
+PROD01913,Instant Meals,Ready Meals,QuickChef,250g,472,461.76,12.91,1,1,5.0,5.93,3.09
+PROD01914,Frozen Foods,Frozen Pizza,SpiceRoute,500g,145,125.49,34.32,1,0,3.9,8.1,1.23
+PROD01915,Personal Care,Face Wash,PureHarvest,1L,518,400.21,28.67,1,0,3.2,4.33,9.31
+PROD01916,Dairy,Curd,SpiceRoute,1kg,545,426.74,27.5,1,1,4.5,3.05,6.8
+PROD01917,Snacks,Chips,UrbanCrunch,250g,627,480.47,20.17,1,0,4.5,3.07,2.99
+PROD01918,Beverages,Cold Coffee,SpiceRoute,750ml,358,271.46,30.81,0,1,4.8,9.91,3.37
+PROD01919,Health & Wellness,Oats,SpiceRoute,750ml,316,272.83,19.43,0,1,4.9,3.05,8.31
+PROD01920,Frozen Foods,Ice Cream,HomeEase,1L,331,263.57,17.24,0,0,3.1,1.67,2.34
+PROD01921,Personal Care,Shampoo,HomeEase,750ml,768,728.27,10.37,0,1,4.0,8.06,5.52
+PROD01922,Frozen Foods,Fries,FitBite,500g,748,648.15,13.26,1,1,4.8,1.42,3.27
+PROD01923,Beverages,Soft Drink,UrbanCrunch,750ml,586,539.86,21.31,0,1,4.4,4.42,1.8
+PROD01924,Personal Care,Face Wash,PureHarvest,750ml,61,56.12,25.69,1,1,4.6,3.83,8.65
+PROD01925,Frozen Foods,Fries,FreshNest,500g,296,273.76,5.97,0,0,3.0,3.59,4.98
+PROD01926,Dairy,Paneer,NutriMile,1kg,769,734.09,27.35,1,1,3.5,1.55,5.57
+PROD01927,Health & Wellness,Granola,PureHarvest,500g,622,556.24,6.81,0,1,4.1,8.08,6.02
+PROD01928,Instant Meals,Pasta,SpiceRoute,500g,226,189.74,15.88,1,0,4.0,9.3,2.17
+PROD01929,Instant Meals,Pasta,NutriMile,250g,77,60.56,21.06,1,0,4.8,5.09,4.32
+PROD01930,Snacks,Protein Snacks,NutriMile,500g,744,648.23,20.88,0,1,3.6,9.53,1.33
+PROD01931,Personal Care,Soap,QuickChef,500g,56,44.57,26.14,0,0,4.3,8.23,8.67
+PROD01932,Beverages,Cold Coffee,ChillSip,250g,339,291.03,34.59,1,1,3.7,3.38,8.73
+PROD01933,Instant Meals,Pasta,DailyDrop,500g,590,459.4,30.97,0,0,4.9,7.48,9.45
+PROD01934,Snacks,Namkeen,DailyDrop,1kg,217,202.0,23.49,1,0,4.8,2.56,2.7
+PROD01935,Snacks,Namkeen,DailyDrop,750ml,735,658.57,27.8,0,0,4.2,2.37,6.77
+PROD01936,Personal Care,Face Wash,QuickChef,750ml,779,668.05,13.29,1,1,4.8,4.48,4.83
+PROD01937,Beverages,Cold Coffee,UrbanCrunch,500g,526,397.22,13.39,1,1,4.0,5.23,2.65
+PROD01938,Instant Meals,Noodles,HomeEase,250g,546,509.28,12.31,1,1,3.9,4.9,7.64
+PROD01939,Health & Wellness,Oats,PureHarvest,750ml,786,663.35,16.74,1,1,3.4,3.57,8.69
+PROD01940,Instant Meals,Pasta,PureHarvest,250g,208,193.98,13.67,0,0,4.6,6.61,8.41
+PROD01941,Personal Care,Face Wash,NutriMile,750ml,515,479.72,30.41,0,0,4.7,3.2,3.33
+PROD01942,Personal Care,Soap,HomeEase,500g,463,372.39,24.29,0,1,3.9,7.26,7.92
+PROD01943,Frozen Foods,Fries,FreshNest,1L,44,35.25,16.42,1,1,3.7,6.42,8.98
+PROD01944,Health & Wellness,Protein Powder,NutriMile,500g,245,238.14,34.02,0,1,3.5,5.13,4.28
+PROD01945,Instant Meals,Noodles,SpiceRoute,750ml,127,110.17,24.59,0,1,3.9,3.9,7.81
+PROD01946,Snacks,Chips,SpiceRoute,750ml,658,567.01,18.94,0,1,3.1,9.9,9.53
+PROD01947,Frozen Foods,Frozen Pizza,UrbanCrunch,750ml,334,253.45,26.63,1,0,3.7,8.34,9.23
+PROD01948,Beverages,Energy Drink,ChillSip,1L,529,435.94,14.71,0,0,4.2,6.39,2.43
+PROD01949,Instant Meals,Pasta,UrbanCrunch,250g,163,145.4,25.41,1,0,3.3,1.53,5.15
+PROD01950,Frozen Foods,Frozen Pizza,DailyDrop,250g,560,511.86,27.98,1,1,4.4,3.75,2.71
+PROD01951,Snacks,Namkeen,SpiceRoute,1L,139,123.08,16.91,0,0,3.3,5.32,6.81
+PROD01952,Snacks,Namkeen,FreshNest,750ml,186,172.83,22.55,0,1,3.2,4.08,7.66
+PROD01953,Personal Care,Face Wash,QuickChef,1L,492,479.33,22.65,1,1,3.0,5.85,8.68
+PROD01954,Beverages,Juice,ChillSip,500g,785,655.84,20.94,1,1,4.6,8.61,7.76
+PROD01955,Dairy,Butter,PureHarvest,1L,262,204.49,16.13,0,1,4.0,4.22,7.75
+PROD01956,Dairy,Curd,FitBite,250g,741,619.59,10.28,0,0,3.1,9.1,7.86
+PROD01957,Personal Care,Shampoo,DailyDrop,750ml,371,350.95,14.37,1,1,4.7,7.14,5.5
+PROD01958,Snacks,Namkeen,NutriMile,250g,230,191.96,24.9,1,1,3.3,8.69,6.93
+PROD01959,Health & Wellness,Granola,PureHarvest,1kg,736,637.3,13.71,0,0,4.7,3.14,1.01
+PROD01960,Personal Care,Shampoo,DailyDrop,750ml,532,499.33,23.08,0,0,4.6,5.06,5.6
+PROD01961,Snacks,Cookies,HomeEase,250g,361,314.61,13.09,1,1,3.2,8.11,4.71
+PROD01962,Instant Meals,Pasta,SpiceRoute,250g,238,206.43,33.27,0,0,4.6,3.44,5.93
+PROD01963,Health & Wellness,Granola,FitBite,750ml,341,298.17,18.43,0,0,3.5,4.47,5.19
+PROD01964,Beverages,Energy Drink,SpiceRoute,500g,314,288.74,12.97,0,1,4.6,3.24,2.37
+PROD01965,Personal Care,Soap,DailyDrop,750ml,88,72.73,7.8,0,1,4.2,5.82,5.72
+PROD01966,Snacks,Protein Snacks,ChillSip,750ml,509,394.38,5.27,1,0,4.1,3.15,7.09
+PROD01967,Health & Wellness,Granola,NutriMile,1kg,221,214.21,7.18,0,1,4.7,3.28,2.7
+PROD01968,Instant Meals,Pasta,DailyDrop,250g,268,245.52,28.47,1,0,3.8,5.77,1.4
+PROD01969,Personal Care,Shampoo,FreshNest,500g,113,105.27,22.8,1,1,3.1,7.71,6.67
+PROD01970,Instant Meals,Pasta,DailyDrop,1kg,640,605.51,34.79,1,1,3.8,5.78,9.14
+PROD01971,Personal Care,Face Wash,QuickChef,250g,618,575.02,6.8,1,1,4.6,9.17,9.97
+PROD01972,Personal Care,Shampoo,DailyDrop,500g,283,260.12,27.04,1,0,3.2,7.53,9.72
+PROD01973,Frozen Foods,Ice Cream,DailyDrop,1kg,269,209.8,15.98,0,1,4.8,1.07,7.13
+PROD01974,Health & Wellness,Protein Powder,DailyDrop,500g,453,367.89,18.96,0,1,4.2,7.59,5.37
+PROD01975,Health & Wellness,Granola,FreshNest,750ml,347,284.48,24.41,0,1,3.5,3.29,4.39
+PROD01976,Dairy,Butter,DailyDrop,1L,740,595.47,22.01,0,1,4.6,4.54,6.44
+PROD01977,Health & Wellness,Oats,ChillSip,250g,743,565.13,15.92,1,0,4.2,1.56,1.09
+PROD01978,Beverages,Energy Drink,PureHarvest,1L,231,177.74,21.29,1,0,3.4,8.89,8.81
+PROD01979,Health & Wellness,Protein Powder,NutriMile,1L,149,115.95,29.72,1,0,3.7,1.73,1.27
+PROD01980,Instant Meals,Ready Meals,SpiceRoute,500g,328,246.34,12.12,0,0,4.8,8.06,7.13
+PROD01981,Frozen Foods,Ice Cream,PureHarvest,750ml,110,92.75,32.94,1,1,4.1,4.03,9.16
+PROD01982,Dairy,Milk,ChillSip,1L,419,327.6,9.34,1,0,4.3,2.37,4.31
+PROD01983,Dairy,Curd,QuickChef,750ml,609,571.73,6.87,1,0,3.8,5.27,6.53
+PROD01984,Health & Wellness,Granola,FitBite,1L,395,373.77,24.53,1,1,4.1,1.47,6.7
+PROD01985,Personal Care,Face Wash,NutriMile,1L,405,357.41,16.76,0,1,3.7,4.72,1.81
+PROD01986,Snacks,Namkeen,QuickChef,250g,258,238.0,12.21,1,0,3.9,5.53,2.49
+PROD01987,Dairy,Butter,SpiceRoute,500g,314,255.7,20.06,0,0,4.3,9.65,7.59
+PROD01988,Beverages,Cold Coffee,UrbanCrunch,250g,594,550.71,15.64,0,0,4.8,1.55,3.6
+PROD01989,Instant Meals,Noodles,NutriMile,500g,236,210.02,23.43,0,1,3.4,1.16,9.05
+PROD01990,Dairy,Paneer,PureHarvest,1L,208,173.94,34.64,1,1,3.7,2.44,4.62
+PROD01991,Health & Wellness,Granola,HomeEase,500g,284,229.68,27.37,1,1,4.7,2.63,1.2
+PROD01992,Instant Meals,Noodles,FitBite,500g,182,161.81,24.97,1,1,4.8,4.72,1.61
+PROD01993,Snacks,Protein Snacks,HomeEase,500g,579,522.26,6.19,0,0,4.4,6.45,6.05
+PROD01994,Instant Meals,Ready Meals,PureHarvest,750ml,397,327.86,7.09,1,0,3.3,4.22,4.1
+PROD01995,Dairy,Butter,SpiceRoute,250g,646,503.41,9.5,0,1,3.5,5.22,3.43
+PROD01996,Snacks,Namkeen,DailyDrop,1kg,333,289.18,6.66,0,1,5.0,8.55,8.02
+PROD01997,Health & Wellness,Granola,DailyDrop,1L,173,155.92,10.93,1,1,3.4,1.93,4.98
+PROD01998,Instant Meals,Pasta,ChillSip,1L,94,82.52,20.91,1,0,3.3,8.34,9.26
+PROD01999,Dairy,Curd,DailyDrop,750ml,598,456.99,29.48,0,1,5.0,5.85,3.69
+PROD02000,Beverages,Soft Drink,HomeEase,1L,644,600.41,13.72,1,1,4.2,6.0,8.09
