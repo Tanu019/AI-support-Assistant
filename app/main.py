@@ -35,7 +35,7 @@ def get_cached_data():
 
 @st.cache_resource
 def get_cached_engine(_dataframes):
-    # Cache busted to remove dual-agent synthesis for speed
+    # Cache busted to apply bullet point formatting instructions
     return init_chat_engine(_dataframes)
 
 def main():

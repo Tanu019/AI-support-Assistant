@@ -214,7 +214,9 @@ A data query was run to answer the following question:
 The raw output from the query was:
 {data_str}
 
-Now write a simple, conversational answer (2-4 sentences) that tells the story behind these numbers. DO NOT output any <think> tags. Just output the final polished text.
+Now write a simple, conversational answer that tells the story behind these numbers. 
+Format your response using clear bullet points to make it easy to read. 
+DO NOT output any <think> tags. Just output the final polished text.
 """
         response_gen = self.llm.stream_complete(prompt)
         for chunk in response_gen:
