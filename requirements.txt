@@ -1,5 +1,5 @@
 streamlit
-pandas==2.2.2
+pandas
 duckdb
 llama-index-core
 llama-index-llms-openai-like

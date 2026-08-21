@@ -72,6 +72,12 @@ def inject_whatsapp_css():
         /* Chat background */
         .stApp {
             background-color: #0b141a;
+            color: #e9edef;
+        }
+        
+        /* Headers */
+        h1, h2, h3, h4, h5, h6, p, .stMarkdown {
+            color: #e9edef !important;
         }
         
         /* Chat Input */

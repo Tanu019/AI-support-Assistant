@@ -34,11 +34,12 @@ def _build_llm() -> OpenAILike | None:
         return None
 
     return OpenAILike(
-        model="llama-3.3-70b-versatile",
+        model="openai/gpt-oss-20b",
         api_base="https://api.groq.com/openai/v1",
         api_key=api_key,
         is_chat_model=True,
         context_window=8192,
+        max_tokens=4096,
     )
 
 
@@ -116,7 +117,7 @@ Given the following database schema:
 
 Write a SQL query (DuckDB dialect) to answer the user's question.
 Rules:
-- Return ONLY the raw SQL query. Do not include markdown formatting (like ```sql), and do not explain your answer.
+- Return ONLY the raw SQL query. Do not include markdown formatting (like ```sql), do not explain your answer, and DO NOT output any <think> reasoning process. Just output the final SQL.
 - Ensure column names match exactly.
 
 Recent Chat History (for context):
@@ -127,9 +128,38 @@ Recent Chat History (for context):
 Question: {question}
 """
         response = self.llm.complete(prompt)
-        sql = str(response).strip()
-        sql = re.sub(r"^```(?:sql)?\n?", "", sql)
-        sql = re.sub(r"\n?```$", "", sql)
+        raw_sql = str(response).strip()
+        print(f"DEBUG LLM RAW OUTPUT:\n{raw_sql}\n")
+        
+        # Extract SQL from markdown if present
+        match = re.search(r"```(?:sql)?\n(.*?)\n```", raw_sql, flags=re.DOTALL | re.IGNORECASE)
+        if match:
+            sql = match.group(1)
+        else:
+            sql = raw_sql
+            # Remove properly closed <think> blocks
+            sql = re.sub(r"<think>.*?</think>", "", sql, flags=re.DOTALL).strip()
+            # If there's an unclosed <think> block, find the first SELECT
+            if "<think>" in sql.lower():
+                idx = sql.upper().find("SELECT ")
+                if idx != -1:
+                    sql = sql[idx:]
+                else:
+                    raise ValueError("The AI generated a thought process but got cut off before writing the SELECT statement. Please try again.")
+            # Clean up backticks
+            sql = re.sub(r"^```(?:sql)?\n?", "", sql)
+            sql = re.sub(r"\n?```$", "", sql)
+            
+        # Ensure it actually looks like a query
+        if not sql.upper().startswith("SELECT") and not sql.upper().startswith("WITH"):
+            # try to find SELECT one more time
+            idx = sql.upper().find("SELECT ")
+            if idx != -1:
+                sql = sql[idx:]
+            else:
+                raise ValueError(f"No valid SELECT statement found in output:\n{raw_sql[:200]}...")
+            
+        print(f"DEBUG EXTRACTED SQL:\n{sql}\n")
         return sql.strip()
 
     def _run_sql(self, sql: str) -> pd.DataFrame:
@@ -173,9 +203,10 @@ Choice:"""
     def _synthesize_text(self, question: str, df: pd.DataFrame, status=None):
         data_str = df.head(20).to_string(index=False)
         
-        # Step 1: Drafter Agent
-        if status: status.update(label="Drafting initial analysis...", state="running")
-        draft_prompt = f"""{SYSTEM_PROMPT}
+        if status: status.update(label="Synthesizing response...", state="running")
+        from app.prompts import SYSTEM_PROMPT
+        
+        prompt = f"""{SYSTEM_PROMPT}
 
 A data query was run to answer the following question:
 "{question}"
@@ -183,24 +214,9 @@ A data query was run to answer the following question:
 The raw output from the query was:
 {data_str}
 
-Now write a simple, conversational answer (2-4 sentences) that tells the story behind these numbers.
+Now write a simple, conversational answer (2-4 sentences) that tells the story behind these numbers. DO NOT output any <think> tags. Just output the final polished text.
 """
-        draft_response = str(self.llm.complete(draft_prompt)).strip()
-        
-        # Step 2: Reviewer Agent
-        if status: status.update(label="Reviewer is polishing the response...", state="running")
-        from app.prompts import REVIEWER_PROMPT
-        review_prompt = f"""{REVIEWER_PROMPT}
-
-Original Question: {question}
-
-Draft Answer:
-{draft_response}
-
-Please output the final polished version now.
-"""
-        # Yield streaming chunks from the reviewer
-        response_gen = self.llm.stream_complete(review_prompt)
+        response_gen = self.llm.stream_complete(prompt)
         for chunk in response_gen:
             yield chunk.delta
 
@@ -221,9 +237,27 @@ Rules:
 - Return ONLY the raw Python code, no markdown, no explanations.
 """
         response = self.llm.complete(prompt)
-        code = str(response).strip()
-        code = re.sub(r"^```(?:python)?\n?", "", code)
-        code = re.sub(r"\n?```$", "", code)
+        raw_code = str(response).strip()
+        
+        # Extract code from markdown if present
+        match = re.search(r"```(?:python)?\n(.*?)\n```", raw_code, flags=re.DOTALL | re.IGNORECASE)
+        if match:
+            code = match.group(1)
+        else:
+            code = raw_code
+            # Remove properly closed <think> blocks
+            code = re.sub(r"<think>.*?</think>", "", code, flags=re.DOTALL).strip()
+            # If there's an unclosed <think> block, find the first 'import ' or 'fig ='
+            if "<think>" in code.lower():
+                idx = code.find("import ")
+                if idx == -1:
+                    idx = code.find("fig =")
+                if idx != -1:
+                    code = code[idx:]
+            
+            # Clean up backticks
+            code = re.sub(r"^```(?:python)?\n?", "", code)
+            code = re.sub(r"\n?```$", "", code)
         
         # Execute chart code safely
         local_ns = {"df": df, "go": go, "fig": None}

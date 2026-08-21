@@ -1,5 +1,8 @@
 import streamlit as st
 import os
+import sys
+# Add project root to sys.path so 'app' module can be imported
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 import pandas as pd
 from dotenv import load_dotenv
 
@@ -32,7 +35,7 @@ def get_cached_data():
 
 @st.cache_resource
 def get_cached_engine(_dataframes):
-    # Cache busted again to load sample rows logic
+    # Cache busted to remove dual-agent synthesis for speed
     return init_chat_engine(_dataframes)
 
 def main():
