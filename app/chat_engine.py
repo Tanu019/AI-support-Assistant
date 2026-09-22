@@ -19,7 +19,7 @@ import plotly.graph_objects as go
 from llama_index.core.llms import LLM
 from llama_index.llms.openai_like import OpenAILike
 
-from app.prompts import SYSTEM_PROMPT
+from app.prompts import SYSTEM_PROMPT, FOLLOW_UP_PROMPT
 
 
 # ---------------------------------------------------------------------------
@@ -110,8 +110,8 @@ class DuckDBEngine:
             
         self.schema_context = "\n".join(self.schema_lines)
 
-    def _generate_sql(self, question: str, history: str = "", error_msg: str = "") -> str:
-        prompt = f"""You are an expert SQL Data Analyst.
+    def _generate_sql(self, question: str, history: str = "", error_msg: str = "", role: str = "Business Head") -> str:
+        prompt = f"""You are an expert SQL Data Analyst acting as a {role}.
 Given the following database schema:
 {self.schema_context}
 
@@ -129,7 +129,6 @@ Question: {question}
 """
         response = self.llm.complete(prompt)
         raw_sql = str(response).strip()
-        print(f"DEBUG LLM RAW OUTPUT:\n{raw_sql}\n")
         
         # Extract SQL from markdown if present
         match = re.search(r"```(?:sql)?\n(.*?)\n```", raw_sql, flags=re.DOTALL | re.IGNORECASE)
@@ -159,7 +158,6 @@ Question: {question}
             else:
                 raise ValueError(f"No valid SELECT statement found in output:\n{raw_sql[:200]}...")
             
-        print(f"DEBUG EXTRACTED SQL:\n{sql}\n")
         return sql.strip()
 
     def _run_sql(self, sql: str) -> pd.DataFrame:
@@ -200,28 +198,53 @@ Choice:"""
         if "TABLE" in choice: return "TABLE"
         return "TEXT"
 
-    def _synthesize_text(self, question: str, df: pd.DataFrame, status=None):
+    def _synthesize_text(self, question: str, df: pd.DataFrame, status=None, role="Business Head"):
         data_str = df.head(20).to_string(index=False)
         
-        if status: status.update(label="Synthesizing response...", state="running")
-        from app.prompts import SYSTEM_PROMPT
+        if status: status.update(label="Synthesizing management insight...", state="running")
         
         prompt = f"""{SYSTEM_PROMPT}
 
+You are analyzing this data for a {role}.
 A data query was run to answer the following question:
 "{question}"
 
 The raw output from the query was:
 {data_str}
 
-Now write a simple, conversational answer that tells the story behind these numbers. 
-Format your response using clear bullet points to make it easy to read. 
-DO NOT output any <think> tags. Just output the final polished text.
+Now write a highly structured management response based ONLY on this data.
+DO NOT output any <think> tags. Just output the final polished text formatted with the requested sections (📌 Key Insight, 📊 Supporting Data, 🔎 Why It Matters, 🎯 Recommended Action).
 """
         response_gen = self.llm.stream_complete(prompt)
+        in_think_block = False
+        buffer = ""
         for chunk in response_gen:
-            yield chunk.delta
-
+            buffer += chunk.delta
+            
+            if "<think>" in buffer:
+                in_think_block = True
+                
+            if in_think_block:
+                if "</think>" in buffer:
+                    in_think_block = False
+                    buffer = buffer.split("</think>")[-1]
+                else:
+                    continue
+                    
+            if not in_think_block:
+                if buffer.endswith("<") or buffer.endswith("<t") or buffer.endswith("<th") or buffer.endswith("<thi") or buffer.endswith("<thin"):
+                    continue
+                if buffer:
+                    # Strip newlines right after </think> if they leaked
+                    if buffer.startswith("\n\n"):
+                        buffer = buffer[2:]
+                    elif buffer.startswith("\n"):
+                        buffer = buffer[1:]
+                    yield buffer
+                    buffer = ""
+                    
+        if not in_think_block and buffer:
+            yield buffer
     def _generate_chart(self, question: str, df: pd.DataFrame) -> go.Figure | str:
         """Generates Plotly Python code to visualize the DataFrame."""
         sample = df.head(5).to_dict(orient="records")
@@ -233,7 +256,7 @@ Sample data: {sample}
 Write Python code using `plotly.graph_objects` as `go` to create a beautiful, modern chart.
 Rules:
 - Store the final figure in a variable named `fig`.
-- Use a dark theme for the layout (e.g., paper_bgcolor='rgba(0,0,0,0)', plot_bgcolor='rgba(0,0,0,0)', font=dict(color='white')).
+- Use a sleek dark theme for the layout (e.g., paper_bgcolor='rgba(0,0,0,0)', plot_bgcolor='rgba(0,0,0,0)', font=dict(color='#f8fafc')).
 - Do NOT use `fig.show()`.
 - Do NOT import pandas or plotly (they are already imported).
 - Return ONLY the raw Python code, no markdown, no explanations.
@@ -272,7 +295,31 @@ Rules:
         except Exception as e:
             return f"⚠️ Chart generation failed: {e}"
 
-    def query(self, question: str, history_list: list = None, status=None):
+    def generate_follow_ups(self, question: str, response_text: str) -> list[str]:
+        prompt = f"""{FOLLOW_UP_PROMPT}
+
+User Question: {question}
+Assistant Response: {response_text[:1000]} # Truncated for context
+"""
+        try:
+            res = self.llm.complete(prompt)
+            raw = str(res).strip()
+            # Try to safely evaluate the python list string
+            import ast
+            # Clean it up if there's markdown
+            match = re.search(r"\[.*\]", raw, flags=re.DOTALL)
+            if match:
+                raw_list = match.group(0)
+            else:
+                raw_list = raw
+            follow_ups = ast.literal_eval(raw_list)
+            if isinstance(follow_ups, list):
+                return follow_ups[:5]
+        except Exception as e:
+            pass
+        return []
+
+    def query(self, question: str, history_list: list = None, status=None, role: str = "Business Head"):
         """Main routing execution with caching, memory, and self-healing."""
         # 1. Check Cache
         if status: status.update(label="Checking memory...", state="running")
@@ -298,7 +345,7 @@ Rules:
         for attempt in range(max_retries):
             try:
                 if status: status.update(label=f"Generating SQL (Attempt {attempt+1})...", state="running")
-                sql = self._generate_sql(question, history_str, error_msg)
+                sql = self._generate_sql(question, history_str, error_msg, role)
                 if status: status.update(label="Executing query in DuckDB...", state="running")
                 df = self._run_sql(sql)
                 break # Success!
@@ -327,7 +374,7 @@ Rules:
                 if status: status.update(label="Complete!", state="complete")
                 return result
             else:
-                return self._synthesize_text(question, df, status)
+                return self._synthesize_text(question, df, status, role)
                 
         except Exception as e:
             if status: status.update(label="Routing failed.", state="error")
@@ -352,6 +399,7 @@ def init_chat_engine(dataframes: dict) -> DuckDBEngine | None:
     return DuckDBEngine(dataframes=valid, llm=llm)
 
 
-def ask_assistant(engine: DuckDBEngine, query: str, history: list = None, status=None):
+def ask_assistant(engine: DuckDBEngine, query: str, history: list = None, status=None, role: str = "Business Head"):
     """Send a question to the engine with optional history and status."""
-    return engine.query(query, history, status)
+    return engine.query(query, history, status, role)
+

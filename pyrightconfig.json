@@ -1,6 +1,10 @@
 {
-  "venvPath": ".",
-  "venv": ".venv",
+  "venvPath": "d:/Projects/AI-support-Assistant-main/Tanu Project",
+  "venv": ".venv_new",
   "pythonVersion": "3.11",
-  "pythonPlatform": "Windows"
+  "pythonPlatform": "Windows",
+  "extraPaths": [
+    ".venv_new/Lib/site-packages",
+    "d:/Projects/AI-support-Assistant-main/Tanu Project/.venv_new/Lib/site-packages"
+  ]
 }
